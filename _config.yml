@@ -1,1 +1,9 @@
-theme: jekyll-theme-modernist
+title: Balbina Safari
+description: Your gateway to unforgettable African safari adventures.
+baseurl: "" # Set to empty for root domain
+url: "https://balbina-safari.github.io"
+
+# No theme selected - using custom CSS in assets/css/style.css
+remote_theme: [] # Force clear
+plugins:
+  - jekyll-seo-tag

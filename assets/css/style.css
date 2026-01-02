@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 13px;
+    line-height: 1.2;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+code,
+ul,
+li,
+div,
+a,
+table {
+    font-size: 13px;
+    font-family: inherit;
+    margin-bottom: 0;
+    display: block;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 900;
+    padding-top: 1.2em;
+}
+
+h1::before {
+    content: "### [ ";
+}
+
+h1::after {
+    content: " ]";
+}
+
+h2 {
+    color: #ffff00;
+    font-weight: bold;
+    padding-top: 1.2em;
+}
+
+h2::before {
+    content: "$ ";
+}
+
+h3 {
+    color: #00ffff;
+    font-weight: bold;
+    padding-top: 0.6em;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+    display: inline;
+}
+
+a:hover {
+    background-color: #00ff00;
+    color: #000000;
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    display: block;
+}
+
+li::before {
+    content: "  - ";
+}
+
+ul ul {
+    padding-left: 1.2em;
+}
+
+hr {
+    border: none;
+    border-top: 1px dashed #00ff00;
+    margin: 1.2em 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.2em 0;
+    display: table;
+}
+
+th,
+td {
+    padding: 4px 8px;
+    border: 1px dashed #00ff00;
+    display: table-cell;
+}
+
+th {
+    color: #000000;
+    background-color: #00ff00;
+}
+
+blockquote {
+    border-left: 2px solid #00ff00;
+    padding-left: 10px;
+    margin: 1.2em 0;
+    color: #888888;
+}
+
+pre {
+    display: block;
+    white-space: pre-wrap;
+    margin: 1.2em 0;
+}
+
+code {
+    display: inline;
+    color: #ffa657;
+    /* Amber for code */
+}
+
+body::after {
+    content: "root@balbina-safari:~# █";
+    display: block;
+    margin-top: 2em;
+    color: #00ff00;
+}

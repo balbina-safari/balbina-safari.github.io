@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div class="destination-header hotel-header">
+    <h1 class="page-title">{{ page.title }} <span class="english-title">/ {{ page.english_title }}</span></h1>
+    <p class="destination-category hotel-stars">[{{ page.category }}]</p>
+</div>
+
+<div class="destination-grid">
+    <aside class="destination-sidebar">
+        <div class="fact-box">
+            <h3>核心数据 (Hotel Facts)</h3>
+            <table>
+                <tr>
+                    <th>📍 位置</th>
+                    <td>{{ page.location }}</td>
+                </tr>
+                <tr>
+                    <th>💰 参考价格</th>
+                    <td>{{ page.price_level }}</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="highlights-box">
+            <h3>🏨 设施与服务</h3>
+            <ul>
+                {% for item in page.amenities %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </aside>
+
+    <main class="destination-content">
+        {{ content }}
+    </main>
+</div>
+
+<style>
+    /* Inherits most styles from destination.html via custom CSS or shared classes. 
+   Adding specific overrides here. */
+
+    .hotel-header .page-title {
+        color: #ff7b72;
+        /* Keep Salmon color for headers */
+    }
+
+    .hotel-stars {
+        color: #e3b341;
+        /* Gold for luxury category */
+    }
+
+    /* Re-using destination-sidebar styles but we can tweak if needed */
+    .highlights-box ul li::before {
+        content: "✓ ";
+        /* Checkmark for amenities */
+        color: #7ee787;
+        /* Green checkmark */
+    }
+</style>

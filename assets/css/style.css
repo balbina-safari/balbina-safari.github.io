@@ -5,16 +5,19 @@
 }
 
 body {
-    background-color: #000000;
-    color: #00ff00;
+    background-color: #0d1117;
+    /* Dark background */
+    color: #c9d1d9;
+    /* Gray-White text (GitHub Dark style) */
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
     font-size: 13px;
-    line-height: 1.2;
-    padding: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
+    line-height: 1.4;
+    /* padding: 30px; */
+    max-width: 900px;
+    /* margin: 0 auto; */
 }
 
+/* Force all text elements to same size */
 h1,
 h2,
 h3,
@@ -36,48 +39,62 @@ table {
     display: block;
 }
 
+/* Headers: Differentiated by vibrant colors and thickness */
 h1 {
-    color: #ffffff;
+    color: #ff7b72;
+    /* Vibrant Red/Salmon */
     font-weight: 900;
-    padding-top: 1.2em;
+    padding-top: 1.5em;
+    text-transform: uppercase;
 }
 
 h1::before {
-    content: "### [ ";
-}
-
-h1::after {
-    content: " ]";
+    content: ">>> ";
 }
 
 h2 {
-    color: #ffff00;
-    font-weight: bold;
-    padding-top: 1.2em;
+    color: #79c0ff;
+    /* Bright Blue */
+    font-weight: 800;
+    padding-top: 1.25em;
 }
 
 h2::before {
-    content: "$ ";
+    content: ">> ";
 }
 
 h3 {
-    color: #00ffff;
-    font-weight: bold;
-    padding-top: 0.6em;
+    color: #d2a8ff;
+    /* Vibrant Purple */
+    font-weight: 700;
+    padding-top: 1em;
 }
 
+h3::before {
+    content: "> ";
+}
+
+h4 {
+    color: #ffa657;
+    /* Orange */
+    font-weight: 700;
+    padding-top: 0.75em;
+}
+
+/* Links: Interactive states */
 a {
-    color: #ffffff;
+    color: #58a6ff;
     text-decoration: underline;
     display: inline;
 }
 
 a:hover {
-    background-color: #00ff00;
+    background-color: #58a6ff;
     color: #000000;
     text-decoration: none;
 }
 
+/* Lists */
 ul {
     padding-left: 0;
     list-style: none;
@@ -85,20 +102,24 @@ ul {
 
 li {
     display: block;
+    color: #8b949e;
+    /* Dimmer gray for list items */
 }
 
 li::before {
-    content: "  - ";
+    content: "· ";
+    color: #58a6ff;
 }
 
 ul ul {
-    padding-left: 1.2em;
+    padding-left: 1.5em;
 }
 
+/* Table: Gray-white with colored borders */
 hr {
     border: none;
-    border-top: 1px dashed #00ff00;
-    margin: 1.2em 0;
+    border-top: 1px solid #30363d;
+    margin: 1.5em 0;
 }
 
 table {
@@ -106,42 +127,68 @@ table {
     border-collapse: collapse;
     margin: 1.2em 0;
     display: table;
+    color: #c9d1d9;
 }
 
 th,
 td {
-    padding: 4px 8px;
-    border: 1px dashed #00ff00;
+    padding: 6px 10px;
+    border: 1px solid #30363d;
     display: table-cell;
 }
 
 th {
-    color: #000000;
-    background-color: #00ff00;
+    color: #aff5b4;
+    /* Light Green for table headers */
+    font-weight: bold;
+    background-color: #161b22;
 }
 
+/* Others */
 blockquote {
-    border-left: 2px solid #00ff00;
-    padding-left: 10px;
+    border-left: 3px solid #79c0ff;
+    padding-left: 15px;
     margin: 1.2em 0;
-    color: #888888;
+    color: #8b949e;
+    font-style: italic;
 }
 
 pre {
-    display: block;
-    white-space: pre-wrap;
-    margin: 1.2em 0;
+    background-color: #161b22;
+    padding: 6px;
+    /* display: block; */
+    /* white-space: pre-wrap; */
+    /* margin: 1.2em 0; */
+    color: #e6edf3;
+    line-height: 15px;
+    /* border-radius: 4px; */
 }
+
 
 code {
     display: inline;
     color: #ffa657;
-    /* Amber for code */
+    /* background-color: rgba(175, 184, 193, 0.2); */
+    /* padding: 0.2em 0.4em; */
+    border-radius: 3px;
 }
 
+/* Cursor/Footer */
 body::after {
-    content: "root@balbina-safari:~# █";
-    display: block;
-    margin-top: 2em;
-    color: #00ff00;
+    content: "_";
+    display: inline-block;
+    color: #58a6ff;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
 }

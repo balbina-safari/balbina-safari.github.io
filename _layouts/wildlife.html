@@ -1,0 +1,181 @@
+---
+layout: default
+---
+
+<div class="wildlife-header">
+    <h1 class="page-title">{{ page.title_cn }} <span class="english-title">/ {{ page.title_en }}</span></h1>
+    <p class="wildlife-meta">
+        <span class="scientific">🔬 {{ page.scientific_name }}</span> |
+        <span class="category">📂 {{ page.category }}</span> |
+        <span class="conservation">🛡️ {{ page.conservation_status }}</span>
+    </p>
+</div>
+
+<div class="wildlife-grid">
+    <aside class="wildlife-sidebar">
+        <div class="fact-box">
+            <h3>基本数据</h3>
+            <table>
+                <tr>
+                    <th>体重</th>
+                    <td>{{ page.weight }}</td>
+                </tr>
+                <tr>
+                    <th>体长</th>
+                    <td>{{ page.length }}</td>
+                </tr>
+                <tr>
+                    <th>寿命</th>
+                    <td>{{ page.lifespan }}</td>
+                </tr>
+                <tr>
+                    <th>栖息地</th>
+                    <td>{{ page.habitat }}</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="highlights-box">
+            <h3>🔍 识别特征</h3>
+            <ul>
+                {% for feature in page.key_features %}
+                <li>{{ feature }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        {% if page.best_spots %}
+        <div class="spots-box">
+            <h3>📍 最佳观赏地</h3>
+            <ul>
+                {% for spot in page.best_spots %}
+                <li>{{ spot }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </aside>
+
+    <main class="wildlife-content">
+        {{ content }}
+    </main>
+</div>
+
+<div class="wildlife-footer">
+    <a href="{{ site.baseurl }}/wildlife/">← 返回野生动物目录</a>
+</div>
+
+<style>
+    .wildlife-header {
+        margin-bottom: 25px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #30363d;
+    }
+
+    .wildlife-meta {
+        color: #8b949e;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .wildlife-meta span {
+        margin-right: 15px;
+    }
+
+    .wildlife-grid {
+        display: grid;
+        grid-template-columns: 280px 1fr;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .wildlife-sidebar {
+        position: sticky;
+        top: 20px;
+        align-self: start;
+    }
+
+    .fact-box,
+    .highlights-box,
+    .spots-box {
+        background-color: #161b22;
+        border: 1px solid #30363d;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 6px;
+    }
+
+    .fact-box h3,
+    .highlights-box h3,
+    .spots-box h3 {
+        color: #ff7b72;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    .fact-box table {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .fact-box th {
+        text-align: left;
+        color: #ffa657;
+        padding: 4px 0;
+    }
+
+    .fact-box td {
+        padding: 4px 0;
+    }
+
+    .highlights-box ul,
+    .spots-box ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .highlights-box ul li,
+    .spots-box ul li {
+        font-size: 13px;
+        margin-bottom: 8px;
+        padding-left: 15px;
+        position: relative;
+    }
+
+    .highlights-box ul li::before {
+        content: "▸";
+        position: absolute;
+        left: 0;
+        color: #7ee787;
+    }
+
+    .wildlife-content {
+        min-width: 0;
+    }
+
+    .wildlife-footer {
+        margin-top: 30px;
+        padding-top: 15px;
+        border-top: 1px solid #30363d;
+    }
+
+    .wildlife-footer a {
+        color: #58a6ff;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+    .wildlife-footer a:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+        .wildlife-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .wildlife-sidebar {
+            position: static;
+        }
+    }
+</style>

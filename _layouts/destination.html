@@ -1,0 +1,110 @@
+---
+layout: default
+---
+
+<div class="destination-header">
+    <h1 class="page-title">{{ page.title }} <span class="english-title">/ {{ page.english_title }}</span></h1>
+    <p class="destination-category">[{{ page.category }}]</p>
+</div>
+
+<div class="destination-grid">
+    <aside class="destination-sidebar">
+        <div class="fact-box">
+            <h3>核心数据 (Quick Facts)</h3>
+            <table>
+                <tr>
+                    <th>📍 地理位置</th>
+                    <td>{{ page.location }}</td>
+                </tr>
+                <tr>
+                    <th>📅 最佳季节</th>
+                    <td>{{ page.best_time }}</td>
+                </tr>
+                <tr>
+                    <th>⏳ 建议天数</th>
+                    <td>{{ page.recommended_days }}</td>
+                </tr>
+                <tr>
+                    <th>🎫 门票参考</th>
+                    <td>{{ page.entry_fee }}</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="highlights-box">
+            <h3>✨ 核心亮点</h3>
+            <ul>
+                {% for highlight in page.highlights %}
+                <li>{{ highlight }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </aside>
+
+    <main class="destination-content">
+        {{ content }}
+    </main>
+</div>
+
+<style>
+    /* Scoped styles for destination pages */
+    .english-title {
+        color: #79c0ff;
+        font-size: 0.8em;
+        font-weight: normal;
+    }
+
+    .destination-grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 40px;
+        margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+        .destination-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .destination-sidebar h3 {
+        color: #d2a8ff;
+        border-bottom: 1px solid #30363d;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+
+    .fact-box table {
+        width: 100%;
+    }
+
+    .fact-box th {
+        width: 40%;
+        color: #8b949e;
+        border: none;
+        border-bottom: 1px solid #21262d;
+    }
+
+    .fact-box td {
+        border: none;
+        border-bottom: 1px solid #21262d;
+    }
+
+    .highlights-box ul li {
+        color: #ff7b72;
+        margin-bottom: 8px;
+    }
+
+    .highlights-box ul li::before {
+        content: "★ ";
+        color: #e3b341;
+    }
+
+    .destination-content p {
+        color: #c9d1d9;
+        font-size: 15px;
+        /* Slightly larger for reading */
+        line-height: 1.8;
+        margin-bottom: 20px;
+    }
+</style>

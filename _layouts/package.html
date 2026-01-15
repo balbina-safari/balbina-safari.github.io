@@ -3,338 +3,266 @@ layout: default
 ---
 
 <div class="package-header">
-    <h1 class="page-title">{{ page.title }} <span class="english-title">/ {{ page.english_title }}</span></h1>
-    <p class="package-meta">
-        <span class="duration">⏱️ {{ page.duration }}</span> |
-        <span class="difficulty">🎯 {{ page.difficulty }}</span> |
-        <span class="group-size">👥 {{ page.group_size }}</span>
-    </p>
+  <h1 class="page-title">
+    {{ page.title }}
+    <span class="english-title">/ {{ page.english_title }}</span>
+  </h1>
+  <p class="package-meta">
+    <span class="duration">⏱️ {{ page.duration }}</span> |
+    <span class="difficulty">🎯 {{ page.difficulty }}</span> |
+    <span class="group-size">👥 {{ page.group_size }}</span>
+  </p>
 </div>
 
 <div class="package-grid">
-    <aside class="package-sidebar">
-        <div class="price-box">
-            <h3>价格参考</h3>
-            <div class="price-from">起价: <strong>{{ page.price_from }}</strong></div>
-            <div class="price-level">档次: {{ page.price_level }}</div>
-            <div class="best-time">最佳时间: {{ page.best_time }}</div>
-        </div>
+  {% include packages/sidebar.html %}
 
-        <div class="target-audience-box">
-            <h3>🎯 适合人群</h3>
-            <div class="audience-tags">
-                {% if page.target_audience %}
-                {% for audience in page.target_audience %}
-                <span class="audience-tag">{{ audience }}</span>
-                {% endfor %}
-                {% else %}
-                <span class="audience-tag">首次Safari</span>
-                <span class="audience-tag">情侣/夫妻</span>
-                {% endif %}
-            </div>
-        </div>
-
-        <div class="action-buttons">
-            <button class="btn-primary" onclick="window.location.href='{{ site.baseurl }}/contact/?package={{ page.title }}'">
-                📞 立即咨询
-            </button>
-            <button class="btn-secondary" onclick="addToCompare('{{ page.title }}')">
-                🔄 加入对比
-            </button>
-        </div>
-
-        <div class="highlights-box">
-            <h3>🌟 行程亮点</h3>
-            <ul>
-                {% for item in page.highlights %}
-                <li>{{ item }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-
-        <div class="destinations-box">
-            <h3>📍 涉及目的地</h3>
-            <ul>
-                {% for dest in page.destinations %}
-                <li><a href="{{ site.baseurl }}/destinations/{{ dest }}">{{ dest }}</a></li>
-                {% endfor %}
-            </ul>
-        </div>
-
-        {% if page.wildlife_spotting %}
-        <div class="wildlife-box">
-            <h3>🦁 动物目击几率</h3>
-            <div class="wildlife-list">
-                {% for animal in page.wildlife_spotting %}
-                <div class="wildlife-item">
-                    <a href="{{ site.baseurl }}/wildlife/{{ animal.slug }}">{{ animal.name }}</a>
-                    <span class="probability probability-{{ animal.chance }}">{{ animal.chance }}</span>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-
-        {% if page.related_blogs %}
-        <div class="blogs-box">
-            <h3>📝 相关游记</h3>
-            <ul>
-                {% for blog in page.related_blogs %}
-                <li><a href="{{ site.baseurl }}/blogs/{{ blog }}">查看游记</a></li>
-                {% endfor %}
-            </ul>
-        </div>
-        {% endif %}
-    </aside>
-
-    <main class="package-content">
-        {{ content }}
-    </main>
+  <main class="package-content">{{ content }}</main>
 </div>
 
 <style>
-    .package-header {
-        margin-bottom: 20px;
-    }
+  .package-header {
+    margin-bottom: 20px;
+  }
 
-    .package-meta {
-        color: #7ee787;
-        font-size: 13px;
-        margin-top: 10px;
-    }
+  .package-meta {
+    color: #7ee787;
+    font-size: 13px;
+    margin-top: 10px;
+  }
 
+  .package-grid {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .package-sidebar {
+    position: sticky;
+    top: 20px;
+    align-self: start;
+  }
+
+  .price-box,
+  .highlights-box,
+  .destinations-box {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+  }
+
+  .price-box h3,
+  .highlights-box h3,
+  .destinations-box h3 {
+    color: #ff7b72;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .price-from {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  .price-from strong {
+    color: #ffa657;
+    font-size: 16px;
+  }
+
+  .price-level,
+  .best-time {
+    font-size: 13px;
+    color: #8b949e;
+    margin-top: 5px;
+  }
+
+  .highlights-box ul,
+  .destinations-box ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .highlights-box ul li,
+  .destinations-box ul li {
+    font-size: 13px;
+    margin-bottom: 8px;
+    padding-left: 15px;
+    position: relative;
+  }
+
+  .highlights-box ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #7ee787;
+  }
+
+  .package-content {
+    min-width: 0;
+  }
+
+  .wildlife-box,
+  .blogs-box {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+  }
+
+  .wildlife-box h3,
+  .blogs-box h3 {
+    color: #ff7b72;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .wildlife-list {
+    font-size: 13px;
+  }
+
+  .wildlife-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 4px 0;
+  }
+
+  .wildlife-item a {
+    color: #58a6ff;
+    text-decoration: none;
+  }
+
+  .wildlife-item a:hover {
+    text-decoration: underline;
+  }
+
+  .probability {
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .probability-极高 {
+    background-color: #238636;
+    color: #fff;
+  }
+
+  .probability-高 {
+    background-color: #1f6feb;
+    color: #fff;
+  }
+
+  .probability-中 {
+    background-color: #ffa657;
+    color: #0d1117;
+  }
+
+  .probability-低 {
+    background-color: #8b949e;
+    color: #0d1117;
+  }
+
+  .blogs-box ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .blogs-box ul li {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  .blogs-box ul li a {
+    color: #58a6ff;
+    text-decoration: none;
+  }
+
+  .blogs-box ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .target-audience-box {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+  }
+
+  .target-audience-box h3 {
+    color: #ff7b72;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .audience-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .audience-tag {
+    background-color: #238636;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+  }
+
+  .btn-primary {
+    background-color: #238636;
+    color: #fff;
+  }
+
+  .btn-primary:hover {
+    background-color: #2ea043;
+    transform: translateY(-2px);
+  }
+
+  .btn-secondary {
+    background-color: #21262d;
+    color: #58a6ff;
+    border: 1px solid #30363d;
+  }
+
+  .btn-secondary:hover {
+    background-color: #30363d;
+    border-color: #58a6ff;
+  }
+
+  @media (max-width: 768px) {
     .package-grid {
-        display: grid;
-        grid-template-columns: 280px 1fr;
-        gap: 30px;
-        margin-top: 20px;
+      grid-template-columns: 1fr;
     }
 
     .package-sidebar {
-        position: sticky;
-        top: 20px;
-        align-self: start;
+      position: static;
     }
-
-    .price-box,
-    .highlights-box,
-    .destinations-box {
-        background-color: #161b22;
-        border: 1px solid #30363d;
-        padding: 15px;
-        margin-bottom: 15px;
-        border-radius: 6px;
-    }
-
-    .price-box h3,
-    .highlights-box h3,
-    .destinations-box h3 {
-        color: #ff7b72;
-        margin-bottom: 10px;
-        font-size: 13px;
-    }
-
-    .price-from {
-        font-size: 13px;
-        margin-bottom: 8px;
-    }
-
-    .price-from strong {
-        color: #ffa657;
-        font-size: 16px;
-    }
-
-    .price-level,
-    .best-time {
-        font-size: 13px;
-        color: #8b949e;
-        margin-top: 5px;
-    }
-
-    .highlights-box ul,
-    .destinations-box ul {
-        list-style: none;
-        padding-left: 0;
-    }
-
-    .highlights-box ul li,
-    .destinations-box ul li {
-        font-size: 13px;
-        margin-bottom: 8px;
-        padding-left: 15px;
-        position: relative;
-    }
-
-    .highlights-box ul li::before {
-        content: "✓";
-        position: absolute;
-        left: 0;
-        color: #7ee787;
-    }
-
-    .package-content {
-        min-width: 0;
-    }
-
-    .wildlife-box,
-    .blogs-box {
-        background-color: #161b22;
-        border: 1px solid #30363d;
-        padding: 15px;
-        margin-bottom: 15px;
-        border-radius: 6px;
-    }
-
-    .wildlife-box h3,
-    .blogs-box h3 {
-        color: #ff7b72;
-        margin-bottom: 10px;
-        font-size: 13px;
-    }
-
-    .wildlife-list {
-        font-size: 13px;
-    }
-
-    .wildlife-item {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 8px;
-        padding: 4px 0;
-    }
-
-    .wildlife-item a {
-        color: #58a6ff;
-        text-decoration: none;
-    }
-
-    .wildlife-item a:hover {
-        text-decoration: underline;
-    }
-
-    .probability {
-        padding: 2px 8px;
-        border-radius: 3px;
-        font-size: 11px;
-        font-weight: bold;
-    }
-
-    .probability-极高 {
-        background-color: #238636;
-        color: #fff;
-    }
-
-    .probability-高 {
-        background-color: #1f6feb;
-        color: #fff;
-    }
-
-    .probability-中 {
-        background-color: #ffa657;
-        color: #0d1117;
-    }
-
-    .probability-低 {
-        background-color: #8b949e;
-        color: #0d1117;
-    }
-
-    .blogs-box ul {
-        list-style: none;
-        padding-left: 0;
-    }
-
-    .blogs-box ul li {
-        font-size: 13px;
-        margin-bottom: 8px;
-    }
-
-    .blogs-box ul li a {
-        color: #58a6ff;
-        text-decoration: none;
-    }
-
-    .blogs-box ul li a:hover {
-        text-decoration: underline;
-    }
-
-    .target-audience-box {
-        background-color: #161b22;
-        border: 1px solid #30363d;
-        padding: 15px;
-        margin-bottom: 15px;
-        border-radius: 6px;
-    }
-
-    .target-audience-box h3 {
-        color: #ff7b72;
-        margin-bottom: 10px;
-        font-size: 13px;
-    }
-
-    .audience-tags {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-    }
-
-    .audience-tag {
-        background-color: #238636;
-        color: #fff;
-        padding: 4px 10px;
-        border-radius: 3px;
-        font-size: 11px;
-        font-weight: bold;
-    }
-
-    .action-buttons {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        margin-top: 15px;
-    }
-
-    .btn-primary,
-    .btn-secondary {
-        padding: 12px;
-        border: none;
-        border-radius: 4px;
-        font-size: 13px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: all 0.2s ease;
-        text-align: center;
-    }
-
-    .btn-primary {
-        background-color: #238636;
-        color: #fff;
-    }
-
-    .btn-primary:hover {
-        background-color: #2ea043;
-        transform: translateY(-2px);
-    }
-
-    .btn-secondary {
-        background-color: #21262d;
-        color: #58a6ff;
-        border: 1px solid #30363d;
-    }
-
-    .btn-secondary:hover {
-        background-color: #30363d;
-        border-color: #58a6ff;
-    }
-
-    @media (max-width: 768px) {
-        .package-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .package-sidebar {
-            position: static;
-        }
-    }
+  }
 </style>

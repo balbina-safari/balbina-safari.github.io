@@ -1,0 +1,11 @@
+<div class="target-audience-box">
+  <h3>🎯 适合人群</h3>
+  <div class="audience-tags">
+    {% if page.target_audience %} {% for audience in page.target_audience %}
+    <span class="audience-tag">{{ audience }}</span>
+    {% endfor %} {% else %}
+    <span class="audience-tag">首次Safari</span>
+    <span class="audience-tag">情侣/夫妻</span>
+    {% endif %}
+  </div>
+</div>

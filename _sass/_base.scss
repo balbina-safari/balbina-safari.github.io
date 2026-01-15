@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-color;
+  color: $text-color;
+  font-family: $font-mono;
+  font-size: $base-font-size;
+  font-weight: 400;
+  line-height: $line-height;
+  max-width: 900px;
+  margin: 0 auto;
+
+  &::after {
+    content: "_";
+    display: inline;
+    color: #c8c9ca;
+    animation: blink 1s step-end infinite;
+  }
+}
+
+// Force terminal-style uniform fonts
+h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, code, 
+ul, li, div, a, table {
+  font-size: $base-font-size;
+  font-family: inherit;
+  margin-bottom: 1em;
+  display: block;
+}
+
+strong {
+  color: lighten($text-color, 20%);
+  font-weight: 600;
+}
+
+a {
+  color: $link-color;
+  text-decoration: underline;
+  display: inline;
+
+  &:hover {
+    background-color: $link-hover-bg;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  strong:hover {
+    color: #000000;
+    background-color: lighten($text-color, 20%);
+  }
+}
+
+h1 { color: $h1-color; font-weight: 900; text-transform: uppercase; }
+h2 { color: $h2-color; font-weight: 800; }
+h3 { 
+    color: $h3-color; 
+    font-weight: 700;
+    &::before { content: "> "; }
+}
+h4 { color: $highlight-color; font-weight: 600; }
+
+hr {
+  border: none;
+  border-top: 1px solid $border-color;
+  margin: 1.5em 0;
+}
+
+blockquote {
+  border-left: 3px solid #596671;
+  padding-left: 15px;
+  margin: 1.2em 0;
+  color: darken($text-color, 10%);
+  font-style: italic;
+}
+
+pre {
+  display: block;
+  color: lighten($text-color, 30%);
+  line-height: 15px;
+}
+
+code {
+  display: inline;
+  color: $highlight-color;
+  border-radius: 3px;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}

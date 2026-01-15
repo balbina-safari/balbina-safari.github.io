@@ -1,0 +1,8 @@
+<div class="blogs-box">
+  <h3>📝 相关游记</h3>
+  <ul>
+    {% for blog in page.related_blogs %}
+    <li><a href="{{ site.baseurl }}/blogs/{{ blog }}">查看游记</a></li>
+    {% endfor %}
+  </ul>
+</div>

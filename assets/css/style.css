@@ -43,6 +43,11 @@ strong {
   color: rgb(237, 234, 234);
   font-weight: 600;
 }
+
+a strong:hover {
+  color: #000000;
+  background-color: rgb(234, 234, 234);
+}
 /* Headers: Differentiated by vibrant colors and thickness */
 h1 {
   color: #f57e38;
@@ -75,13 +80,13 @@ h4 {
 
 /* Links: Interactive states */
 a {
-  color: #58a6ff;
+  color: #46b57d;
   text-decoration: underline;
   display: inline;
 }
 
 a:hover {
-  background-color: #58a6ff;
+  background-color: #59e8b3;
   color: #000000;
   text-decoration: none;
 }

@@ -1,0 +1,67 @@
+// Testimonials
+.testimonials-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.testimonial-card {
+  background-color: $card-bg;
+  border: 1px solid $border-color;
+  padding: 20px;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    border-color: lighten($link-color, 20%);
+  }
+}
+
+.testimonial-rating {
+  color: #e3b341;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  color: lighten($text-color, 10%);
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.testimonial-author {
+  border-top: 1px solid $border-color;
+  padding-top: 10px;
+}
+
+.author-name {
+  color: $link-color;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.author-trip {
+  color: darken($text-color, 20%);
+  font-size: 12px;
+}
+
+// Trust Badges
+.trust-badges {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.badge-item {
+  background-color: #238636;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: bold;
+}

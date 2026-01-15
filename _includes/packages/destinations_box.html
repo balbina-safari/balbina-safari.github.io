@@ -1,0 +1,8 @@
+<div class="destinations-box">
+  <h3>📍 涉及目的地</h3>
+  <ul>
+    {% for dest in page.destinations %}
+    <li><a href="{{ site.baseurl }}/destinations/{{ dest }}">{{ dest }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

@@ -18,6 +18,21 @@ social:
 
 # No theme selected - using custom CSS in assets/css/style.css
 remote_theme: [] # Force clear
+# Collections Configuration
+collections:
+  packages:
+    output: true
+    permalink: /packages/:path/
+  wildlife:
+    output: true
+    permalink: /wildlife/:path/
+  destinations:
+    output: true
+    permalink: /destinations/:path/
+  hotels:
+    output: true
+    permalink: /hotels/:path/
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap

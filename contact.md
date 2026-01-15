@@ -5,7 +5,7 @@ title: 联系我们
 
 # [ 💬 联系巴比旅行 ]
 
-我们随时准备为您的坦桑尼亚Safari之旅提供专业咨询和定制服务。
+我们随时准备为您的坦桑尼亚 Safari 之旅提供专业咨询和定制服务。
 
 ---
 
@@ -25,7 +25,7 @@ title: 联系我们
     <div class="contact-icon">💬</div>
     <div class="contact-info">
       <h3>微信</h3>
-      <p>BalbinaSafari</p>
+      <p>baba-leo</p>
       <span class="contact-note">扫码添加</span>
     </div>
   </div>
@@ -34,7 +34,7 @@ title: 联系我们
     <div class="contact-icon">📱</div>
     <div class="contact-info">
       <h3>WhatsApp</h3>
-      <p>+255 XXX XXX XXX</p>
+      <p>+255653486509</p>
       <span class="contact-note">即时沟通</span>
     </div>
   </div>
@@ -128,6 +128,7 @@ title: 联系我们
     </div>
 
     <button type="submit" class="submit-btn">提交咨询</button>
+
   </form>
 </div>
 

@@ -1,0 +1,35 @@
+# Common data and terminology
+company_name: 巴比旅行
+company_name_en: Balbina Safari
+contact:
+  email: info@balbinasafari.com
+  wechat: baba-leo
+  whatsapp: "+255653486509"
+
+# Probability labels and colors
+wildlife_probabilities:
+  - label: 极高
+    class: probability-极高
+    desc: 几乎100%能看到
+  - label: 高
+    class: probability-高
+    desc: 非常大概率
+  - label: 中
+    class: probability-中
+    desc: 需要一点运气
+  - label: 低
+    class: probability-低
+    desc: 极少目击
+
+# Conservation status labels
+conservation_status:
+  - label: 极危 (Critically Endangered)
+    short: CR
+  - label: 濒危 (Endangered)
+    short: EN
+  - label: 易危 (Vulnerable)
+    short: VU
+  - label: 近危 (Near Threatened)
+    short: NT
+  - label: 无危 (Least Concern)
+    short: LC

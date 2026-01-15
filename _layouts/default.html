@@ -3,53 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <title>
+      {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
+    </title>
     <meta
       name="description"
       content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords: 160 }}{% else %}{{ site.description }}{% endif %}"
     />
-    <meta name="keywords" content="坦桑尼亚,Safari,塞伦盖蒂,恩戈罗恩戈罗,乞力马扎罗,非洲游猎,野生动物,大迁徙" />
+    <meta
+      name="keywords"
+      content="坦桑尼亚,Safari,塞伦盖蒂,恩戈罗恩戈罗,乞力马扎罗,非洲游猎,野生动物,大迁徙"
+    />
     <meta name="author" content="{{ site.author }}" />
     <meta name="robots" content="index, follow" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}" />
+    <meta
+      property="og:title"
+      content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}"
+    />
     <meta
       property="og:description"
       content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords: 160 }}{% else %}{{ site.description }}{% endif %}"
     />
-    <meta property="og:image" content="{{ site.url }}/assets/images/og-image.jpg" />
+    <meta
+      property="og:image"
+      content="{{ site.url }}/assets/images/og-image.jpg"
+    />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="{{ site.url }}{{ page.url }}" />
-    <meta property="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}" />
+    <meta
+      property="twitter:title"
+      content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}"
+    />
     <meta
       property="twitter:description"
       content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords: 160 }}{% else %}{{ site.description }}{% endif %}"
     />
-    <meta property="twitter:image" content="{{ site.url }}/assets/images/og-image.jpg" />
+    <meta
+      property="twitter:image"
+      content="{{ site.url }}/assets/images/og-image.jpg"
+    />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/images/favicon-16x16.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{{ site.baseurl }}/assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="{{ site.baseurl }}/assets/images/favicon-16x16.png"
+    />
 
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
 
     <!-- Jekyll SEO Tag -->
     {% seo %}
   </head>
 
   <body>
-    {% include navigation.html %} {% include breadcrumbs.html %} 
-    
-    {{ content }} 
-    
+    {% include navigation.html %} {% include breadcrumbs.html %} {{ content }}
     {% include footer.html %}
 
     <script src="{{ site.baseurl }}/assets/js/compare.js"></script>

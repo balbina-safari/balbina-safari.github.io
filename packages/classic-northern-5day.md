@@ -7,6 +7,11 @@ category: "经典北部环线"
 difficulty: "简单"
 best_time: "全年 (6-10月大迁徙高峰)"
 group_size: "2-6人"
+target_audience:
+  - "首次Safari"
+  - "情侣/夫妻"
+  - "摄影爱好者"
+  - "时间有限"
 destinations:
   - tarangire
   - serengeti

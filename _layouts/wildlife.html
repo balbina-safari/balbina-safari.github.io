@@ -15,24 +15,12 @@ layout: default
     <aside class="wildlife-sidebar">
         <div class="fact-box">
             <h3>基本数据</h3>
-            <table>
-                <tr>
-                    <th>体重</th>
-                    <td>{{ page.weight }}</td>
-                </tr>
-                <tr>
-                    <th>体长</th>
-                    <td>{{ page.length }}</td>
-                </tr>
-                <tr>
-                    <th>寿命</th>
-                    <td>{{ page.lifespan }}</td>
-                </tr>
-                <tr>
-                    <th>栖息地</th>
-                    <td>{{ page.habitat }}</td>
-                </tr>
-            </table>
+            <ul class="fact-list">
+                <li><span class="fact-label">体重:</span> {{ page.weight }}</li>
+                <li><span class="fact-label">体长:</span> {{ page.length }}</li>
+                <li><span class="fact-label">寿命:</span> {{ page.lifespan }}</li>
+                <li><span class="fact-label">栖息地:</span> {{ page.habitat }}</li>
+            </ul>
         </div>
 
         <div class="highlights-box">
@@ -113,19 +101,21 @@ layout: default
         font-size: 13px;
     }
 
-    .fact-box table {
-        width: 100%;
+    .fact-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .fact-list li {
+        margin-bottom: 10px;
+        color: #c9d1d9;
         font-size: 13px;
     }
 
-    .fact-box th {
-        text-align: left;
-        color: #ffa657;
-        padding: 4px 0;
-    }
-
-    .fact-box td {
-        padding: 4px 0;
+    .fact-label {
+        color: #8b949e;
+        margin-right: 8px;
     }
 
     .highlights-box ul,

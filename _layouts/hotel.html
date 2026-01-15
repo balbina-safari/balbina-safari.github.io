@@ -11,16 +11,10 @@ layout: default
     <aside class="destination-sidebar">
         <div class="fact-box">
             <h3>核心数据 (Hotel Facts)</h3>
-            <table>
-                <tr>
-                    <th>📍 位置</th>
-                    <td>{{ page.location }}</td>
-                </tr>
-                <tr>
-                    <th>💰 参考价格</th>
-                    <td>{{ page.price_level }}</td>
-                </tr>
-            </table>
+            <ul class="fact-list">
+                <li><span class="fact-label">📍 位置:</span> {{ page.location }}</li>
+                <li><span class="fact-label">💰 参考价格:</span> {{ page.price_level }}</li>
+            </ul>
         </div>
 
         <div class="highlights-box">
@@ -39,7 +33,7 @@ layout: default
 </div>
 
 <style>
-    /* Inherits most styles from destination.html via custom CSS or shared classes. 
+    /* Inherits most styles from destination.html via custom CSS or shared classes.
    Adding specific overrides here. */
 
     .hotel-header .page-title {
@@ -58,5 +52,22 @@ layout: default
         /* Checkmark for amenities */
         color: #7ee787;
         /* Green checkmark */
+    }
+
+    .fact-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .fact-list li {
+        margin-bottom: 10px;
+        color: #c9d1d9;
+        font-size: 13px;
+    }
+
+    .fact-label {
+        color: #8b949e;
+        margin-right: 8px;
     }
 </style>

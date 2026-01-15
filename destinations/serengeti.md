@@ -12,6 +12,22 @@ highlights:
   - 🐃 每年上演地球上最大的动物大迁徙
   - 🐆 "大猫之都"：极高的狮子和猎豹密度
   - 🎈 令人终生难忘的热气球日出体验
+seasonal_info:
+  - name: "产仔季 (Calving Season)"
+    time: "1月-3月"
+    description: "数十万只角马宝宝在Ndutu区域降生,是观看猎杀的最佳季节,游客较少,价格优惠"
+  - name: "雨季过渡 (Green Season)"
+    time: "4月-5月"
+    description: "草原翠绿,候鸟回归,价格便宜50%,但道路泥泞,适合预算有限的旅行者"
+  - name: "旱季开始 (Dry Season Start)"
+    time: "6月"
+    description: "大迁徙开始向西部移动,动物聚集在水源附近,观赏条件良好"
+  - name: "过河高峰 (River Crossing)"
+    time: "7月-10月"
+    description: "举世闻名的'天国之渡',动物大军穿越马拉河,最震撼的季节,需提前3-6个月预订"
+  - name: "回归南部 (Return South)"
+    time: "11月-12月"
+    description: "短暂雨季开始,动物们回到南部草原,游客较少,性价比高"
 ---
 
 ### 🌍 地球上最后的伊甸园

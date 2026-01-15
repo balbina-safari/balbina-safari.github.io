@@ -1,9 +1,23 @@
-title: Balbina Safari
-description: Your gateway to unforgettable African safari adventures.
+title: 巴比旅行 - 坦桑尼亚Safari专家
+description: 坦桑尼亚专业地接旅行社,提供塞伦盖蒂、恩戈罗恩戈罗、乞力马扎罗等经典Safari套餐,中文服务,安全可靠。
 baseurl: "" # Set to empty for root domain
 url: "https://balbina-safari.github.io"
+
+# SEO Configuration
+lang: zh-CN
+author: Balbina Safari
+twitter:
+  username: balbinasafari
+  card: summary_large_image
+social:
+  name: Balbina Safari
+  links:
+    - https://balbinasafari.github.io
+    - https://twitter.com/balbinasafari
+    - https://www.facebook.com/balbinasafari
 
 # No theme selected - using custom CSS in assets/css/style.css
 remote_theme: [] # Force clear
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap

@@ -1,11 +1,19 @@
-<div class="action-buttons">
-  <button
-    class="btn-primary"
-    onclick="window.location.href='{{ site.baseurl }}{{ prefix }}/contact/?package={{ page.title }}'"
-  >
-    {{ strings.ui.contact_now }}
-  </button>
-  <button class="btn-secondary" onclick="addToCompare('{{ page.title }}')">
-    {{ strings.ui.add_to_compare }}
-  </button>
+<div>
+  <p>
+    <a
+      href="{{ site.baseurl }}{{ prefix }}/contact/?package={{ page.title }}"
+      style="text-decoration: none; color: #7ee787"
+    >
+      [ {{ strings.ui.contact_now }} ]
+    </a>
+  </p>
+  <p>
+    <a
+      href="#"
+      onclick="addToCompare('{{ page.title }}'); return false;"
+      style="text-decoration: none; color: #58a6ff"
+    >
+      [ {{ strings.ui.add_to_compare }} ]
+    </a>
+  </p>
 </div>

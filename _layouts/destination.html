@@ -18,67 +18,55 @@ layout: default
   <p>[{{ page.category }}]</p>
 </div>
 
+<hr />
+
 <div>
-  <aside>
+  <h3>{{ strings.layout.destination_facts }}</h3>
+  <ul>
+    <li>
+      <span>📍 {{ strings.layout.location }}:</span>
+      {{ page.location }}
+    </li>
+    <li>
+      <span>📅 {{ strings.layout.best_season }}:</span>
+      {{ page.best_time }}
+    </li>
+    <li>
+      <span>⏳ {{ strings.layout.recommended_days }}:</span>
+      {{ page.recommended_days }}
+    </li>
+    <li>
+      <span>🎫 {{ strings.layout.entry_fee }}:</span>
+      {{ page.entry_fee }}
+    </li>
+  </ul>
+</div>
+
+<div>
+  <h3>✨ {{ strings.layout.key_highlights }}</h3>
+  <ul>
+    {% for highlight in page.highlights %}
+    <li>{{ highlight }}</li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% if page.seasonal_info %}
+<div>
+  <h3>📅 {{ strings.layout.seasonal_info }}</h3>
+  <div>
+    {% for season in page.seasonal_info %}
     <div>
-      <h3>{{ strings.layout.destination_facts }}</h3>
-
-      <ul>
-        <li>
-          <span> 📍 {{ strings.layout.location }}:</span>
-          {{ page.location }}
-        </li>
-
-        <li>
-          <span> 📅 {{ strings.layout.best_season }}:</span>
-
-          {{ page.best_time }}
-        </li>
-
-        <li>
-          <span> ⏳ {{ strings.layout.recommended_days }}:</span>
-
-          {{ page.recommended_days }}
-        </li>
-
-        <li>
-          <span> 🎫 {{ strings.layout.entry_fee }}:</span>
-          {{ page.entry_fee }}
-        </li>
-      </ul>
+      <div><strong>{{ season.name }}</strong> ({{ season.time }})</div>
+      <div>{{ season.description }}</div>
     </div>
+    <br />
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
 
-    <div>
-      <h3>✨ {{ strings.layout.key_highlights }}</h3>
+<hr />
 
-      <ul>
-        {% for highlight in page.highlights %}
-        <li>{{ highlight }}</li>
-
-        {% endfor %}
-      </ul>
-    </div>
-
-    {% if page.seasonal_info %}
-    <div>
-      <h3>📅 {{ strings.layout.seasonal_info }}</h3>
-
-      <div>
-        {% for season in page.seasonal_info %}
-        <div>
-          <div>{{ season.name }}</div>
-
-          <div>{{ season.time }}</div>
-
-          <div>{{ season.description }}</div>
-        </div>
-
-        {% endfor %}
-      </div>
-    </div>
-
-    {% endif %}
-  </aside>
-
-  <main>{{ content }}</main>
+<main>{{ content }}</main>
 </div>

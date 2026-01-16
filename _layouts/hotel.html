@@ -18,35 +18,32 @@ layout: default
   <p>[{{ page.category }}]</p>
 </div>
 
+<hr />
+
 <div>
-  <aside>
-    <div>
-      <h3>{{ strings.layout.hotel_facts }}</h3>
+  <h3>{{ strings.layout.hotel_facts }}</h3>
+  <ul>
+    <li>
+      <span>📍 {{ strings.layout.location }}:</span>
+      {{ page.location }}
+    </li>
+    <li>
+      <span>💰 {{ strings.ui.level }}:</span>
+      {{ page.price_level }}
+    </li>
+  </ul>
+</div>
 
-      <ul>
-        <li>
-          <span> 📍 {{ strings.layout.location }}:</span>
-          {{ page.location }}
-        </li>
+<div>
+  <h3>🏨 {{ strings.layout.amenities }}</h3>
+  <ul>
+    {% for item in page.amenities %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</div>
 
-        <li>
-          <span> 💰 {{ strings.ui.level }}:</span>
-          {{ page.price_level }}
-        </li>
-      </ul>
-    </div>
+<hr />
 
-    <div>
-      <h3>🏨 {{ strings.layout.amenities }}</h3>
-
-      <ul>
-        {% for item in page.amenities %}
-        <li>{{ item }}</li>
-
-        {% endfor %}
-      </ul>
-    </div>
-  </aside>
-
-  <main>{{ content }}</main>
+<main>{{ content }}</main>
 </div>

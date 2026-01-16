@@ -1,7 +1,4 @@
-{% if page.url contains '/en/' or page.url == '/en' or page.url == '/en/' %} {%
-assign current_lang = 'en' %} {% assign prefix = '/en' %} {% else %} {% assign
-current_lang = 'zh' %} {% assign prefix = '' %} {% endif %} {% assign strings =
-site.data.locales[current_lang] %}
+{% include lang_init.html %}
 
 <div class="destination-header">
   <h1 class="page-title">

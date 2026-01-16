@@ -1,7 +1,4 @@
-{% if page.url contains '/en/' or page.url == '/en' or page.url == '/en/' %} {%
-assign current_lang = 'en' %} {% assign prefix = '/en' %} {% else %} {% assign
-current_lang = 'zh' %} {% assign prefix = '' %} {% endif %} {% assign strings =
-site.data.locales[current_lang] %}
+{% include lang_init.html %}
 
 <nav>
   <pre><code style="display: block ; padding: 0;line-height: 13px;">   __        ____   _                      ___         _ 
@@ -29,17 +26,65 @@ site.data.locales[current_lang] %}
     >
 
     <span style="margin-left: 20px">
-      {% if current_lang == 'en' %} {% assign target_zh = page.url |
-      replace_first: '/en/', '/' %} {% if target_zh == '' or target_zh == nil
-      %}{% assign target_zh = '/' %}{% endif %}
-      <a href="{{ site.baseurl }}{{ target_zh }}"
+      <a href="javascript:void(0)" onclick="openModal('langModal')"
         >{{ strings.ui.switch_lang }}</a
       >
-      {% else %} {% assign target_en = '/en' | append: page.url %}
-      <a href="{{ site.baseurl }}{{ target_en }}"
-        >{{ strings.ui.switch_lang }}</a
-      >
-      {% endif %}
     </span>
   </div>
 </nav>
+
+<div id="langModal" class="modal-overlay" onclick="closeModal('langModal')">
+  <div class="modal-container" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <span class="modal-title">[{{ strings.ui.switch_lang }}]</span>
+      <button class="modal-close" onclick="closeModal('langModal')">[X]</button>
+    </div>
+    <div class="modal-content">
+      <div class="lang-picker-list">
+        {% comment %} Discover languages from locales data if site.languages is
+        not available {% endcomment %} {% assign l_list = site.languages %} {%
+        if l_list == empty or l_list == nil %} {% assign l_list = "" | split:
+        "," %} {% for locale in site.data.locales %} {% assign l_list = l_list |
+        push: locale[0] %} {% endfor %} {% endif %} {% assign d_lang =
+        site.default_lang | default: "zh" %} {% for lcode in l_list %} {% if
+        lcode == "" or lcode == nil %}{% continue %}{% endif %} {% assign
+        target_url = "" %} {% comment %} 1. Try finding by lang_ref first
+        (Dynamic Mapping) {% endcomment %} {% if page.lang_ref %} {% for p in
+        site.pages %} {% if p.lang_ref == page.lang_ref %} {% comment %} Extract
+        lang from page URL segment logic {% endcomment %} {% assign p_parts =
+        p.url | split: "/" %} {% assign p_lang = d_lang %} {% for cand in l_list
+        %} {% if cand == p_parts[1] %}{% assign p_lang = cand %}{% break %}{%
+        endif %} {% endfor %} {% if p_lang == lcode %} {% assign target_url =
+        p.url %} {% break %} {% endif %} {% endif %} {% endfor %} {% endif %} {%
+        comment %} 2. Fallback: Path-based mapping (Static Mapping) {%
+        endcomment %} {% if target_url == "" %} {% assign t_url = page.url %} {%
+        if prefix != "" %} {% assign t_url = t_url | replace_first: prefix, ""
+        %} {% endif %} {% if lcode != d_lang %} {% assign target_url = "/" |
+        append: lcode | append: t_url %} {% else %} {% assign target_url = t_url
+        %} {% endif %} {% endif %} {% assign target_url = target_url | replace:
+        '//', '/' %} {% if target_url == "" or target_url == nil %}{% assign
+        target_url = "/" %}{% endif %}
+
+        <a
+          href="{{ site.baseurl }}{{ target_url }}"
+          class="lang-item {% if lcode == current_lang %}current-lang{% endif %}"
+        >
+          {% if lcode == current_lang %}> {% endif %}{{
+          site.data.locales[lcode].lang_name | default: lcode }}
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function openModal(id) {
+    document.getElementById(id).style.display = "flex";
+    document.body.style.overflow = "hidden";
+  }
+  function closeModal(id) {
+    document.getElementById(id).style.display = "none";
+    document.body.style.overflow = "auto";
+  }
+</script>

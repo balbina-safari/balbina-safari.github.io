@@ -4,6 +4,7 @@ title: "First Safari Complete Guide: 100 Questions from Visa to Tips"
 author: "Safari Veteran"
 date: 2025-08-30
 trip_type: "Beginner Guide"
+lang_ref: first-time-safari
 related_package: "classic-northern-5day"
 package_name: "Classic Northern Circuit 5-Day"
 tags:
@@ -376,8 +377,8 @@ Safari not just seeing animals, more about experiencing completely different lif
 
 Prepare your gear, prepare your mind, prepare to welcome Africa's magnificence.
 
-*Happy First Safari!*
-*May your first Safari become life's unforgettable memory.*
+_Happy First Safari!_
+_May your first Safari become life's unforgettable memory._
 
 ---
 

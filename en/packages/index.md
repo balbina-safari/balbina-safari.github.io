@@ -3,12 +3,6 @@ layout: default
 title: Tour Packages
 ---
 
-{% if lang == 'en' %}
-{% assign prefix = '/en' %}
-{% else %}
-{% assign prefix = '' %}
-{% endif %}
-
 # Find Your African Story
 
 22 Packages, 22 Possibilities.

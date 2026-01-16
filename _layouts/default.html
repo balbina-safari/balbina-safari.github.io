@@ -1,9 +1,6 @@
-{% if page.url contains '/en/' or page.url == '/en' or page.url == '/en/' %} {%
-assign lang = 'en' %} {% else %} {% assign lang = 'zh' %} {% endif %} {% assign
-t = site.data.locales[lang] %}
-
+{% include lang_init.html %}
 <!DOCTYPE html>
-<html lang="{{ lang }}">
+<html lang="{{ current_lang }}">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -65,8 +62,43 @@ t = site.data.locales[lang] %}
       href="{{ site.baseurl }}/assets/images/favicon-16x16.png"
     />
 
-    <!-- Canonical URL -->
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <!-- Canonical and Alternate Languages (SEO) -->
+    <link
+      rel="canonical"
+      href="{{ site.url }}{{ page.url | replace: '//', '/' }}"
+    />
+    {% assign d_lang = site.default_lang | default: "zh" %} {% comment %}
+    x-default points to the default language version {% endcomment %} {% assign
+    base_url_clean = page.url %} {% if prefix != "" %} {% assign base_url_clean
+    = base_url_clean | replace_first: prefix, "" %} {% endif %}
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="{{ site.url }}{{ base_url_clean | replace: '//', '/' }}"
+    />
+
+    {% comment %} Get list of codes {% endcomment %} {% assign l_codes =
+    site.languages %} {% if l_codes == empty or l_codes == nil %} {% assign
+    l_codes = "" | split: "," %} {% for l_entry in site.data.locales %} {%
+    assign l_codes = l_codes | push: l_entry[0] %} {% endfor %} {% endif %} {%
+    for l in l_codes %} {% assign target_link = "" %} {% if page.lang_ref %} {%
+    for p in site.pages %} {% if p.lang_ref == page.lang_ref %} {% assign
+    p_parts = p.url | split: "/" %} {% assign p_lang = d_lang %} {% for cand in
+    l_codes %}{% if cand == p_parts[1] %}{% assign p_lang = cand %}{% break %}{%
+    endif %}{% endfor %} {% if p_lang == l %} {% assign target_link = p.url |
+    replace: '//', '/' %} {% break %} {% endif %} {% endif %} {% endfor %} {%
+    endif %} {% if target_link == "" %} {% assign t_path = page.url %} {% if
+    prefix != "" %}{% assign t_path = t_path | replace_first: prefix, "" %}{%
+    endif %} {% if l != d_lang %} {% assign target_link = "/" | append: l |
+    append: t_path | replace: '//', '/' %} {% else %} {% assign target_link =
+    t_path | replace: '//', '/' %} {% endif %} {% endif %}
+
+    <link
+      rel="alternate"
+      hreflang="{{ l }}"
+      href="{{ site.url }}{{ target_link }}"
+    />
+    {% endfor %}
 
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
 

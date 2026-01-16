@@ -1,0 +1,15 @@
+{% comment %} Robust Language Initialization Uses URL segment analysis to
+identify the current language. {% endcomment %} {% assign current_lang =
+site.default_lang | default: "zh" %} {% assign prefix = "" %} {% comment %}
+Discover languages from site.data.locales keys if site.languages is missing {%
+endcomment %} {% assign available_langs = site.languages %} {% if
+available_langs == empty or available_langs == nil %} {% assign available_langs
+= "" | split: "," %} {% for locale in site.data.locales %} {% assign l_code =
+locale[0] %} {% assign available_langs = available_langs | push: l_code %} {%
+endfor %} {% endif %} {% comment %} Check first segment of the URL (e.g., /en/
+-> en) {% endcomment %} {% assign url_parts = page.url | split: "/" %} {% assign
+first_segment = url_parts[1] %} {% for l in available_langs %} {% if l ==
+first_segment %} {% assign current_lang = l %} {% if l != site.default_lang %}
+{% assign prefix = "/" | append: l %} {% endif %} {% break %} {% endif %} {%
+endfor %} {% assign strings = site.data.locales[current_lang] %} {% assign t =
+strings %}

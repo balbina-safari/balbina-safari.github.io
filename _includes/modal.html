@@ -1,0 +1,26 @@
+<div
+  id="{{ include.id }}"
+  class="modal-overlay"
+  onclick="closeModal('{{ include.id }}')"
+>
+  <div class="modal-container" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <span class="modal-title">[{{ include.title }}]</span>
+      <button class="modal-close" onclick="closeModal('{{ include.id }}')">
+        [X]
+      </button>
+    </div>
+    <div class="modal-content">{{ include.content }}</div>
+  </div>
+</div>
+
+<script>
+  function openModal(id) {
+    document.getElementById(id).style.display = "flex";
+    document.body.style.overflow = "hidden";
+  }
+  function closeModal(id) {
+    document.getElementById(id).style.display = "none";
+    document.body.style.overflow = "auto";
+  }
+</script>

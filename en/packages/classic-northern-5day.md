@@ -1,7 +1,8 @@
 ---
 layout: package
 title: "Classic Northern Circuit 5-Day Safari"
-english_title: "Classic Northern Circuit 5-Day Safari"
+english_title: Classic Northern Circuit 5-Day (Tarangire + Serengeti + Ngorongoro)
+lang_ref: classic-northern-5day
 duration: "5 Days 4 Nights"
 category: "Classic Northern Circuit"
 difficulty: "Easy"
@@ -85,6 +86,7 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
 **Meals**: [Lunch Box]({{ site.baseurl }}/services/lunch-box) + Hotel dinner
 
 **Itinerary**:
+
 - **10:00** Pickup from Kilimanjaro International Airport (JRO) or Arusha city hotel
 - **12:00** Enjoy [lunch box]({{ site.baseurl }}/services/lunch-box) en route, admiring the East African Rift Valley scenery
 - **14:00** Arrive at [Tarangire National Park]({{ site.baseurl }}/destinations/tarangire), start afternoon game drive
@@ -101,6 +103,7 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
 **Meals**: Hotel breakfast + lunch box + hotel dinner
 
 **Itinerary**:
+
 - **06:30** Morning game drive (optional), capture wildlife in early morning light
 - **08:00** Breakfast and checkout
 - **09:00** Depart for [Serengeti]({{ site.baseurl }}/destinations/serengeti), via Ngorongoro Conservation Area highlands
@@ -118,6 +121,7 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
 **Meals**: Hotel breakfast + [Bush Lunch]({{ site.baseurl }}/services/bush-lunch) + hotel dinner
 
 **Itinerary**:
+
 - **06:00** Early morning game drive departure (best time to observe active wildlife)
   - Track Great Migration location based on season
   - Look for cheetahs and leopards on kopjes (rock outcrops)
@@ -138,6 +142,7 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
 **Meals**: Hotel breakfast + lunch box + hotel dinner
 
 **Itinerary**:
+
 - **06:30** Final Serengeti morning game drive
 - **09:00** Breakfast and checkout, depart for [Ngorongoro]({{ site.baseurl }}/destinations/ngorongoro)
 - **12:00** Picnic lunch en route
@@ -153,6 +158,7 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
 **Meals**: Hotel breakfast + lunch box
 
 **Itinerary**:
+
 - **06:00** Breakfast and checkout
 - **06:30** Descend to crater bottom (600 meters depth)
   - Search for black rhinos in this "Noah's Ark"
@@ -172,6 +178,7 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
 ### Mid-range Package - $2,800/person (based on 2 people)
 
 **Included**:
+
 - ✅ All park entrance fees and conservation area fees
 - ✅ Professional English-speaking guide/driver
 - ✅ [Safari 4x4]({{ site.baseurl }}/transportations/safari-4x4) (open-roof, window seat for each person)
@@ -181,6 +188,7 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
 - ✅ JRO airport transfers
 
 **Not Included**:
+
 - ❌ International round-trip flights
 - ❌ Tanzania visa fee ($50)
 - ❌ Travel insurance
@@ -203,6 +211,7 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
 **Child discount**: 70% price for children aged 6-12, under 6 requires consultation
 **Deposit**: 30% deposit required at booking
 **Cancellation Policy**:
+
 - 30+ days before cancellation: 10% fee deducted
 - 15-30 days: 50% deducted
 - Within 15 days: Full amount deducted

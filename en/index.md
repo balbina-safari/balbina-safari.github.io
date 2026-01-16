@@ -3,14 +3,9 @@ layout: default
 title: Balbina Safari - Tanzania Safari Specialists
 ---
 
-{% if lang == 'en' %}
-{% assign prefix = '/en' %}
-{% else %}
-{% assign prefix = '' %}
-{% endif %}
+{% include lang_init.html %}
 
-> Tanzania Ground Handler · Safari Specialists  
-> Tanzania Ground Handler & Safari Specialist
+> {{ strings.footer.tagline }}
 
 # Experiences That Exist Only in This Moment
 

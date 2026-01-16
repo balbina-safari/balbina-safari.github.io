@@ -3,8 +3,9 @@ layout: default
 title: 巴比旅行 - 坦桑尼亚Safari专家
 ---
 
-> 坦桑尼亚地接旅行 · Safari 专家  
-> Tanzania Ground Handler & Safari Specialist
+{% include lang_init.html %}
+
+> {{ strings.footer.tagline }}
 
 # 有些体验,只存在于此刻
 

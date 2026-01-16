@@ -2,7 +2,7 @@
 
 ## 项目概述
 
-这是一个基于 Jekyll 的静态网站项目,用于展示巴比旅行(Balbina Safari)的坦桑尼亚 Safari 旅游服务。项目采用 GitHub Pages 托管,提供中文和英文双语内容,专注于坦桑尼亚野生动物游猎、登山和海岛度假业务。
+这是一个基于 Jekyll 的静态网站项目,用于展示巴比旅行(Balbina Safari)的坦桑尼亚 Safari 旅游服务。项目采用 GitHub Pages 托管,提供中文、英文和法语三语内容,专注于坦桑尼亚野生动物游猎、登山和海岛度假业务。
 
 ### 核心功能
 
@@ -11,11 +11,12 @@
 - **酒店推荐**: 51 个精选酒店和营地
 - **野生动物图鉴**: 20+ 种野生动物详细介绍
 - **真实游记**: 30 篇客户旅行故事和经验分享
-- **服务项目**: 特色服务(热气球、中文翻译等)
-- **交通方式**: Safari 车辆、自驾露营、机场接送等
+- **服务项目**: 特色服务(热气球、中文翻译、丛林午餐等)
+- **交通方式**: Safari 车辆、自驾露营、机场接送、城市游览
 - **套餐对比**: 支持最多对比 3 个套餐的功能
 - **全局搜索**: 搜索套餐、目的地、野生动物、酒店、游记
 - **联系表单**: 完整的在线咨询表单
+- **多语言支持**: 中文、英文、法语三语界面
 
 ### 技术栈
 
@@ -47,6 +48,8 @@ balbina-safari.github.io.git/
 │   ├── navigation.html  # 导航栏(含搜索框)
 │   ├── breadcrumbs.html # 面包屑导航
 │   ├── footer.html      # 页脚
+│   ├── lang_init.html   # 语言初始化脚本
+│   ├── modal.html       # 通用模态框
 │   └── packages/        # 套餐页面专用组件
 │       ├── action_buttons.html     # 操作按钮
 │       ├── blogs_box.html          # 相关博客
@@ -67,7 +70,7 @@ balbina-safari.github.io.git/
 │   └── generate_wildlife.rb # 生成野生动物页面
 ├── _data/               # 数据文件
 │   ├── common.yml       # 通用数据(公司信息、概率标签等)
-│   └── locales.yml      # 国际化文本(中英文)
+│   └── locales.yml      # 国际化文本(中英法)
 ├── assets/              # 静态资源
 │   ├── css/
 │   │   └── style.css    # 主样式文件(从 SCSS 编译)
@@ -79,20 +82,22 @@ balbina-safari.github.io.git/
 ├── destinations/        # 目的地页面 (15 个)
 ├── hotels/              # 酒店页面 (51 个)
 ├── packages/            # 套餐页面 (24 个)
-├── services/            # 服务页面
-├── transportations/     # 交通页面
+├── services/            # 服务页面 (5 个)
+├── transportations/     # 交通页面 (5 个)
 ├── wildlife/            # 野生动物页面 (20+ 种)
-└── en/                  # 英文版本
-    ├── about.md
-    ├── contact.md
-    ├── index.md
-    ├── about/
-    ├── blogs/
-    ├── contact/
-    ├── destinations/
-    ├── hotels/
-    ├── packages/
-    └── wildlife/
+├── en/                  # 英文版本
+│   ├── about.md
+│   ├── contact.md
+│   ├── index.md
+│   └── about/
+│   ├── blogs/
+│   ├── contact/
+│   ├── destinations/
+│   ├── hotels/
+│   ├── packages/
+│   └── wildlife/
+└── fr/                  # 法语版本
+    └── index.md
 ```
 
 ## 构建和运行
@@ -210,11 +215,12 @@ ruby _scripts/generate_wildlife.rb
 
 ### 国际化支持
 
-项目支持中英文双语:
+项目支持中英法三语:
 
-- **数据文件**: `_data/locales.yml` 包含中英文界面文本
+- **数据文件**: `_data/locales.yml` 包含中英法界面文本
 - **英文目录**: `en/` 目录包含英文版本页面
-- **语言配置**: `_config.yml` 中配置了 `languages: ["zh", "en"]` 和 `default_lang: "zh"`
+- **法语目录**: `fr/` 目录包含法语版本页面
+- **语言配置**: `_config.yml` 中配置了 `languages: ["zh", "en", "fr"]` 和 `default_lang: "zh"`
 
 ### Git 忽略规则
 
@@ -273,6 +279,22 @@ ruby _scripts/generate_wildlife.rb
 - 中档精选: Elewana、Sopa 等
 - 经济实惠: 公共营地、Budget Lodge
 
+### 服务 (Services)
+
+提供特色服务:
+- 热气球
+- 中文翻译
+- 丛林午餐
+- 便当盒
+
+### 交通 (Transportations)
+
+提供多种交通方式:
+- Safari 4x4 车辆
+- 自驾露营
+- 机场接送
+- 城市游览
+
 ### 博客 (Blogs)
 
 包含 30 篇游记文章,涵盖:
@@ -319,7 +341,7 @@ author: Balbina Safari
 
 - 响应式设计,移动端汉堡菜单
 - 集成搜索框
-- 中英文导航链接
+- 中英法三语导航链接
 
 ### 面包屑导航组件 (`breadcrumbs.html`)
 
@@ -343,6 +365,18 @@ author: Balbina Safari
 - `sidebar.html`: 侧边栏信息
 - `target_audience_box.html`: 适合人群标签
 - `wildlife_box.html`: 包含的野生动物
+
+### 通用模态框组件 (`modal.html`)
+
+- 用于搜索结果展示
+- 用于套餐对比展示
+- 支持自定义内容
+
+### 语言初始化组件 (`lang_init.html`)
+
+- 初始化多语言支持
+- 设置当前语言环境
+- 加载对应语言文本
 
 ## 常见任务
 
@@ -371,7 +405,7 @@ author: Balbina Safari
 
 ### 添加新的国际化文本
 
-编辑 `_data/locales.yml` 文件,添加中英文对应的文本。
+编辑 `_data/locales.yml` 文件,添加中英法对应的文本。
 
 ### 更新配置
 
@@ -398,14 +432,15 @@ bundle exec jekyll serve
 8. Big 5 动物内容(狮子、大象已完成)
 9. 套餐对比功能
 10. JavaScript 功能集成
-11. 国际化支持(中英文)
+11. 国际化支持(中英法三语)
+12. 服务和交通页面完善
 
 ### 待完成的优化
 
 - 完成 Big 5 剩余 3 个动物(豹子、犀牛、水牛)的详细内容
 - 添加图片资源
 - 优化移动端体验
-- 完善英文版本内容
+- 完善英文和法语版本内容
 - 添加收藏功能
 - 性能优化(CSS/JS 压缩、图片优化、懒加载)
 

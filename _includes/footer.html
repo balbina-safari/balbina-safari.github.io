@@ -1,28 +1,32 @@
-{% if lang == 'en' %} {% assign prefix = '/en' %} {% else %} {% assign prefix =
-'' %} {% endif %}
+{% if page.url contains '/en/' or page.url == '/en' or page.url == '/en/' %} {%
+assign current_lang = 'en' %} {% assign prefix = '/en' %} {% else %} {% assign
+current_lang = 'zh' %} {% assign prefix = '' %} {% endif %} {% assign strings =
+site.data.locales[current_lang] %}
+
 <footer class="main-footer">
   <hr />
-  <p>🌍 {{ t.footer.tagline }}</p>
+  <p>🌍 {{ strings.footer.tagline }}</p>
   <p>
-    {{ t.footer.quick_links }}: [<a
+    {{ strings.footer.quick_links }}: [<a
       href="{{ site.baseurl }}{{ prefix }}/packages/"
-      >📦 {{ t.nav.packages }}</a
+      >{{ strings.nav.packages }}</a
     >] [<a href="{{ site.baseurl }}{{ prefix }}/destinations/"
-      >🏞️ {{ t.nav.destinations }}</a
+      >{{ strings.nav.destinations }}</a
     >] [<a href="{{ site.baseurl }}{{ prefix }}/wildlife/"
-      >🦁 {{ t.nav.wildlife }}</a
+      >{{ strings.nav.wildlife }}</a
     >] [<a href="{{ site.baseurl }}{{ prefix }}/hotels/"
-      >🏨 {{ t.nav.hotels }}</a
-    >] [<a href="{{ site.baseurl }}{{ prefix }}/blogs/">📝 {{ t.nav.blogs }}</a
+      >{{ strings.nav.hotels }}</a
+    >] [<a href="{{ site.baseurl }}{{ prefix }}/blogs/"
+      >{{ strings.nav.blogs }}</a
     >]
   </p>
   <p>
-    {{ t.footer.contact_us }}: 📧 info@balbinasafari.com | 💬 {{ t.nav.contact
-    }}: baba-leo | 📱 WhatsApp: +255653486509
+    {{ strings.footer.contact_us }}: 📧 info@balbinasafari.com | 💬 {{
+    strings.nav.contact }}: baba-leo | 📱 WhatsApp: +255653486509
   </p>
   <p>
-    {{ t.footer.hours }}: {{ t.footer.bj_time }} 14:00-22:00 | {{
-    t.footer.tz_time }} 09:00-17:00 | {{ t.footer.response }}
+    {{ strings.footer.hours }}: {{ strings.footer.bj_time }} 14:00-22:00 | {{
+    strings.footer.tz_time }} 09:00-17:00 | {{ strings.footer.response }}
   </p>
   <p>&copy; 2025 Balbina Safari. All rights reserved.</p>
 </footer>

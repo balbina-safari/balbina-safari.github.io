@@ -1,5 +1,7 @@
-{% if lang == 'en' %} {% assign prefix = '/en' %} {% else %} {% assign prefix =
-'' %} {% endif %}
+{% if page.url contains '/en/' or page.url == '/en' or page.url == '/en/' %} {%
+assign current_lang = 'en' %} {% assign prefix = '/en' %} {% else %} {% assign
+current_lang = 'zh' %} {% assign prefix = '' %} {% endif %} {% assign strings =
+site.data.locales[current_lang] %}
 
 <nav>
   <pre><code style="display: block ; padding: 0;line-height: 13px;">   __        ____   _                      ___         _ 
@@ -7,20 +9,29 @@
  / _ \/ _ `/ / _ \/ / _ \/ _ `/ (_-(/ _ `/ _/ _ `/ __/ / 
 /_.__/\_,_/_/_.__/_/_//_/\_,_/ /___/\_,_/_/ \_,_/_/ /_/  </code></pre>
   <div>
-    <a href="{{ site.baseurl }}{{ prefix }}/">{{ t.nav.home }}</a>
-    <a href="{{ site.baseurl }}{{ prefix }}/packages/">{{ t.nav.packages }}</a>
-    <a href="{{ site.baseurl }}{{ prefix }}/destinations/"
-      >{{ t.nav.destinations }}</a
+    <a href="{{ site.baseurl }}{{ prefix }}/">{{ strings.nav.home }}</a>
+    <a href="{{ site.baseurl }}{{ prefix }}/packages/"
+      >{{ strings.nav.packages }}</a
     >
-    <a href="{{ site.baseurl }}{{ prefix }}/wildlife/">{{ t.nav.wildlife }}</a>
-    <a href="{{ site.baseurl }}{{ prefix }}/hotels/">{{ t.nav.hotels }}</a>
-    <a href="{{ site.baseurl }}{{ prefix }}/blogs/">{{ t.nav.blogs }}</a>
-    <a href="{{ site.baseurl }}{{ prefix }}/about/">{{ t.nav.about }}</a>
-    <a href="{{ site.baseurl }}{{ prefix }}/contact/">{{ t.nav.contact }}</a>
+    <a href="{{ site.baseurl }}{{ prefix }}/destinations/"
+      >{{ strings.nav.destinations }}</a
+    >
+    <a href="{{ site.baseurl }}{{ prefix }}/wildlife/"
+      >{{ strings.nav.wildlife }}</a
+    >
+    <a href="{{ site.baseurl }}{{ prefix }}/hotels/"
+      >{{ strings.nav.hotels }}</a
+    >
+    <a href="{{ site.baseurl }}{{ prefix }}/blogs/">{{ strings.nav.blogs }}</a>
+    <a href="{{ site.baseurl }}{{ prefix }}/about/">{{ strings.nav.about }}</a>
+    <a href="{{ site.baseurl }}{{ prefix }}/contact/"
+      >{{ strings.nav.contact }}</a
+    >
 
     <span style="margin-left: 20px">
-      {% if lang == 'en' %} {% assign target_zh = page.url | replace_first:
-      '/en/', '/' %}
+      {% if current_lang == 'en' %} {% assign target_zh = page.url |
+      replace_first: '/en/', '/' %} {% if target_zh == '' or target_zh == nil
+      %}{% assign target_zh = '/' %}{% endif %}
       <a href="{{ site.baseurl }}{{ target_zh }}">中文网</a>
       {% else %} {% assign target_en = '/en' | append: page.url %}
       <a href="{{ site.baseurl }}{{ target_en }}">English</a>

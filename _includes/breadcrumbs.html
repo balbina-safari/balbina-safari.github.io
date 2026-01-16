@@ -1,60 +1,100 @@
-{% if page.layout != 'default' %} {% if lang == 'en' %} {% assign prefix = '/en'
-%} {% else %} {% assign prefix = '' %} {% endif %}
+{% comment %} Local variables for breadcrumbs to ensure scope isolation and
+correctness {% endcomment %} {% if page.url contains '/en/' or page.url == '/en'
+or page.url == '/en/' %} {% assign current_lang = 'en' %} {% assign
+current_prefix = '/en' %} {% else %} {% assign current_lang = 'zh' %} {% assign
+current_prefix = '' %} {% endif %} {% assign strings =
+site.data.locales[current_lang] %} {% comment %} Hide on homepage {% endcomment
+%} {% unless page.url == '/' or page.url == '/en' or page.url == '/en/' %}
 <nav class="breadcrumbs" aria-label="Breadcrumb">
   <ol class="breadcrumbs-list">
     <li class="breadcrumbs-item">
-      <a href="{{ site.baseurl }}{{ prefix }}/">{{ t.nav.home }}</a>
-    </li>
-    {% case page.layout %} {% when 'package' %}
-    <li class="breadcrumbs-item">
-      <a href="{{ site.baseurl }}{{ prefix }}/packages/"
-        >{{ t.nav.packages }}</a
+      <a href="{{ site.baseurl }}{{ current_prefix }}/"
+        >{{ strings.nav.home }}</a
       >
     </li>
-    <li class="breadcrumbs-item current" aria-current="page">
-      {{ page.title }}
-    </li>
-    {% when 'destination' %}
+
+    {% comment %} Determine category based on path or layout {% endcomment %} {%
+    assign show_current = true %} {% if page.url contains '/packages/' %} {% if
+    page.layout == 'package' %}
     <li class="breadcrumbs-item">
-      <a href="{{ site.baseurl }}{{ prefix }}/destinations/"
-        >{{ t.nav.destinations }}</a
+      <a href="{{ site.baseurl }}{{ current_prefix }}/packages/"
+        >{{ strings.nav.packages }}</a
       >
     </li>
+    {% else %}
     <li class="breadcrumbs-item current" aria-current="page">
-      {{ page.title }}
+      {{ strings.nav.packages }}
     </li>
-    {% when 'hotel' %}
+    {% assign show_current = false %} {% endif %} {% elsif page.url contains
+    '/destinations/' %} {% if page.layout == 'destination' %}
     <li class="breadcrumbs-item">
-      <a href="{{ site.baseurl }}{{ prefix }}/hotels/">{{ t.nav.hotels }}</a>
-    </li>
-    <li class="breadcrumbs-item current" aria-current="page">
-      {{ page.title }}
-    </li>
-    {% when 'wildlife' %}
-    <li class="breadcrumbs-item">
-      <a href="{{ site.baseurl }}{{ prefix }}/wildlife/"
-        >{{ t.nav.wildlife }}</a
+      <a href="{{ site.baseurl }}{{ current_prefix }}/destinations/"
+        >{{ strings.nav.destinations }}</a
       >
     </li>
+    {% else %}
     <li class="breadcrumbs-item current" aria-current="page">
-      {% if lang == 'en' %}{{ page.title_en }}{% else %}{{ page.title_cn }}{%
-      endif %}
+      {{ strings.nav.destinations }}
     </li>
-    {% when 'blog' %}
+    {% assign show_current = false %} {% endif %} {% elsif page.url contains
+    '/wildlife/' %} {% if page.layout == 'wildlife' %}
     <li class="breadcrumbs-item">
-      <a href="{{ site.baseurl }}{{ prefix }}/blogs/">{{ t.nav.blogs }}</a>
+      <a href="{{ site.baseurl }}{{ current_prefix }}/wildlife/"
+        >{{ strings.nav.wildlife }}</a
+      >
     </li>
+    {% else %}
     <li class="breadcrumbs-item current" aria-current="page">
-      {{ page.title }}
+      {{ strings.nav.wildlife }}
     </li>
-    {% endcase %}
+    {% assign show_current = false %} {% endif %} {% elsif page.url contains
+    '/hotels/' %} {% if page.layout == 'hotel' %}
+    <li class="breadcrumbs-item">
+      <a href="{{ site.baseurl }}{{ current_prefix }}/hotels/"
+        >{{ strings.nav.hotels }}</a
+      >
+    </li>
+    {% else %}
+    <li class="breadcrumbs-item current" aria-current="page">
+      {{ strings.nav.hotels }}
+    </li>
+    {% assign show_current = false %} {% endif %} {% elsif page.url contains
+    '/blogs/' %} {% if page.layout == 'blog' %}
+    <li class="breadcrumbs-item">
+      <a href="{{ site.baseurl }}{{ current_prefix }}/blogs/"
+        >{{ strings.nav.blogs }}</a
+      >
+    </li>
+    {% else %}
+    <li class="breadcrumbs-item current" aria-current="page">
+      {{ strings.nav.blogs }}
+    </li>
+    {% assign show_current = false %} {% endif %} {% elsif page.url contains
+    '/about/' or page.url == '/about' or page.url == '/en/about' or page.url ==
+    '/en/about/' %}
+    <li class="breadcrumbs-item current" aria-current="page">
+      {{ strings.nav.about }}
+    </li>
+    {% assign show_current = false %} {% elsif page.url contains '/contact/' or
+    page.url == '/contact' or page.url == '/en/contact' or page.url ==
+    '/en/contact/' %}
+    <li class="breadcrumbs-item current" aria-current="page">
+      {{ strings.nav.contact }}
+    </li>
+    {% assign show_current = false %} {% endif %} {% if show_current %}
+    <li class="breadcrumbs-item current" aria-current="page">
+      {% if page.layout == 'wildlife' %} {% if current_lang == 'en' %}{{
+      page.title_en }}{% else %}{{ page.title_cn }}{% endif %} {% else %} {{
+      page.title }} {% endif %}
+    </li>
+    {% endif %}
   </ol>
 </nav>
-{% endif %}
+{% endunless %}
 
 <style>
   .breadcrumbs {
-    padding: 15px 0;
+    padding: 10px 0;
     margin-bottom: 20px;
     border-bottom: 1px solid #30363d;
   }
@@ -70,13 +110,15 @@
 
   .breadcrumbs-item {
     display: flex;
-    font-size: 12px;
+    font-size: 11px;
     color: #8b949e;
+    align-items: center;
   }
 
   .breadcrumbs-item:not(:last-child)::after {
     content: "›";
     margin-left: 8px;
+    margin-right: 3px;
     color: #30363d;
   }
 
@@ -95,11 +137,11 @@
 
   @media (max-width: 768px) {
     .breadcrumbs {
-      padding: 10px 0;
+      padding: 8px 0;
     }
 
     .breadcrumbs-list {
-      font-size: 11px;
+      font-size: 10px;
     }
   }
 </style>

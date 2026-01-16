@@ -1,161 +1,183 @@
----
-layout: default
----
+{% if page.url contains '/en/' or page.url == '/en' or page.url == '/en/' %} {%
+assign current_lang = 'en' %} {% assign prefix = '/en' %} {% else %} {% assign
+current_lang = 'zh' %} {% assign prefix = '' %} {% endif %} {% assign strings =
+site.data.locales[current_lang] %}
 
 <div class="destination-header">
-    <h1 class="page-title">{{ page.title }} <span class="english-title">/ {{ page.english_title }}</span></h1>
-    <p class="destination-category">[{{ page.category }}]</p>
+  <h1 class="page-title">
+    {{ page.title }} {% if current_lang == 'en' %} {% if page.title_cn %}<span
+      class="english-title"
+      >/ {{ page.title_cn }}</span
+    >{% endif %} {% else %} {% if page.english_title %}<span
+      class="english-title"
+      >/ {{ page.english_title }}</span
+    >{% endif %} {% endif %}
+  </h1>
+  <p class="destination-category">[{{ page.category }}]</p>
 </div>
 
 <div class="destination-grid">
-    <aside class="destination-sidebar">
-        <div class="fact-box">
-            <h3>核心数据 (Quick Facts)</h3>
-            <ul class="fact-list">
-                <li><span class="fact-label">📍 地理位置:</span> {{ page.location }}</li>
-                <li><span class="fact-label">📅 最佳季节:</span> {{ page.best_time }}</li>
-                <li><span class="fact-label">⏳ 建议天数:</span> {{ page.recommended_days }}</li>
-                <li><span class="fact-label">🎫 门票参考:</span> {{ page.entry_fee }}</li>
-            </ul>
-        </div>
+  <aside class="destination-sidebar">
+    <div class="fact-box">
+      <h3>{{ strings.layout.destination_facts }}</h3>
+      <ul class="fact-list">
+        <li>
+          <span class="fact-label">📍 {{ strings.layout.location }}:</span> {{
+          page.location }}
+        </li>
+        <li>
+          <span class="fact-label">📅 {{ strings.layout.best_season }}:</span>
+          {{ page.best_time }}
+        </li>
+        <li>
+          <span class="fact-label"
+            >⏳ {{ strings.layout.recommended_days }}:</span
+          >
+          {{ page.recommended_days }}
+        </li>
+        <li>
+          <span class="fact-label">🎫 {{ strings.layout.entry_fee }}:</span> {{
+          page.entry_fee }}
+        </li>
+      </ul>
+    </div>
 
-        <div class="highlights-box">
-            <h3>✨ 核心亮点</h3>
-            <ul>
-                {% for highlight in page.highlights %}
-                <li>{{ highlight }}</li>
-                {% endfor %}
-            </ul>
-        </div>
+    <div class="highlights-box">
+      <h3>✨ {{ strings.layout.key_highlights }}</h3>
+      <ul>
+        {% for highlight in page.highlights %}
+        <li>{{ highlight }}</li>
+        {% endfor %}
+      </ul>
+    </div>
 
-        {% if page.seasonal_info %}
-        <div class="seasonal-box">
-            <h3>📅 季节性信息</h3>
-            <div class="seasonal-info">
-                {% for season in page.seasonal_info %}
-                <div class="season-item">
-                    <div class="season-name">{{ season.name }}</div>
-                    <div class="season-time">{{ season.time }}</div>
-                    <div class="season-description">{{ season.description }}</div>
-                </div>
-                {% endfor %}
-            </div>
+    {% if page.seasonal_info %}
+    <div class="seasonal-box">
+      <h3>📅 {{ strings.layout.seasonal_info }}</h3>
+      <div class="seasonal-info">
+        {% for season in page.seasonal_info %}
+        <div class="season-item">
+          <div class="season-name">{{ season.name }}</div>
+          <div class="season-time">{{ season.time }}</div>
+          <div class="season-description">{{ season.description }}</div>
         </div>
-        {% endif %}
-    </aside>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </aside>
 
-    <main class="destination-content">
-        {{ content }}
-    </main>
+  <main class="destination-content">{{ content }}</main>
 </div>
 
 <style>
-    /* Scoped styles for destination pages */
-    .english-title {
-        color: #79c0ff;
-        font-size: 0.8em;
-        font-weight: normal;
-    }
+  /* Scoped styles for destination pages */
+  .english-title {
+    color: #79c0ff;
+    font-size: 0.8em;
+    font-weight: normal;
+  }
 
+  .destination-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    margin-top: 30px;
+  }
+
+  @media (max-width: 768px) {
     .destination-grid {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        gap: 40px;
-        margin-top: 30px;
+      grid-template-columns: 1fr;
     }
+  }
 
-    @media (max-width: 768px) {
-        .destination-grid {
-            grid-template-columns: 1fr;
-        }
-    }
+  .destination-sidebar h3 {
+    color: #d2a8ff;
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
 
-    .destination-sidebar h3 {
-        color: #d2a8ff;
-        border-bottom: 1px solid #30363d;
-        padding-bottom: 10px;
-        margin-bottom: 15px;
-    }
+  .fact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
 
-    .fact-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
+  .fact-list li {
+    margin-bottom: 10px;
+    color: #c9d1d9;
+    font-size: 13px;
+  }
 
-    .fact-list li {
-        margin-bottom: 10px;
-        color: #c9d1d9;
-        font-size: 13px;
-    }
+  .fact-label {
+    color: #8b949e;
+    margin-right: 8px;
+  }
 
-    .fact-label {
-        color: #8b949e;
-        margin-right: 8px;
-    }
+  .highlights-box ul li {
+    color: #ff7b72;
+    margin-bottom: 8px;
+    font-size: 13px;
+  }
 
-    .highlights-box ul li {
-        color: #ff7b72;
-        margin-bottom: 8px;
-    }
+  .highlights-box ul li::before {
+    content: "★ ";
+    color: #e3b341;
+  }
 
-    .highlights-box ul li::before {
-        content: "★ ";
-        color: #e3b341;
-    }
+  .seasonal-box {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+  }
 
-    .seasonal-box {
-        background-color: #161b22;
-        border: 1px solid #30363d;
-        padding: 15px;
-        margin-bottom: 15px;
-        border-radius: 6px;
-    }
+  .seasonal-box h3 {
+    color: #ff7b72;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
 
-    .seasonal-box h3 {
-        color: #ff7b72;
-        margin-bottom: 10px;
-        font-size: 13px;
-    }
+  .seasonal-info {
+    font-size: 12px;
+  }
 
-    .seasonal-info {
-        font-size: 12px;
-    }
+  .season-item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #21262d;
+  }
 
-    .season-item {
-        margin-bottom: 15px;
-        padding-bottom: 15px;
-        border-bottom: 1px solid #21262d;
-    }
+  .season-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
 
-    .season-item:last-child {
-        margin-bottom: 0;
-        padding-bottom: 0;
-        border-bottom: none;
-    }
+  .season-name {
+    color: #ffa657;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
 
-    .season-name {
-        color: #ffa657;
-        font-weight: bold;
-        margin-bottom: 5px;
-    }
+  .season-time {
+    color: #7ee787;
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
 
-    .season-time {
-        color: #7ee787;
-        font-size: 11px;
-        margin-bottom: 5px;
-    }
+  .season-description {
+    color: #8b949e;
+    line-height: 1.5;
+  }
 
-    .season-description {
-        color: #8b949e;
-        line-height: 1.5;
-    }
-
-    .destination-content p {
-        color: #c9d1d9;
-        font-size: 15px;
-        /* Slightly larger for reading */
-        line-height: 1.8;
-        margin-bottom: 20px;
-    }
+  .destination-content p {
+    color: #c9d1d9;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
 </style>

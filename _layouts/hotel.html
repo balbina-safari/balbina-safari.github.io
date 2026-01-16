@@ -1,73 +1,112 @@
----
-layout: default
----
+{% if page.url contains '/en/' or page.url == '/en' or page.url == '/en/' %} {%
+assign current_lang = 'en' %} {% assign prefix = '/en' %} {% else %} {% assign
+current_lang = 'zh' %} {% assign prefix = '' %} {% endif %} {% assign strings =
+site.data.locales[current_lang] %}
 
 <div class="destination-header hotel-header">
-    <h1 class="page-title">{{ page.title }} <span class="english-title">/ {{ page.english_title }}</span></h1>
-    <p class="destination-category hotel-stars">[{{ page.category }}]</p>
+  <h1 class="page-title">
+    {{ page.title }} {% if current_lang == 'en' %} {% if page.title_cn %}<span
+      class="english-title"
+      >/ {{ page.title_cn }}</span
+    >{% endif %} {% else %} {% if page.english_title %}<span
+      class="english-title"
+      >/ {{ page.english_title }}</span
+    >{% endif %} {% endif %}
+  </h1>
+  <p class="destination-category hotel-stars">[{{ page.category }}]</p>
 </div>
 
 <div class="destination-grid">
-    <aside class="destination-sidebar">
-        <div class="fact-box">
-            <h3>核心数据 (Hotel Facts)</h3>
-            <ul class="fact-list">
-                <li><span class="fact-label">📍 位置:</span> {{ page.location }}</li>
-                <li><span class="fact-label">💰 参考价格:</span> {{ page.price_level }}</li>
-            </ul>
-        </div>
+  <aside class="destination-sidebar">
+    <div class="fact-box">
+      <h3>{{ strings.layout.hotel_facts }}</h3>
+      <ul class="fact-list">
+        <li>
+          <span class="fact-label">📍 {{ strings.layout.location }}:</span> {{
+          page.location }}
+        </li>
+        <li>
+          <span class="fact-label">💰 {{ strings.ui.level }}:</span> {{
+          page.price_level }}
+        </li>
+      </ul>
+    </div>
 
-        <div class="highlights-box">
-            <h3>🏨 设施与服务</h3>
-            <ul>
-                {% for item in page.amenities %}
-                <li>{{ item }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-    </aside>
+    <div class="highlights-box">
+      <h3>🏨 {{ strings.layout.amenities }}</h3>
+      <ul>
+        {% for item in page.amenities %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </aside>
 
-    <main class="destination-content">
-        {{ content }}
-    </main>
+  <main class="destination-content">{{ content }}</main>
 </div>
 
 <style>
-    /* Inherits most styles from destination.html via custom CSS or shared classes.
-   Adding specific overrides here. */
+  .hotel-header .page-title {
+    color: #ff7b72;
+  }
 
-    .hotel-header .page-title {
-        color: #ff7b72;
-        /* Keep Salmon color for headers */
-    }
+  .hotel-stars {
+    color: #e3b341;
+  }
 
-    .hotel-stars {
-        color: #e3b341;
-        /* Gold for luxury category */
-    }
+  .highlights-box ul li::before {
+    content: "✓ ";
+    color: #7ee787;
+  }
 
-    /* Re-using destination-sidebar styles but we can tweak if needed */
-    .highlights-box ul li::before {
-        content: "✓ ";
-        /* Checkmark for amenities */
-        color: #7ee787;
-        /* Green checkmark */
-    }
+  .fact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
 
-    .fact-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
+  .fact-list li {
+    margin-bottom: 10px;
+    color: #c9d1d9;
+    font-size: 13px;
+  }
 
-    .fact-list li {
-        margin-bottom: 10px;
-        color: #c9d1d9;
-        font-size: 13px;
-    }
+  .fact-label {
+    color: #8b949e;
+    margin-right: 8px;
+  }
 
-    .fact-label {
-        color: #8b949e;
-        margin-right: 8px;
+  .english-title {
+    color: #79c0ff;
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+
+  .destination-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    margin-top: 30px;
+  }
+
+  @media (max-width: 768px) {
+    .destination-grid {
+      grid-template-columns: 1fr;
     }
+  }
+
+  .destination-sidebar h3 {
+    color: #d2a8ff;
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+  .highlights-box ul li {
+    color: #c9d1d9;
+    margin-bottom: 8px;
+    font-size: 13px;
+    list-style: none;
+  }
 </style>

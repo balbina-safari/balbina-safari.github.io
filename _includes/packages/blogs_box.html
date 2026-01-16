@@ -1,8 +1,12 @@
 <div class="blogs-box">
-  <h3>📝 相关游记</h3>
+  <h3>📝 {{ strings.ui.related_blogs }}</h3>
   <ul>
     {% for blog in page.related_blogs %}
-    <li><a href="{{ site.baseurl }}/blogs/{{ blog }}">查看游记</a></li>
+    <li>
+      <a href="{{ site.baseurl }}{{ prefix }}/blogs/{{ blog }}"
+        >{{ strings.ui.view_blog }}</a
+      >
+    </li>
     {% endfor %}
   </ul>
 </div>

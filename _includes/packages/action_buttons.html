@@ -1,11 +1,11 @@
 <div class="action-buttons">
   <button
     class="btn-primary"
-    onclick="window.location.href='{{ site.baseurl }}/contact/?package={{ page.title }}'"
+    onclick="window.location.href='{{ site.baseurl }}{{ prefix }}/contact/?package={{ page.title }}'"
   >
-    📞 立即咨询
+    {{ strings.ui.contact_now }}
   </button>
   <button class="btn-secondary" onclick="addToCompare('{{ page.title }}')">
-    🔄 加入对比
+    {{ strings.ui.add_to_compare }}
   </button>
 </div>

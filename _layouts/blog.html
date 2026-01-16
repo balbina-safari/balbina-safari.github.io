@@ -2,106 +2,113 @@
 layout: default
 ---
 
+{% if page.url contains '/en/' or page.url == '/en' or page.url == '/en/' %} {%
+assign current_lang = 'en' %} {% assign prefix = '/en' %} {% else %} {% assign
+current_lang = 'zh' %} {% assign prefix = '' %} {% endif %} {% assign strings =
+site.data.locales[current_lang] %}
+
 <div class="blog-header">
-    <h1 class="page-title">{{ page.title }}</h1>
-    <p class="blog-meta">
-        <span class="author">✍️ {{ page.author }}</span> |
-        <span class="date">📅 {{ page.date | date: "%Y年%m月" }}</span> |
-        <span class="trip-type">🎯 {{ page.trip_type }}</span>
-    </p>
-    {% if page.related_package %}
-    <p class="related-package">
-        📦 相关套餐: <a href="{{ site.baseurl }}/packages/{{ page.related_package }}">{{ page.package_name }}</a>
-    </p>
-    {% endif %}
+  <h1 class="page-title">{{ page.title }}</h1>
+  <p class="blog-meta">
+    <span class="author">✍️ {{ page.author }}</span> |
+    <span class="date">📅 {{ page.date | date: "%Y/%m" }}</span> |
+    <span class="trip-type">🎯 {{ page.trip_type }}</span>
+  </p>
+  {% if page.related_package %}
+  <p class="related-package">
+    📦 {{ strings.ui.related_package }}:
+    <a href="{{ site.baseurl }}{{ prefix }}/packages/{{ page.related_package }}"
+      >{{ page.package_name }}</a
+    >
+  </p>
+  {% endif %}
 </div>
 
-<div class="blog-content">
-    {{ content }}
-</div>
+<div class="blog-content">{{ content }}</div>
 
 <div class="blog-footer">
-    <div class="blog-tags">
-        {% if page.tags %}
-        <strong>标签:</strong>
-        {% for tag in page.tags %}
-        <span class="tag">{{ tag }}</span>
-        {% endfor %}
-        {% endif %}
-    </div>
+  <div class="blog-tags">
+    {% if page.tags %}
+    <strong>{{ strings.ui.tags }}:</strong>
+    {% for tag in page.tags %}
+    <span class="tag">{{ tag }}</span>
+    {% endfor %} {% endif %}
+  </div>
 
-    <div class="blog-nav">
-        <a href="{{ site.baseurl }}/blogs/">← 返回游记列表</a>
-    </div>
+  <div class="blog-nav">
+    <a href="{{ site.baseurl }}{{ prefix }}/blogs/"
+      >← {{ strings.ui.back_to_blogs }}</a
+    >
+  </div>
 </div>
 
 <style>
-    .blog-header {
-        margin-bottom: 30px;
-        padding-bottom: 20px;
-        border-bottom: 1px solid #30363d;
-    }
+  .blog-header {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #30363d;
+  }
 
-    .blog-meta {
-        color: #8b949e;
-        font-size: 13px;
-        margin-top: 10px;
-    }
+  .blog-meta {
+    color: #8b949e;
+    font-size: 13px;
+    margin-top: 10px;
+  }
 
-    .blog-meta span {
-        margin-right: 15px;
-    }
+  .blog-meta span {
+    margin-right: 15px;
+  }
 
-    .related-package {
-        margin-top: 10px;
-        padding: 10px;
-        background-color: #161b22;
-        border-left: 3px solid #ffa657;
-        font-size: 13px;
-    }
+  .related-package {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #161b22;
+    border-left: 3px solid #ffa657;
+    font-size: 13px;
+  }
 
-    .related-package a {
-        color: #ffa657;
-        text-decoration: none;
-    }
+  .related-package a {
+    color: #ffa657;
+    text-decoration: none;
+  }
 
-    .related-package a:hover {
-        text-decoration: underline;
-    }
+  .related-package a:hover {
+    text-decoration: underline;
+  }
 
-    .blog-content {
-        line-height: 1.6;
-        margin-bottom: 30px;
-    }
+  .blog-content {
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
 
-    .blog-footer {
-        margin-top: 40px;
-        padding-top: 20px;
-        border-top: 1px solid #30363d;
-    }
+  .blog-footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #30363d;
+  }
 
-    .blog-tags {
-        margin-bottom: 15px;
-        font-size: 13px;
-    }
+  .blog-tags {
+    margin-bottom: 15px;
+    font-size: 13px;
+  }
 
-    .tag {
-        display: inline-block;
-        background-color: #161b22;
-        color: #7ee787;
-        padding: 3px 8px;
-        margin-right: 8px;
-        border-radius: 3px;
-        font-size: 12px;
-    }
+  .tag {
+    display: inline-block;
+    background-color: #161b22;
+    color: #7ee787;
+    padding: 3px 8px;
+    margin-right: 8px;
+    border-radius: 3px;
+    font-size: 12px;
+  }
 
-    .blog-nav a {
-        color: #58a6ff;
-        text-decoration: none;
-        font-size: 13px;
-    }
+  .blog-nav a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-size: 13px;
+  }
 
-    .blog-nav a:hover {
-        text-decoration: underline;
-    }
+  .blog-nav a:hover {
+    text-decoration: underline;
+  }
 </style>

@@ -2,6 +2,11 @@
 layout: default
 ---
 
+{% if page.url contains '/en/' or page.url == '/en' or page.url == '/en/' %} {%
+assign current_lang = 'en' %} {% assign prefix = '/en' %} {% else %} {% assign
+current_lang = 'zh' %} {% assign prefix = '' %} {% endif %} {% assign strings =
+site.data.locales[current_lang] %}
+
 <div class="package-header">
   <h1 class="page-title">
     {{ page.title }}
@@ -148,22 +153,27 @@ layout: default
     font-weight: bold;
   }
 
-  .probability-极高 {
+  .probability-极高,
+  .probability-Very-High,
+  .probability-Very\ High {
     background-color: #238636;
     color: #fff;
   }
 
-  .probability-高 {
+  .probability-高,
+  .probability-High {
     background-color: #1f6feb;
     color: #fff;
   }
 
-  .probability-中 {
+  .probability-中,
+  .probability-Medium {
     background-color: #ffa657;
     color: #0d1117;
   }
 
-  .probability-低 {
+  .probability-低,
+  .probability-Low {
     background-color: #8b949e;
     color: #0d1117;
   }

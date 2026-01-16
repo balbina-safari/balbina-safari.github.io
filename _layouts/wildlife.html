@@ -1,171 +1,189 @@
----
-layout: default
----
+{% if page.url contains '/en/' or page.url == '/en' or page.url == '/en/' %} {%
+assign current_lang = 'en' %} {% assign prefix = '/en' %} {% else %} {% assign
+current_lang = 'zh' %} {% assign prefix = '' %} {% endif %} {% assign strings =
+site.data.locales[current_lang] %}
 
 <div class="wildlife-header">
-    <h1 class="page-title">{{ page.title_cn }} <span class="english-title">/ {{ page.title_en }}</span></h1>
-    <p class="wildlife-meta">
-        <span class="scientific">🔬 {{ page.scientific_name }}</span> |
-        <span class="category">📂 {{ page.category }}</span> |
-        <span class="conservation">🛡️ {{ page.conservation_status }}</span>
-    </p>
+  <h1 class="page-title">
+    {% if current_lang == 'en' %} {{ page.title_en }}
+    <span class="english-title">/ {{ page.title_cn }}</span> {% else %} {{
+    page.title_cn }} <span class="english-title">/ {{ page.title_en }}</span>
+    {% endif %}
+  </h1>
+  <p class="wildlife-meta">
+    <span class="scientific">🔬 {{ page.scientific_name }}</span> |
+    <span class="category">📂 {{ page.category }}</span> |
+    <span class="conservation">🛡️ {{ page.conservation_status }}</span>
+  </p>
 </div>
 
 <div class="wildlife-grid">
-    <aside class="wildlife-sidebar">
-        <div class="fact-box">
-            <h3>基本数据</h3>
-            <ul class="fact-list">
-                <li><span class="fact-label">体重:</span> {{ page.weight }}</li>
-                <li><span class="fact-label">体长:</span> {{ page.length }}</li>
-                <li><span class="fact-label">寿命:</span> {{ page.lifespan }}</li>
-                <li><span class="fact-label">栖息地:</span> {{ page.habitat }}</li>
-            </ul>
-        </div>
+  <aside class="wildlife-sidebar">
+    <div class="fact-box">
+      <h3>{{ strings.layout.wildlife_facts }}</h3>
+      <ul class="fact-list">
+        <li>
+          <span class="fact-label">{{ strings.layout.weight }}:</span> {{
+          page.weight }}
+        </li>
+        <li>
+          <span class="fact-label">{{ strings.layout.length }}:</span> {{
+          page.length }}
+        </li>
+        <li>
+          <span class="fact-label">{{ strings.layout.lifespan }}:</span> {{
+          page.lifespan }}
+        </li>
+        <li>
+          <span class="fact-label">{{ strings.layout.habitat }}:</span> {{
+          page.habitat }}
+        </li>
+      </ul>
+    </div>
 
-        <div class="highlights-box">
-            <h3>🔍 识别特征</h3>
-            <ul>
-                {% for feature in page.key_features %}
-                <li>{{ feature }}</li>
-                {% endfor %}
-            </ul>
-        </div>
+    <div class="highlights-box">
+      <h3>🔍 {{ strings.layout.key_features }}</h3>
+      <ul>
+        {% for feature in page.key_features %}
+        <li>{{ feature }}</li>
+        {% endfor %}
+      </ul>
+    </div>
 
-        {% if page.best_spots %}
-        <div class="spots-box">
-            <h3>📍 最佳观赏地</h3>
-            <ul>
-                {% for spot in page.best_spots %}
-                <li>{{ spot }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-        {% endif %}
-    </aside>
+    {% if page.best_spots %}
+    <div class="spots-box">
+      <h3>📍 {{ strings.layout.best_spots }}</h3>
+      <ul>
+        {% for spot in page.best_spots %}
+        <li>{{ spot }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </aside>
 
-    <main class="wildlife-content">
-        {{ content }}
-    </main>
+  <main class="wildlife-content">{{ content }}</main>
 </div>
 
 <div class="wildlife-footer">
-    <a href="{{ site.baseurl }}/wildlife/">← 返回野生动物目录</a>
+  <a href="{{ site.baseurl }}{{ prefix }}/wildlife/"
+    >← {{ strings.ui.back_to_wildlife }}</a
+  >
 </div>
 
 <style>
-    .wildlife-header {
-        margin-bottom: 25px;
-        padding-bottom: 15px;
-        border-bottom: 1px solid #30363d;
-    }
+  .wildlife-header {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #30363d;
+  }
 
-    .wildlife-meta {
-        color: #8b949e;
-        font-size: 13px;
-        margin-top: 10px;
-    }
+  .wildlife-meta {
+    color: #8b949e;
+    font-size: 13px;
+    margin-top: 10px;
+  }
 
-    .wildlife-meta span {
-        margin-right: 15px;
-    }
+  .wildlife-meta span {
+    margin-right: 15px;
+  }
 
+  .wildlife-grid {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .wildlife-sidebar {
+    position: sticky;
+    top: 20px;
+    align-self: start;
+  }
+
+  .fact-box,
+  .highlights-box,
+  .spots-box {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+  }
+
+  .fact-box h3,
+  .highlights-box h3,
+  .spots-box h3 {
+    color: #ff7b72;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .fact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .fact-list li {
+    margin-bottom: 10px;
+    color: #c9d1d9;
+    font-size: 13px;
+  }
+
+  .fact-label {
+    color: #8b949e;
+    margin-right: 8px;
+  }
+
+  .highlights-box ul,
+  .spots-box ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .highlights-box ul li,
+  .spots-box ul li {
+    font-size: 13px;
+    margin-bottom: 8px;
+    padding-left: 15px;
+    position: relative;
+  }
+
+  .highlights-box ul li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #7ee787;
+  }
+
+  .wildlife-content {
+    min-width: 0;
+  }
+
+  .wildlife-footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #30363d;
+  }
+
+  .wildlife-footer a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  .wildlife-footer a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
     .wildlife-grid {
-        display: grid;
-        grid-template-columns: 280px 1fr;
-        gap: 30px;
-        margin-top: 20px;
+      grid-template-columns: 1fr;
     }
 
     .wildlife-sidebar {
-        position: sticky;
-        top: 20px;
-        align-self: start;
+      position: static;
     }
-
-    .fact-box,
-    .highlights-box,
-    .spots-box {
-        background-color: #161b22;
-        border: 1px solid #30363d;
-        padding: 15px;
-        margin-bottom: 15px;
-        border-radius: 6px;
-    }
-
-    .fact-box h3,
-    .highlights-box h3,
-    .spots-box h3 {
-        color: #ff7b72;
-        margin-bottom: 10px;
-        font-size: 13px;
-    }
-
-    .fact-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .fact-list li {
-        margin-bottom: 10px;
-        color: #c9d1d9;
-        font-size: 13px;
-    }
-
-    .fact-label {
-        color: #8b949e;
-        margin-right: 8px;
-    }
-
-    .highlights-box ul,
-    .spots-box ul {
-        list-style: none;
-        padding-left: 0;
-    }
-
-    .highlights-box ul li,
-    .spots-box ul li {
-        font-size: 13px;
-        margin-bottom: 8px;
-        padding-left: 15px;
-        position: relative;
-    }
-
-    .highlights-box ul li::before {
-        content: "▸";
-        position: absolute;
-        left: 0;
-        color: #7ee787;
-    }
-
-    .wildlife-content {
-        min-width: 0;
-    }
-
-    .wildlife-footer {
-        margin-top: 30px;
-        padding-top: 15px;
-        border-top: 1px solid #30363d;
-    }
-
-    .wildlife-footer a {
-        color: #58a6ff;
-        text-decoration: none;
-        font-size: 13px;
-    }
-
-    .wildlife-footer a:hover {
-        text-decoration: underline;
-    }
-
-    @media (max-width: 768px) {
-        .wildlife-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .wildlife-sidebar {
-            position: static;
-        }
-    }
+  }
 </style>

@@ -1,8 +1,12 @@
 <div class="destinations-box">
-  <h3>📍 涉及目的地</h3>
+  <h3>📍 {{ strings.ui.destinations_included }}</h3>
   <ul>
     {% for dest in page.destinations %}
-    <li><a href="{{ site.baseurl }}/destinations/{{ dest }}">{{ dest }}</a></li>
+    <li>
+      <a href="{{ site.baseurl }}{{ prefix }}/destinations/{{ dest }}"
+        >{{ dest }}</a
+      >
+    </li>
     {% endfor %}
   </ul>
 </div>

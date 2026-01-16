@@ -1,9 +1,9 @@
 <div class="wildlife-box">
-  <h3>🦁 动物目击几率</h3>
+  <h3>🦁 {{ strings.ui.spotting_prob }}</h3>
   <div class="wildlife-list">
     {% for animal in page.wildlife_spotting %}
     <div class="wildlife-item">
-      <a href="{{ site.baseurl }}/wildlife/{{ animal.slug }}"
+      <a href="{{ site.baseurl }}{{ prefix }}/wildlife/{{ animal.slug }}"
         >{{ animal.name }}</a
       >
       <span class="probability probability-{{ animal.chance }}"

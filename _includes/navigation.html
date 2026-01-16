@@ -32,9 +32,13 @@ site.data.locales[current_lang] %}
       {% if current_lang == 'en' %} {% assign target_zh = page.url |
       replace_first: '/en/', '/' %} {% if target_zh == '' or target_zh == nil
       %}{% assign target_zh = '/' %}{% endif %}
-      <a href="{{ site.baseurl }}{{ target_zh }}">中文网</a>
+      <a href="{{ site.baseurl }}{{ target_zh }}"
+        >{{ strings.ui.switch_lang }}</a
+      >
       {% else %} {% assign target_en = '/en' | append: page.url %}
-      <a href="{{ site.baseurl }}{{ target_en }}">English</a>
+      <a href="{{ site.baseurl }}{{ target_en }}"
+        >{{ strings.ui.switch_lang }}</a
+      >
       {% endif %}
     </span>
   </div>

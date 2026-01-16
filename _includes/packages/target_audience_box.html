@@ -1,11 +1,16 @@
 <div class="target-audience-box">
-  <h3>🎯 适合人群</h3>
+  <h3>🎯 {{ strings.ui.target_audience }}</h3>
   <div class="audience-tags">
     {% if page.target_audience %} {% for audience in page.target_audience %}
     <span class="audience-tag">{{ audience }}</span>
     {% endfor %} {% else %}
-    <span class="audience-tag">首次Safari</span>
-    <span class="audience-tag">情侣/夫妻</span>
+    <span class="audience-tag"
+      >{% if current_lang == 'en' %}First-time Safari{% else %}首次Safari{%
+      endif %}</span
+    >
+    <span class="audience-tag"
+      >{% if current_lang == 'en' %}Couples{% else %}情侣/夫妻{% endif %}</span
+    >
     {% endif %}
   </div>
 </div>

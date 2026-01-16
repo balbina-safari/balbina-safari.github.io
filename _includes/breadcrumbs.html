@@ -4,32 +4,41 @@
     <li class="breadcrumbs-item">
       <a href="{{ site.baseurl }}/">首页</a>
     </li>
-    {% case page.layout %}
-      {% when 'package' %}
-        <li class="breadcrumbs-item">
-          <a href="{{ site.baseurl }}/packages/">套餐</a>
-        </li>
-        <li class="breadcrumbs-item current" aria-current="page">{{ page.title }}</li>
-      {% when 'destination' %}
-        <li class="breadcrumbs-item">
-          <a href="{{ site.baseurl }}/destinations/">目的地</a>
-        </li>
-        <li class="breadcrumbs-item current" aria-current="page">{{ page.title }}</li>
-      {% when 'hotel' %}
-        <li class="breadcrumbs-item">
-          <a href="{{ site.baseurl }}/hotels/">酒店</a>
-        </li>
-        <li class="breadcrumbs-item current" aria-current="page">{{ page.title }}</li>
-      {% when 'wildlife' %}
-        <li class="breadcrumbs-item">
-          <a href="{{ site.baseurl }}/wildlife/">野生动物</a>
-        </li>
-        <li class="breadcrumbs-item current" aria-current="page">{{ page.title_cn }}</li>
-      {% when 'blog' %}
-        <li class="breadcrumbs-item">
-          <a href="{{ site.baseurl }}/blogs/">游记</a>
-        </li>
-        <li class="breadcrumbs-item current" aria-current="page">{{ page.title }}</li>
+    {% case page.layout %} {% when 'package' %}
+    <li class="breadcrumbs-item">
+      <a href="{{ site.baseurl }}/packages/">套餐</a>
+    </li>
+    <li class="breadcrumbs-item current" aria-current="page">
+      {{ page.title }}
+    </li>
+    {% when 'destination' %}
+    <li class="breadcrumbs-item">
+      <a href="{{ site.baseurl }}/destinations/">目的地</a>
+    </li>
+    <li class="breadcrumbs-item current" aria-current="page">
+      {{ page.title }}
+    </li>
+    {% when 'hotel' %}
+    <li class="breadcrumbs-item">
+      <a href="{{ site.baseurl }}/hotels/">酒店</a>
+    </li>
+    <li class="breadcrumbs-item current" aria-current="page">
+      {{ page.title }}
+    </li>
+    {% when 'wildlife' %}
+    <li class="breadcrumbs-item">
+      <a href="{{ site.baseurl }}/wildlife/">野生动物</a>
+    </li>
+    <li class="breadcrumbs-item current" aria-current="page">
+      {{ page.title_cn }}
+    </li>
+    {% when 'blog' %}
+    <li class="breadcrumbs-item">
+      <a href="{{ site.baseurl }}/blogs/">游记</a>
+    </li>
+    <li class="breadcrumbs-item current" aria-current="page">
+      {{ page.title }}
+    </li>
     {% endcase %}
   </ol>
 </nav>
@@ -53,13 +62,12 @@
 
   .breadcrumbs-item {
     display: flex;
-    align-items: center;
     font-size: 12px;
     color: #8b949e;
   }
 
   .breadcrumbs-item:not(:last-child)::after {
-    content: '›';
+    content: "›";
     margin-left: 8px;
     color: #30363d;
   }

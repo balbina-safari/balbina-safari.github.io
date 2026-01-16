@@ -1,7 +1,6 @@
 ---
 layout: wildlife
-title_cn: "非洲狮"
-title_en: "African Lion"
+title: "非洲狮"
 scientific_name: "Panthera leo"
 category: "大型食肉动物 (Big Cats)"
 conservation_status: "易危 (Vulnerable)"
@@ -137,7 +136,3 @@ best_spots:
 - **温馨时刻**: 雌狮与幼崽互动
 - **狩猎瞬间**: 雌狮追逐猎物(需要极大运气和快门速度)
 - **Kopjes之王**: 狮子站在裸岩顶端俯瞰草原
-
----
-
-[← 返回野生动物目录]({{ site.baseurl }}/wildlife/)

@@ -1,7 +1,6 @@
 ---
 layout: wildlife
-title_cn: "非洲草原象"
-title_en: "African Bush Elephant"
+title: "非洲草原象"
 scientific_name: "Loxodonta africana"
 category: "大型哺乳动物"
 conservation_status: "濒危"
@@ -139,7 +138,3 @@ best_spots:
 - **大象家族**: 母象带领幼崽行走
 - **喝水场景**: 大象在河边喝水,用象鼻喷水
 - **夕阳剪影**: 大象在夕阳下的剪影
-
----
-
-[← 返回野生动物目录]({{ site.baseurl }}/wildlife/)

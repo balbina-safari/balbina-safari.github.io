@@ -4,25 +4,82 @@ layout: default
 
 {% include lang_init.html %}
 
-<div class="package-layout">
-  <div class="package-header">
-    <h1 class="page-title">
-      {{ page.title }}
-      <span class="english-title">/ {{ page.english_title }}</span>
-    </h1>
-    <p class="package-meta">
-      <span class="duration">⏱️ {{ page.duration }}</span> |
-      <span class="difficulty">🎯 {{ page.difficulty }}</span> |
-      <span class="group-size">👥 {{ page.group_size }}</span>
-    </p>
-  </div>
-
-  <hr />
-
-  <!-- Package Info Section (formerly sidebar) -->
-  <div class="package-info">{% include packages/sidebar.html %}</div>
-
-  <hr />
-
-  <main class="package-content">{{ content }}</main>
+<div>
+  <h1>
+    {{ page.title }}
+    <span>/ {{ page.english_title }}</span>
+  </h1>
+  <p>
+    <span>⏱️ {{ page.duration }}</span> |
+    <span>🎯 {{ page.difficulty }}</span> |
+    <span>👥 {{ page.group_size }}</span>
+  </p>
 </div>
+
+<hr />
+
+<blockquote>
+  <strong>{{ strings.ui.price_ref }}</strong><br />
+  {{ strings.ui.price_from }}: <strong>{{ page.price_from }}</strong><br />
+  {{ strings.ui.level }}: {{ page.price_level }}<br />
+  {{ strings.ui.best_time }}: {{ page.best_time }}
+</blockquote>
+
+<blockquote>
+  <strong>🎯 {{ strings.ui.target_audience }}</strong><br />
+  {% if page.target_audience %}
+    {% for audience in page.target_audience %}
+      {{ audience }}{% unless forloop.last %} | {% endunless %}
+    {% endfor %}
+  {% else %}
+    {% if current_lang == 'en' %}First-time Safari{% else %}首次Safari{% endif %} |
+    {% if current_lang == 'en' %}Couples{% else %}情侣/夫妻{% endif %}
+  {% endif %}
+</blockquote>
+
+<blockquote>
+  <p>
+    <a href="{{ site.baseurl }}{{ prefix }}/contact/?package={{ page.title }}">
+      [ {{ strings.ui.contact_now }} ]
+    </a>
+  </p>
+</blockquote>
+
+<h3>🌟 {{ strings.ui.trip_highlights }}</h3>
+<ul>
+  {% for item in page.highlights %}
+    <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+
+<h3>📍 {{ strings.ui.destinations_included }}</h3>
+<p>
+  {% for dest in page.destinations %}
+    <a href="{{ site.baseurl }}{{ prefix }}/destinations/{{ dest }}">{{ dest }}</a>{% unless forloop.last %} | {% endunless %}
+  {% endfor %}
+</p>
+
+{% if page.wildlife_spotting %}
+<h3>🦁 {{ strings.ui.spotting_prob }}</h3>
+<p>
+  {% for animal in page.wildlife_spotting %}
+    <a href="{{ site.baseurl }}{{ prefix }}/wildlife/{{ animal.slug }}">{{ animal.name }}</a>
+    [{{ animal.chance }}]{% unless forloop.last %} | {% endunless %}
+  {% endfor %}
+</p>
+{% endif %}
+
+{% if page.related_blogs %}
+<h3>📝 {{ strings.ui.related_blogs }}</h3>
+<ul>
+  {% for blog in page.related_blogs %}
+    <li>
+      <a href="{{ site.baseurl }}{{ prefix }}/blogs/{{ blog }}">{{ strings.ui.view_blog }}</a>
+    </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+<hr />
+
+{{ content }}

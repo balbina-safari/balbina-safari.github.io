@@ -1,7 +1,6 @@
 ---
 layout: wildlife
-title_cn: "黑长尾猴"
-title_en: "Vervet Monkey"
+title: "Vervet Monkey"
 scientific_name: "Chlorocebus pygerythrus"
 category: "Primate"
 conservation_status: "Least Concern"
@@ -18,49 +17,52 @@ best_spots:
   - Common in all parks
 ---
 
-## Overview
+## 🐒 Vervet Monkey - The Clever Alarm Expert
 
-Smaller monkey. Has complex alarm system: different alarm calls for snakes, leopards, eagles. Often active near camps, will steal food, need to secure belongings!
+### Overview
 
-*(Detailed content for this species to be completed)*
+The Vervet Monkey is a smaller monkey with a complex alarm system: different alarm calls for snakes, leopards, eagles. They are often active near camps, will steal food, need to secure belongings! Vervet monkeys are highly adaptable primates, capable of surviving in various environments.
 
----
+### Physical Characteristics
 
-## Physical Characteristics
+#### Body Features
+- **Size**: Males 4-8kg, females 3-5kg
+- **Length**: 40-60cm (excluding tail)
+- **Tail**: About 50-70cm long
+- **Fur**: Gray or olive, white belly
 
-[Detailed description to be added]
+#### Unique Features
+- **Face**: Black face with white eyebrows
+- **Tail**: Long tail for balance
+- **Limbs**: Long slender limbs, suitable for arboreal and terrestrial activity
+- **Face**: Blue or gray face
 
----
+### Behavior and Habits
 
-## Behavior and Habits
+#### Alarm System
+- **Complex Alarms**: Different alarm calls for snakes, leopards, eagles
+- **Group Response**: Entire group responds appropriately to alarms
+- **Learning Behavior**: Young monkeys learn alarm system through observation
 
-### Feeding Behavior
-[To be added]
+#### Feeding Behavior
+- **Omnivorous**: Eat fruits, leaves, insects, small animals, crops
+- **Terrestrial Foraging**: Often forage on ground
+- **Food Stealing**: Often steal food near camps
 
-### Social Structure
-[To be added]
+#### Social Structure
+- **Group Living**: Form groups of 10-50 individuals
+- **Hierarchy**: Strict hierarchy within groups
+- **Matrilineal Society**: Females are the stable core of the group
+- **Territorial Awareness**: Mark territory through vocalizations and scent
 
----
+### Safari Observation Tips
 
-## Conservation Status
+#### Best Viewing Locations
+- **Common in All Parks**: Vervet monkeys are common in all parks
+- **Near Camps**: Often active near camps
 
-Conservation Status: **Least Concern**
-
-[Threat factors and conservation measures to be added]
-
----
-
-## Safari Observation Tips
-
-### Best Viewing Locations
-- Common in all parks
-
-### Identification Points
-- Black face with white brow
-- Long tail
-- Herd animals
-- Active at dawn and dusk
-
----
-
-[← Return to Wildlife Directory]({{ site.baseurl }}/en/wildlife/)
+#### Observation Techniques
+- **Notice Alarms**: Can observe vervet monkeys when hearing alarm calls
+- **Keep Distance**: Vervet monkeys may steal food, maintain safe distance
+- **Secure Belongings**: Carefully secure food and belongings to avoid theft
+- **Observe Groups**: Vervet monkeys usually appear in groups

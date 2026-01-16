@@ -1,7 +1,6 @@
 ---
 layout: wildlife
-title_cn: "狞猫"
-title_en: "Caracal"
+title: "Caracal"
 scientific_name: "Caracal caracal"
 category: "Medium Cat"
 conservation_status: "Least Concern"
@@ -18,49 +17,52 @@ best_spots:
   - Occasionally seen in various parks
 ---
 
-## Overview
+## 🐱 Caracal - The Jumping Master of the Night
 
-Very rare and difficult to spot medium-sized cat. Black tufts on ear tips are the most distinctive feature. Excellent jumping ability enables it to catch birds in flight.
+### Overview
 
-*(Detailed content for this species to be completed)*
+The Caracal is a very rare and difficult to spot medium-sized cat, with black tufts on ear tips being the most distinctive feature. They possess excellent jumping ability, capable of jumping 3 meters high to catch birds in flight. Caracals are nocturnal animals, extremely agile, and one of the most elusive predators on African savannas.
 
----
+### Physical Characteristics
 
-## Physical Characteristics
+#### Body Features
+- **Size**: Males 8-20kg, females 8-15kg
+- **Length**: 60-90cm (excluding tail)
+- **Tail**: About 20-30cm long
+- **Fur**: Red-brown or sandy-yellow, white belly
 
-[Detailed description to be added]
+#### Unique Features
+- **Ear Tufts**: Black tufts on ear tips, like antennas
+- **Long Legs**: Long legs relative to body size, suitable for jumping
+- **Short Tail**: Very short tail, suitable for quick turns
+- **Face**: Elongated face with large eyes
 
----
+### Behavior and Habits
 
-## Behavior and Habits
+#### Hunting Behavior
+- **Jump Hunting**: Can jump 3 meters high to catch birds in flight
+- **Nocturnal**: Mainly hunt at night
+- **Ambush**: Stalk prey then suddenly attack
+- **Success Rate**: Caracals have high hunting success rate, about 50%
 
-### Feeding Behavior
-[To be added]
+#### Feeding Behavior
+- **Main Diet**: Mainly eat birds, small mammals, rodents
+- **Opportunistic**: Also eat reptiles, insects
+- **Food Intake**: Adult caracals need 1-2kg of food daily
 
-### Social Structure
-[To be added]
+#### Social Structure
+- **Solitary**: Caracals are solitary animals, except during mating season
+- **Territorial Awareness**: Males are territorial, mark through scent
+- **Mating**: Females can come into estrus year-round, gestation about 70 days
 
----
+### Safari Observation Tips
 
-## Conservation Status
+#### Best Viewing Locations
+- **Occasionally Seen in Various Parks**: Caracals are very rare, occasionally seen in all parks
+- **Night Observation**: Night is the best time to observe caracals
 
-Conservation Status: **Least Concern**
-
-[Threat factors and conservation measures to be added]
-
----
-
-## Safari Observation Tips
-
-### Best Viewing Locations
-- Occasionally seen in various parks
-
-### Identification Points
-- Black tufts on long ear tips
-- Excellent jumping ability (can jump 3m high)
-- Nocturnal
-- Extremely agile
-
----
-
-[← Return to Wildlife Directory]({{ site.baseurl }}/en/wildlife/)
+#### Observation Techniques
+- **Night Observation**: Use night vision equipment or flashlight
+- **Stay Quiet**: Caracals are very shy, easily startled
+- **Be Patient**: Caracals may stay motionless for hours
+- **Look for Birds**: If you see birds gathering, there may be a caracal nearby

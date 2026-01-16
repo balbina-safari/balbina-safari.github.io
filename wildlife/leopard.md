@@ -1,7 +1,6 @@
 ---
 layout: wildlife
-title_cn: "非洲豹"
-title_en: "African Leopard"
+title: "非洲豹"
 scientific_name: "Panthera pardus"
 category: "大型猫科"
 conservation_status: "易危"
@@ -182,6 +181,4 @@ best_spots:
 
 **成功概率**: 约30-50%(取决于地点和向导经验)
 
----
 
-[← 返回野生动物目录]({{ site.baseurl }}/wildlife/)

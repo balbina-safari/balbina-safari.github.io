@@ -1,7 +1,6 @@
 ---
 layout: wildlife
-title_cn: "非洲草原象"
-title_en: "African Bush Elephant"
+title: "African Bush Elephant"
 scientific_name: "Loxodonta africana"
 category: "Large Mammal"
 conservation_status: "Endangered"
@@ -139,7 +138,3 @@ The largest land animal on Earth today. Highly intelligent, possessing self-awar
 - **Elephant Families**: Female leading calves walking
 - **Drinking Scenes**: Elephants drinking at rivers, spraying water with trunks
 - **Sunset Silhouette**: Elephant silhouettes against sunset
-
----
-
-[← Return to Wildlife Directory]({{ site.baseurl }}/en/wildlife/)

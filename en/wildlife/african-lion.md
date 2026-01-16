@@ -1,7 +1,6 @@
 ---
 layout: wildlife
-title_cn: "非洲狮"
-title_en: "African Lion"
+title: "African Lion"
 scientific_name: "Panthera leo"
 category: "Large Carnivore (Big Cats)"
 conservation_status: "Vulnerable"
@@ -137,7 +136,3 @@ A typical pride consists of:
 - **Heartwarming Moment**: Female interacting with cubs
 - **Hunting Instant**: Female chasing prey (requires extreme luck and fast shutter speed)
 - **King of Kopjes**: Lion standing on top of bare rock overlooking savanna
-
----
-
-[← Return to Wildlife Directory]({{ site.baseurl }}/en/wildlife/)

@@ -83,9 +83,7 @@ site.data.locales[current_lang] %} {% comment %} Hide on homepage {% endcomment
     </li>
     {% assign show_current = false %} {% endif %} {% if show_current %}
     <li class="breadcrumbs-item current" aria-current="page">
-      {% if page.layout == 'wildlife' %} {% if current_lang == 'en' %}{{
-      page.title_en }}{% else %}{{ page.title_cn }}{% endif %} {% else %} {{
-      page.title }} {% endif %}
+      {{ page.title }}
     </li>
     {% endif %}
   </ol>

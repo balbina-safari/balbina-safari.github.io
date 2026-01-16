@@ -1,98 +1,94 @@
 ---
 layout: default
-title: Wildlife Catalog
+title: Wildlife Guide
 ---
-
-{% if lang == 'en' %}
-{% assign prefix = '/en' %}
-{% else %}
-{% assign prefix = '' %}
-{% endif %}
 
 # Who Will You Meet?
 
-100 animals, 100 stories.
+100 species, 100 stories.
 
-On the plains of Tanzania, every encounter is unique. It might be a lioness carrying her cub across the path in front of your vehicle, a herd of elephants lining up at sunset to head toward a waterhole, or a leopard napping in an acacia tree with its tail lazily hanging down.
+On the savannas of Tanzania, every encounter is unique. It could be a lioness carrying cubs crossing in front of your vehicle, a herd of elephants walking in line toward a waterhole at sunset, or a leopard napping in an acacia tree with its tail dangling lazily.
 
-This catalog features 100 animals you are most likely to encounter on a Safari. It's not just names and photos, but also their habits, best viewing times, photography tips, and those details that can only be appreciated in the wild.
+This guide features the 100 animals you're most likely to encounter on safari. Not just names and photos, but also their habits, best viewing times, photography tips, and those details you can only appreciate in the wild.
 
-**Usage Tips**: Research your target animals before departure, consult this guide anytime during your Safari, and relive every encounter after you return.
+**Usage Tips**: Research target animals before departure | Reference during safari | Relive every encounter after returning
 
 ---
 
 ## 🦁 Large Carnivores - Rulers of the Savanna
 
-They stand at the top of the food chain and are the most exciting stars of any Safari.
+They sit at the top of the food chain and are the most exciting protagonists on safari.
 
-A lion's roar can travel 5 kilometers; a leopard can drag its prey up a 6-meter tree; a cheetah can accelerate to 100 km/h in just 3 seconds—every feature of the big cats is a perfect design evolved for survival. The moment you see them, you'll understand why humans both respect and fear them.
+A lion's roar can travel 5 kilometers, a leopard can drag prey up a 6-meter tree, a cheetah can accelerate to 100 km/h in 3 seconds - every feature of big cats is a perfect design evolved for survival. The moment you see them, you'll understand why humans both respect and fear them.
 
-**Viewing Skills**: Most active at dawn and dusk | Look up in trees (Leopards) and on rocks (Cheetahs) | Follow the vultures (might indicate a kill).
+**Viewing Tips**: Most active at dawn and dusk | Watch trees (leopards) and rocks (cheetahs) | Follow vultures (possible kill)
 
 ### Big Cats
 
-- [**African Lion**]({{ site.baseurl }}{{ prefix }}/wildlife/african-lion) ⭐ Detailed entry complete
+- [**African Lion**]({{ site.baseurl }}/en/wildlife/african-lion) ⭐ Detailed Complete
 
-  - > King of beasts | Social | Male's mane | Vulnerable
+  - > King of Beasts | Social | Male Mane | Vulnerable
 
-- [Leopard]({{ site.baseurl }}{{ prefix }}/wildlife/leopard)
+- [African Leopard]({{ site.baseurl }}/en/wildlife/leopard)
 
-  - > Most elusive big cat | Great climber | Nocturnal | Vulnerable
+  - > Most elusive big cat | Excellent climber | Nocturnal | Vulnerable
 
-- [Cheetah]({{ site.baseurl }}{{ prefix }}/wildlife/cheetah)
-  - > Fastest on land (120 km/h) | Black tear marks | Vulnerable
+- [Cheetah]({{ site.baseurl }}/en/wildlife/cheetah)
+  - > Fastest on land 120km/h | Black tear marks | Vulnerable
 
-### Medium & Small Cats
+### Small to Medium Cats
 
-- [Caracal]({{ site.baseurl }}{{ prefix }}/wildlife/caracal) - Long tufted ears
-- [Serval]({{ site.baseurl }}{{ prefix }}/wildlife/serval) - Extra long legs
-- [African Wildcat]({{ site.baseurl }}{{ prefix }}/wildlife/african-wildcat) - Ancestor of the house cat
+- [Caracal]({{ site.baseurl }}/en/wildlife/caracal) - Long ear tufts
+- [Serval]({{ site.baseurl }}/en/wildlife/serval) - Extremely long legs
+- [African Wildcat]({{ site.baseurl }}/en/wildlife/african-wildcat) - Ancestor of domestic cats
 
 ---
 
 ## 🐘 Large Mammals - Gentle Giants
 
-Huge in size, but mostly gentle—unless you provoke them.
+Massive in size, but mostly gentle. Unless you provoke them.
 
-The memory of the elephant, the quick temper of the rhino, the territorial nature of the hippo, the elegance of the giraffe—each giant has a unique personality. They are keystone species of the savanna ecosystem and the animals people most easily form emotional connections with.
+Elephant memory, rhino temper, hippo territoriality, giraffe elegance - each giant animal has unique personality. They are keystone species of savanna ecosystems and最容易让人产生情感连接的动物。
 
-**Fun Facts**: Elephants communicate using infrasound | Hippos are the deadliest animals to humans in Africa | A giraffe's tongue is up to 50 cm long.
+**Interesting Facts**: Elephants use infrasound (inaudible to humans) | Hippos kill more people in Africa than any other animal | Giraffe tongues are 50 cm long
 
-### Elephantidae
+### Elephant Family
 
-- [**African Bush Elephant**]({{ site.baseurl }}{{ prefix }}/wildlife/african-elephant)
+- [**African Bush Elephant**]({{ site.baseurl }}/en/wildlife/african-elephant)
   - > Largest land animal | Matriarchal society | Endangered
 
-### Rhinoceros
+### Rhinoceros Family
 
-- [Black Rhino]({{ site.baseurl }}{{ prefix }}/wildlife/black-rhino) - Critically Endangered | Only ~30 in Ngorongoro
-- [White Rhino]({{ site.baseurl }}{{ prefix }}/wildlife/white-rhino) - Square wide mouth | Extremely rare in Tanzania
+- [Black Rhino]({{ site.baseurl }}/en/wildlife/black-rhino) - Critically Endangered | Only about 30 in Ngorongoro
+- [White Rhino]({{ site.baseurl }}/en/wildlife/white-rhino) - Square wide mouth | Extremely rare in Tanzania
 
-### Hippos & Giraffes
+### Hippo and Giraffe
 
-- [Hippopotamus]({{ site.baseurl }}{{ prefix }}/wildlife/hippopotamus) - Most dangerous animal in Africa
-- [Giraffe]({{ site.baseurl }}{{ prefix }}/wildlife/giraffe) - Tallest on land (5.7m)
+- [Hippopotamus]({{ site.baseurl }}/en/wildlife/hippopotamus) - One of Africa's most dangerous animals
+- [Giraffe]({{ site.baseurl }}/en/wildlife/giraffe) - Tallest on land 5.7m
 
 ---
 
-## 🦌 Herbivores - Stars of the Migration
+## 🦌 Herbivores - Protagonists of Great Migration
 
-The most numerous and easiest to see, but do not underestimate them.
+Most numerous, also easiest to see. But don't underestimate them.
 
-1.5 million wildebeest, 300,000 zebras, countless gazelles and antelopes—herbivores are the foundation of the savanna ecosystem and the stars of the Great Migration. Their survival strategy is "safety in numbers."
+1.5 million wildebeest, 300,000 zebras, countless gazelles and antelopes - herbivores are the foundation of savanna ecosystems and protagonists of the Great Migration. Their survival strategy is "strength in numbers": although individuals are weak, gathering in thousands makes predators helpless.
 
-**Observation Highlights**: Great Migration (July–October) | Calving Season (January–March) | Mara River Crossing (Breathtaking).
+**Viewing Highlights**: Great Migration (July-October) | Calving Season (January-March) | Mara River Crossing (thrilling)
 
-### Migration Stars
+### Great Migration Protagonists
 
-- [Blue Wildebeest]({{ site.baseurl }}{{ prefix }}/wildlife/wildebeest) - 1.5 million migrating animals
-- [Plains Zebra]({{ site.baseurl }}{{ prefix }}/wildlife/plains-zebra) - Unique stripes
+- [Blue Wildebeest]({{ site.baseurl }}/en/wildlife/wildebeest) - 1.5 million Great Migration
+- [Plains Zebra]({{ site.baseurl }}/en/wildlife/plains-zebra) - Unique stripes
 
 ### Buffalo
 
-- [African Buffalo]({{ site.baseurl }}{{ prefix }}/wildlife/african-buffalo) - Big 5 | Quick-tempered
+- [African Buffalo]({{ site.baseurl }}/en/wildlife/african-buffalo) - Big 5 | Aggressive temperament
 
 ### Antelopes - 20 Species
+
+_Framework generated, detailed content to be completed_
 
 - Thomson's Gazelle
 - Grant's Gazelle
@@ -104,158 +100,168 @@ The most numerous and easiest to see, but do not underestimate them.
 - Lesser Kudu
 - Waterbuck
 - Bushbuck
-- [More Antelope Species...]
+- [More antelope species...]
 
 ---
 
 ## 🐵 Primates
 
-### Great Apes
+### Apes
 
-- [Chimpanzee]({{ site.baseurl }}{{ prefix }}/wildlife/chimpanzee) - 98.8% DNA identical to humans | Endangered
+- [Common Chimpanzee]({{ site.baseurl }}/en/wildlife/chimpanzee) - 98.8% genes shared with humans | Endangered
 
 ### Monkeys
 
-- [Olive Baboon]({{ site.baseurl }}{{ prefix }}/wildlife/olive-baboon) - Large social groups
-- [Vervet Monkey]({{ site.baseurl }}{{ prefix }}/wildlife/vervet-monkey) - Known to steal food
-- [Colobus Monkey]({{ site.baseurl }}{{ prefix }}/wildlife/colobus-monkey) - Black and white with long tails
-- [Blue Monkey]({{ site.baseurl }}{{ prefix }}/wildlife/blue-monkey) - Shy arboreal monkey
+- [Olive Baboon]({{ site.baseurl }}/en/wildlife/olive-baboon) - Large groups
+- [Vervet Monkey]({{ site.baseurl }}/en/wildlife/vervet-monkey) - Will steal food
+- [Black and White Colobus]({{ site.baseurl }}/en/wildlife/colobus-monkey) - Black and white long tail
+- [Blue Monkey]({{ site.baseurl }}/en/wildlife/blue-monkey) - Arboreal and shy
 
 ---
 
 ## 🦘 Other Mammals
 
-### Hyenas & Wild Dogs
+### Hyenas and Wild Dogs
 
-- [Spotted Hyena]({{ site.baseurl }}{{ prefix }}/wildlife/spotted-hyena) - Matriarchal | Powerful bite
-- [African Wild Dog]({{ site.baseurl }}{{ prefix }}/wildlife/african-wild-dog) - Endangered | 80% hunt success rate
+- [Spotted Hyena]({{ site.baseurl }}/en/wildlife/spotted-hyena) - Matriarchal society | Powerful bite
+- [African Wild Dog]({{ site.baseurl }}/en/wildlife/african-wild-dog) - Endangered | 80% hunting success
 
-### Suidae
+### Warthog Family
 
-- [Warthog]({{ site.baseurl }}{{ prefix }}/wildlife/warthog)
-- [Bushpig]({{ site.baseurl }}{{ prefix }}/wildlife/bushpig)
+- [Warthog]({{ site.baseurl }}/en/wildlife/warthog)
+- [Bushpig]({{ site.baseurl }}/en/wildlife/bushpig)
 
 ### Small Mammals
 
-- [Honey Badger]({{ site.baseurl }}{{ prefix }}/wildlife/honey-badger) - "Most fearless animal on Earth"
-- [Mongoose]({{ site.baseurl }}{{ prefix }}/wildlife/mongoose)
-- [Rock Hyrax]({{ site.baseurl }}{{ prefix }}/wildlife/rock-hyrax) - Closest living relative to elephants
-- [Pangolin]({{ site.baseurl }}{{ prefix }}/wildlife/pangolin) - Extremely rare
-- [Aardvark]({{ site.baseurl }}{{ prefix }}/wildlife/aardvark) - Nocturnal
+- [Honey Badger]({{ site.baseurl }}/en/wildlife/honey-badger) - "World's most fearless animal"
+- [Mongoose]({{ site.baseurl }}/en/wildlife/mongoose)
+- [Rock Hyrax]({{ site.baseurl }}/en/wildlife/rock-hyrax) - Close relative of elephants
+- [Pangolin]({{ site.baseurl }}/en/wildlife/pangolin) - Extremely rare
+- [Aardvark]({{ site.baseurl }}/en/wildlife/aardvark) - Nocturnal
 
 ---
 
-## 🦅 Birds (25 Species)
+## 🦅 Birds - 25 Species
 
-### Raptors
+### Birds of Prey
 
-- [Secretary Bird]({{ site.baseurl }}{{ prefix }}/wildlife/secretary-bird)
-- [African Fish Eagle]({{ site.baseurl }}{{ prefix }}/wildlife/african-fish-eagle)
-- [Crowned Eagle]({{ site.baseurl }}{{ prefix }}/wildlife/crowned-eagle)
+- [Secretary Bird]({{ site.baseurl }}/en/wildlife/secretary-bird)
+- [African Fish Eagle]({{ site.baseurl }}/en/wildlife/african-fish-eagle)
+- [Crowned Eagle]({{ site.baseurl }}/en/wildlife/crowned-eagle)
 
 ### Wading Birds
 
-- [Grey Crowned Crane]({{ site.baseurl }}{{ prefix }}/wildlife/crowned-crane)
-- [Saddle-billed Stork]({{ site.baseurl }}{{ prefix }}/wildlife/saddlebill-stork)
-- [Lesser Flamingo]({{ site.baseurl }}{{ prefix }}/wildlife/lesser-flamingo)
+- [Grey Crowned Crane]({{ site.baseurl }}/en/wildlife/crowned-crane)
+- [Saddle-billed Stork]({{ site.baseurl }}/en/wildlife/saddlebill-stork)
+- [Lesser Flamingo]({{ site.baseurl }}/en/wildlife/lesser-flamingo)
 
 ### Colorful Birds
 
-- [Lilac-breasted Roller]({{ site.baseurl }}{{ prefix }}/wildlife/lilac-breasted-roller) - Most photogenic
-- [Superb Starling]({{ site.baseurl }}{{ prefix }}/wildlife/superb-starling)
+- [Lilac-breasted Roller]({{ site.baseurl }}/en/wildlife/lilac-breasted-roller) - Most photogenic
+- [Superb Starling]({{ site.baseurl }}/en/wildlife/superb-starling)
 
 ### Large Birds
 
-- [Ostrich]({{ site.baseurl }}{{ prefix }}/wildlife/ostrich) - World's largest bird
-- [Southern Ground Hornbill]({{ site.baseurl }}{{ prefix }}/wildlife/ground-hornbill)
+- [Ostrich]({{ site.baseurl }}/en/wildlife/ostrich) - World's largest bird
+- [Southern Ground Hornbill]({{ site.baseurl }}/en/wildlife/ground-hornbill)
+
+### Vultures
+
+- Rüppell's Vulture, White-backed Vulture, etc.
 
 ---
 
-## 🐊 Reptiles (10 Species)
+## 🐊 Reptiles - 10 Species
 
-- [Nile Crocodile]({{ site.baseurl }}{{ prefix }}/wildlife/nile-crocodile) - Up to 6 meters
-- [Monitor Lizard]({{ site.baseurl }}{{ prefix }}/wildlife/monitor-lizard)
-- [Chameleon]({{ site.baseurl }}{{ prefix }}/wildlife/chameleon)
-- [African Rock Python]({{ site.baseurl }}{{ prefix }}/wildlife/african-python)
-- [Cobra]({{ site.baseurl }}{{ prefix }}/wildlife/cobra)
-- [Black Mamba]({{ site.baseurl }}{{ prefix }}/wildlife/black-mamba) - Highly venomous
-- [Leopard Tortoise]({{ site.baseurl }}{{ prefix }}/wildlife/leopard-tortoise)
-- [Terrapin]({{ site.baseurl }}{{ prefix }}/wildlife/terrapin)
+- [Nile Crocodile]({{ site.baseurl }}/en/wildlife/nile-crocodile) - Can reach 6 meters
+- [Monitor Lizard]({{ site.baseurl }}/en/wildlife/monitor-lizard)
+- [Chameleon]({{ site.baseurl }}/en/wildlife/chameleon)
+- [African Rock Python]({{ site.baseurl }}/en/wildlife/african-python)
+- [Cobra]({{ site.baseurl }}/en/wildlife/cobra)
+- [Black Mamba]({{ site.baseurl }}/en/wildlife/black-mamba) - Highly venomous
+- [Leopard Tortoise]({{ site.baseurl }}/en/wildlife/leopard-tortoise)
+- [Terrapin]({{ site.baseurl }}/en/wildlife/terrapin)
 
 ---
 
-## 🐋 Marine Life (Zanzibar / Mafia Island)
+## 🐋 Marine Life - Zanzibar/Mafia Island
 
-- [Whale Shark]({{ site.baseurl }}{{ prefix }}/wildlife/whale-shark) - World's largest fish (12m+)
-- [Bottlenose Dolphin]({{ site.baseurl }}{{ prefix }}/wildlife/bottlenose-dolphin)
-- [Green Sea Turtle]({{ site.baseurl }}{{ prefix }}/wildlife/green-sea-turtle)
-- [Hawksbill Turtle]({{ site.baseurl }}{{ prefix }}/wildlife/hawksbill-turtle)
-- [Manta Ray]({{ site.baseurl }}{{ prefix }}/wildlife/manta-ray)
+- [Whale Shark]({{ site.baseurl }}/en/wildlife/whale-shark) - World's largest fish 12m+
+- [Bottlenose Dolphin]({{ site.baseurl }}/en/wildlife/bottlenose-dolphin)
+- [Green Sea Turtle]({{ site.baseurl }}/en/wildlife/green-sea-turtle)
+- [Hawksbill Turtle]({{ site.baseurl }}/en/wildlife/hawksbill-turtle)
+- [Manta Ray]({{ site.baseurl }}/en/wildlife/manta-ray)
 
 ---
 
 ## 📊 Browse by Conservation Status
 
-### Critically Endangered (CR)
+### Critically Endangered
 
 - Black Rhino
 
-### Endangered (EN)
+### Endangered
 
-- African Elephant, Chimpanzee, African Wild Dog
+- African Elephant
+- Chimpanzee
+- African Wild Dog
 
-### Vulnerable (VU)
+### Vulnerable
 
-- African Lion, African Leopard, Cheetah, Hippopotamus, Giraffe
+- African Lion
+- African Leopard
+- Cheetah
+- Hippopotamus
+- Giraffe
 
 ---
 
-## 🔍 Observation Difficulty
+## 🔍 Browse by Viewing Difficulty
 
 ### ⭐ Easy to See
 
 Wildebeest, Zebra, Gazelle, Giraffe, Buffalo, Baboon, Warthog
 
-### ⭐⭐ Medium Difficulty
+### ⭐⭐ Moderate Difficulty
 
 Lion, Elephant, Hippo, Hyena, Vervet Monkey
 
-### ⭐⭐⭐ Hard to See
+### ⭐⭐⭐ Difficult to See
 
 Leopard, Cheetah, Black Rhino, Wild Dog
 
-### ⭐⭐⭐⭐ Extremely Rare
+### ⭐⭐⭐⭐ Extremely Difficult to See
 
 Caracal, Serval, Honey Badger, Pangolin, Aardvark
 
 ---
 
-## 💡 Safari Observation Advice
+## 💡 Safari Observation Tips
 
-**Preparation**:
+**Before Departure**:
 
-- Research habits and characteristics.
-- Know the best times (dawn/dusk).
-- Bring binoculars and long lenses.
+- Research target animal habits and characteristics
+- Learn best viewing times (dawn/dusk)
+- Prepare binoculars and telephoto lenses
 
 **During Safari**:
 
-- Consult this guide anytime.
-- Follow professional guide advice.
-- Be patient.
+- Carry this guide or download offline version
+- Follow guide's professional advice
+- Be patient, don't rush
 
 **Photography Tips**:
 
-- Use burst mode for action.
-- Pay attention to light direction.
-- Respect animals and keep distance.
+- Use burst mode to capture action
+- Pay attention to light direction (shoot with light behind you)
+- Respect animals, maintain safe distance
 
 **Conservation Awareness**:
 
-- Do not feed or disturb animals.
-- Keep noise levels low.
-- Follow park rules.
+- Do not feed or disturb animals
+- Do not make loud noises
+- Follow park rules, protect wildlife habitats
 
 ---
 
-[🏠 Home]({{ site.baseurl }}{{ prefix }}/) | [📦 Browse All Packages]({{ site.baseurl }}{{ prefix }}/packages/)
+[🏠 Return to Home]({{ site.baseurl }}/) | [📦 View All Packages]({{ site.baseurl }}/en/packages/)

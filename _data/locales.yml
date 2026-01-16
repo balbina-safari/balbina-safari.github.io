@@ -1,0 +1,49 @@
+zh:
+  nav:
+    home: "首页"
+    packages: "套餐"
+    destinations: "目的地"
+    wildlife: "野生动物"
+    hotels: "酒店"
+    blogs: "游记"
+    about: "关于我们"
+    contact: "联系我们"
+  footer:
+    tagline: "坦桑尼亚地接旅行 · Safari 专家"
+    quick_links: "快速链接"
+    contact_us: "联系我们"
+    hours: "营业时间"
+    bj_time: "北京时间"
+    tz_time: "坦桑尼亚时间"
+    response: "24小时内回复"
+  ui:
+    back_to_root: "返回根目录"
+    back_home: "返回首页"
+    all_packages: "查看全部套餐"
+    contact_now: "立即咨询"
+    loading: "加载中..."
+
+en:
+  nav:
+    home: "Home"
+    packages: "Packages"
+    destinations: "Destinations"
+    wildlife: "Wildlife"
+    hotels: "Hotels"
+    blogs: "Blogs"
+    about: "About Us"
+    contact: "Contact"
+  footer:
+    tagline: "Tanzania Ground Handler & Safari Specialist"
+    quick_links: "Quick Links"
+    contact_us: "Contact Us"
+    hours: "Opening Hours"
+    bj_time: "Beijing Time"
+    tz_time: "Tanzania Time"
+    response: "Reply within 24h"
+  ui:
+    back_to_root: "Back to Root"
+    back_home: "Back Home"
+    all_packages: "All Packages"
+    contact_now: "Consult Now"
+    loading: "Loading..."

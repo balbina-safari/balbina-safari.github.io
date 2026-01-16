@@ -1,16 +1,28 @@
+{% if lang == 'en' %} {% assign prefix = '/en' %} {% else %} {% assign prefix =
+'' %} {% endif %}
 <footer class="main-footer">
   <hr />
+  <p>🌍 {{ t.footer.tagline }}</p>
   <p>
-    🌍 巴比旅行 - 坦桑尼亚地接旅行 · Safari专家<br />
-    Tanzania Ground Handler & Safari Specialist
+    {{ t.footer.quick_links }}: [<a
+      href="{{ site.baseurl }}{{ prefix }}/packages/"
+      >📦 {{ t.nav.packages }}</a
+    >] [<a href="{{ site.baseurl }}{{ prefix }}/destinations/"
+      >🏞️ {{ t.nav.destinations }}</a
+    >] [<a href="{{ site.baseurl }}{{ prefix }}/wildlife/"
+      >🦁 {{ t.nav.wildlife }}</a
+    >] [<a href="{{ site.baseurl }}{{ prefix }}/hotels/"
+      >🏨 {{ t.nav.hotels }}</a
+    >] [<a href="{{ site.baseurl }}{{ prefix }}/blogs/">📝 {{ t.nav.blogs }}</a
+    >]
   </p>
-  <p>快速链接: [📦 套餐] [🏞️ 目的地] [🦁 野生动物] [🏨 酒店] [📝 游记]</p>
   <p>
-    联系我们: 📧 info@balbinasafari.com | 💬 微信: baba-leo | 📱 WhatsApp:
-    +255653486509
+    {{ t.footer.contact_us }}: 📧 info@balbinasafari.com | 💬 {{ t.nav.contact
+    }}: baba-leo | 📱 WhatsApp: +255653486509
   </p>
   <p>
-    营业时间: 北京时间 14:00-22:00 | 坦桑尼亚时间 09:00-17:00 | 24小时内回复
+    {{ t.footer.hours }}: {{ t.footer.bj_time }} 14:00-22:00 | {{
+    t.footer.tz_time }} 09:00-17:00 | {{ t.footer.response }}
   </p>
   <p>&copy; 2025 Balbina Safari. All rights reserved.</p>
 </footer>

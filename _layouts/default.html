@@ -1,5 +1,10 @@
+{% assign url_parts = page.url | split: '/' %} {% assign lang_candidate =
+url_parts[1] %} {% if site.languages contains lang_candidate %} {% assign lang =
+lang_candidate %} {% else %} {% assign lang = site.default_lang %} {% endif %}
+{% assign t = site.data.locales[lang] %}
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ lang }}">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

@@ -1,16 +1,30 @@
+{% if lang == 'en' %} {% assign prefix = '/en' %} {% else %} {% assign prefix =
+'' %} {% endif %}
+
 <nav>
   <pre><code style="display: block ; padding: 0;line-height: 13px;">   __        ____   _                      ___         _ 
   / /  ___ _/ / /  (_)__  ___ _  ___ ___ _/ _/__ _____(_)
  / _ \/ _ `/ / _ \/ / _ \/ _ `/ (_-(/ _ `/ _/ _ `/ __/ / 
 /_.__/\_,_/_/_.__/_/_//_/\_,_/ /___/\_,_/_/ \_,_/_/ /_/  </code></pre>
   <div>
-    <a href="{{ site.baseurl }}/">首页</a>
-    <a href="{{ site.baseurl }}/packages/">套餐</a>
-    <a href="{{ site.baseurl }}/destinations/">目的地</a>
-    <a href="{{ site.baseurl }}/wildlife/">野生动物</a>
-    <a href="{{ site.baseurl }}/hotels/">酒店</a>
-    <a href="{{ site.baseurl }}/blogs/">游记</a>
-    <a href="{{ site.baseurl }}/about/">关于我们</a>
-    <a href="{{ site.baseurl }}/contact/">联系我们</a>
+    <a href="{{ site.baseurl }}{{ prefix }}/">{{ t.nav.home }}</a>
+    <a href="{{ site.baseurl }}{{ prefix }}/packages/">{{ t.nav.packages }}</a>
+    <a href="{{ site.baseurl }}{{ prefix }}/destinations/"
+      >{{ t.nav.destinations }}</a
+    >
+    <a href="{{ site.baseurl }}{{ prefix }}/wildlife/">{{ t.nav.wildlife }}</a>
+    <a href="{{ site.baseurl }}{{ prefix }}/hotels/">{{ t.nav.hotels }}</a>
+    <a href="{{ site.baseurl }}{{ prefix }}/blogs/">{{ t.nav.blogs }}</a>
+    <a href="{{ site.baseurl }}{{ prefix }}/about/">{{ t.nav.about }}</a>
+    <a href="{{ site.baseurl }}{{ prefix }}/contact/">{{ t.nav.contact }}</a>
+
+    <span style="margin-left: 20px">
+      {% if lang == 'en' %} {% assign target_zh = page.url | replace_first:
+      '/en/', '/' %}
+      <a href="{{ site.baseurl }}{{ target_zh }}">中文网</a>
+      {% else %} {% assign target_en = '/en' | append: page.url %}
+      <a href="{{ site.baseurl }}{{ target_en }}">English</a>
+      {% endif %}
+    </span>
   </div>
 </nav>

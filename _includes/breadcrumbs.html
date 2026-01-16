@@ -1,40 +1,48 @@
-{% if page.layout != 'default' %}
+{% if page.layout != 'default' %} {% if lang == 'en' %} {% assign prefix = '/en'
+%} {% else %} {% assign prefix = '' %} {% endif %}
 <nav class="breadcrumbs" aria-label="Breadcrumb">
   <ol class="breadcrumbs-list">
     <li class="breadcrumbs-item">
-      <a href="{{ site.baseurl }}/">首页</a>
+      <a href="{{ site.baseurl }}{{ prefix }}/">{{ t.nav.home }}</a>
     </li>
     {% case page.layout %} {% when 'package' %}
     <li class="breadcrumbs-item">
-      <a href="{{ site.baseurl }}/packages/">套餐</a>
+      <a href="{{ site.baseurl }}{{ prefix }}/packages/"
+        >{{ t.nav.packages }}</a
+      >
     </li>
     <li class="breadcrumbs-item current" aria-current="page">
       {{ page.title }}
     </li>
     {% when 'destination' %}
     <li class="breadcrumbs-item">
-      <a href="{{ site.baseurl }}/destinations/">目的地</a>
+      <a href="{{ site.baseurl }}{{ prefix }}/destinations/"
+        >{{ t.nav.destinations }}</a
+      >
     </li>
     <li class="breadcrumbs-item current" aria-current="page">
       {{ page.title }}
     </li>
     {% when 'hotel' %}
     <li class="breadcrumbs-item">
-      <a href="{{ site.baseurl }}/hotels/">酒店</a>
+      <a href="{{ site.baseurl }}{{ prefix }}/hotels/">{{ t.nav.hotels }}</a>
     </li>
     <li class="breadcrumbs-item current" aria-current="page">
       {{ page.title }}
     </li>
     {% when 'wildlife' %}
     <li class="breadcrumbs-item">
-      <a href="{{ site.baseurl }}/wildlife/">野生动物</a>
+      <a href="{{ site.baseurl }}{{ prefix }}/wildlife/"
+        >{{ t.nav.wildlife }}</a
+      >
     </li>
     <li class="breadcrumbs-item current" aria-current="page">
-      {{ page.title_cn }}
+      {% if lang == 'en' %}{{ page.title_en }}{% else %}{{ page.title_cn }}{%
+      endif %}
     </li>
     {% when 'blog' %}
     <li class="breadcrumbs-item">
-      <a href="{{ site.baseurl }}/blogs/">游记</a>
+      <a href="{{ site.baseurl }}{{ prefix }}/blogs/">{{ t.nav.blogs }}</a>
     </li>
     <li class="breadcrumbs-item current" aria-current="page">
       {{ page.title }}

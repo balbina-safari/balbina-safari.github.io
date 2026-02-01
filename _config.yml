@@ -22,7 +22,7 @@ social:
     - https://www.facebook.com/balbinasafari
 
 # No theme selected - using custom CSS in assets/css/style.css
-remote_theme: Minima # Force clear
+# remote_theme: Minima
 # Collections Configuration
 collections:
   packages:

@@ -56,10 +56,10 @@ ruby _scripts/generate_hotels.rb
 - **Pattern**: Hash objects passed to HEREDOC templates with `#{item[:key]}`
 
 ### Liquid/Jekyll Templates
-- **Output**: `{{ variable }}`
-- **Logic**: `{% if %}`, `{% for item in items %}`, `{% assign var = value %}`
-- **Includes**: `{% include filename.html %}`
-- **Comments**: `{% comment %} text {% endcomment %}`
+- **Output**: `{% raw %}{{ variable }}{% endraw %}`
+- **Logic**: `{% raw %}{% if %}{% endraw %}`, `{% raw %}{% for item in items %}{% endraw %}`, `{% raw %}{% assign var = value %}{% endraw %}`
+- **Includes**: `{% raw %}{% include filename.html %}{% endraw %}`
+- **Comments**: `{% raw %}{% comment %}{% endraw %} text {% raw %}{% endcomment %}{% endraw %}`
 - **Filters**: `| split:`, `| replace:`, `| append:`, `| strip_html`
 - **i18n**: Use `strings.nav.item` or `t.site.title` (defined in _data/locales.yml)
 - **Language detection**: Handled by `_includes/lang_init.html` (sets `current_lang`, `prefix`, `t`)
@@ -132,7 +132,7 @@ ruby _scripts/generate_hotels.rb
 
 ## Error Handling
 - Ruby: Wrap in `begin/rescue` if external operations may fail
-- Liquid: Use `{% if variable %}` checks before outputting
+- Liquid: Use `{% raw %}{% if variable %}{% endraw %}` checks before outputting
 - JavaScript: Check for null/undefined before accessing properties (`if (element && element.value)`)
 
 ## Common Patterns

@@ -41,3 +41,17 @@ collections:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# 排除仓库维护文档（非网站页面，避免被 jekyll-optional-front-matter 当页面处理导致 {% seo %} 等 Liquid 报错）
+# 注意：自定义 exclude 会覆盖 Jekyll 默认值，须把默认的 vendor/node_modules 等也加回来
+exclude:
+  - AGENTS.md
+  - DESIGN_SKILLS.md
+  - OPTIMIZATION_SUMMARY.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby

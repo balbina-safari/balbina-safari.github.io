@@ -3,32 +3,27 @@ layout: default
 title: 交通工具
 ---
 
-# [ 模块: 交通工具 ]
+# 交通工具
 
-我们提供坦桑尼亚全境的专业交通服务，从Safari游猎到城市观光，从机场接送到自驾探险。
-
-## [ Safari 专用车辆 ]
-
-- [**Safari 游猎越野车 (4x4 Land Cruiser)**](transportations/safari-4x4)
-  *   > 专业改装，开顶式设计，7座布局，配备冰箱及充电设备。
-
-- [**自驾露营越野车 (Self-Drive Camping 4x4)**](transportations/self-drive-camping)
-  *   > 完整露营装备，车顶帐篷，适合有经验的冒险者。
-
-## [ 城市交通 ]
-
-- [**机场接送服务 (Airport Transfer)**](transportations/airport-transfer)
-  *   > 覆盖JRO、DAR、ZNZ等主要机场，多种车型可选。
-
-- [**城市观光车 (City Tour Vehicle)**](transportations/city-tour)
-  *   > 商务MPV配专业导游，深度探索城市文化。
-
-## 💡 预订建议
-
-*   **提前预订**：旺季（6-10月）建议提前1-2个月预订车辆
-*   **灵活组合**：可根据行程组合不同交通方式
-*   **专业司机**：所有司机均持有职业执照并精通英语（部分司机会中文）
+坦桑尼亚境内的交通:游猎车辆、自驾露营、机场接送、城市观光。价格为参考区间。
 
 ---
 
-[.. (返回根目录)](/)
+## Safari 专用车辆
+
+- [游猎越野车 (4x4 Land Cruiser)](transportations/safari-4x4) — 专业改装,开顶式,7 座,带冰箱与充电口。$250-350/天(含司机向导)
+- [自驾露营越野车 (Self-Drive Camping)](transportations/self-drive-camping) — 车顶帐篷+完整露营装备,需国际驾照。$180/天
+
+## 城市交通
+
+- [机场接送 (Airport Transfer)](transportations/airport-transfer) — 覆盖 JRO、DAR、ZNZ,多种车型。$40-150 单程
+- [城市观光车 (City Tour)](transportations/city-tour) — 商务 MPV + 导游,深度探索城市
+
+---
+
+## 预订建议
+
+- 旺季(6-10 月)建议提前 1-2 个月订车
+- 司机均持职业执照,精通英语,部分会中文
+
+[返回首页](/)

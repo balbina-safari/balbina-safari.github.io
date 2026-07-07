@@ -271,6 +271,6 @@ Not everyone can summit Kilimanjaro, but if you're ready, go for it.
 
 ---
 
-📦 **Related Package**: [Kilimanjaro 7 Days + Serengeti 3 Days]({{ site.baseurl }}/packages/kilimanjaro-7day-serengeti-3day)
+📦 **Related Package**: [Kilimanjaro 7 Days + Serengeti 3 Days](../packages/kilimanjaro-7day-serengeti-3day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

@@ -61,7 +61,7 @@ related_blogs:
 
 ### Day 1-2: 阿鲁沙 → 塞伦盖蒂 (私人游猎)
 
-**住宿**: [Four Seasons Serengeti]({{ site.baseurl }}/hotels/four-seasons) - Terrace Suite (带私人泳池)  
+**住宿**: [Four Seasons Serengeti](/hotels/four-seasons) - Terrace Suite (带私人泳池)  
 **特别安排**: 房间玫瑰花瓣布置、香槟迎宾
 
 **Day 1**:
@@ -71,7 +71,7 @@ related_blogs:
 - 浪漫烛光晚餐
 
 **Day 2**:
-- **05:00** [热气球Safari]({{ site.baseurl }}/services/hot-air-balloon)体验(已包含)
+- **05:00** [热气球Safari](/services/hot-air-balloon)体验(已包含)
   - 日出时漂浮在塞伦盖蒂上空
   - 香槟庆祝和丛林早餐
 - 下午继续私人游猎
@@ -79,11 +79,11 @@ related_blogs:
 
 ### Day 3: 塞伦盖蒂 → 恩戈罗恩戈罗
 
-**住宿**: [&Beyond Crater Lodge]({{ site.baseurl }}/hotels/crater-lodge) - Crater Suite  
+**住宿**: [&Beyond Crater Lodge](/hotels/crater-lodge) - Crater Suite  
 
 **行程**:
 - 清晨最后一次塞伦盖蒂游猎
-- 驱车前往恩戈罗恩戈罗(含[Bush Lunch]({{ site.baseurl }}/services/bush-lunch))
+- 驱车前往恩戈罗恩戈罗(含[Bush Lunch](/services/bush-lunch))
 - 下午抵达"马赛凡尔赛宫"
 - **蜜月特别**: 火山口边缘的私人浪漫晚餐(烛光+live音乐)
 
@@ -95,7 +95,7 @@ related_blogs:
 - 早晨下降到火山口底部
 - 寻找稀有的黑犀牛
 - 中午飞往桑给巴尔
-- 下午抵达[Zuri Zanzibar]({{ site.baseurl }}/hotels/zuri-zanzibar)
+- 下午抵达[Zuri Zanzibar](/hotels/zuri-zanzibar)
 - 海滩日落+欢迎晚宴
 
 ### Day 5-7: 桑给巴尔度假 (自由活动)
@@ -130,7 +130,7 @@ related_blogs:
 - ✅ 阿鲁沙-塞伦盖蒂-恩戈罗恩戈罗-桑给巴尔内陆航班
 - ✅ 7晚奢华住宿(含私人泳池套房)
 - ✅ 全程餐食(早中晚三餐)
-- ✅ [热气球Safari]({{ site.baseurl }}/services/hot-air-balloon)
+- ✅ [热气球Safari](/services/hot-air-balloon)
 - ✅ Bush Lunch丛林午餐
 - ✅ 火山口边缘浪漫晚餐
 - ✅ 2小时情侣Spa
@@ -160,4 +160,4 @@ related_blogs:
 
 ---
 
-[💑 立即预订蜜月]({{ site.baseurl }}/contact) | [返回套餐]({{ site.baseurl }}/packages/)
+[💑 立即预订蜜月](/contact) | [返回套餐](../)

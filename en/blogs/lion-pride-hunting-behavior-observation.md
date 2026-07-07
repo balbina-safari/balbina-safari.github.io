@@ -243,6 +243,6 @@ Observing lion pride hunting is not something everyone can do, but if you're rea
 
 ---
 
-📦 **Related Package**: [Photography Masterclass 7 Days]({{ site.baseurl }}/packages/photography-masterclass-7day)
+📦 **Related Package**: [Photography Masterclass 7 Days](../packages/photography-masterclass-7day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

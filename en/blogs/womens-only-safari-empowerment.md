@@ -359,6 +359,6 @@ Women-only Safari is not something everyone can experience, but if you're ready,
 
 ---
 
-📦 **Related Package**: [Women-Only Luxury Safari 7 Days]({{ site.baseurl }}/packages/womens-exclusive-7day)
+📦 **Related Package**: [Women-Only Luxury Safari 7 Days](../packages/womens-exclusive-7day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

@@ -38,7 +38,7 @@ Imagine standing on the Serengeti plains. A dust plume rises on the horizon. Sec
 - **Tarangire's Giants**: Massive elephant family gatherings (June–October)
 - **Big 5 Checklist**: Lion, Leopard, Elephant, Rhino, Buffalo
 
-👉 [Explore Serengeti Packages]({{ site.baseurl }}{{ prefix }}/packages/)
+👉 [Explore Serengeti Packages](/packages/)
 
 ---
 
@@ -56,7 +56,7 @@ This isn't just for professional climbers; it's a dream achievable by ordinary p
 - Highly experienced guides and porters
 - Professional mountain safety equipment
 
-👉 [View Kilimanjaro Treks]({{ site.baseurl }}{{ prefix }}/destinations/kilimanjaro)
+👉 [View Kilimanjaro Treks](/destinations/kilimanjaro)
 
 ---
 
@@ -72,7 +72,7 @@ After the dust and excitement of the savanna, let the turquoise waters of Zanzib
 - **Mnemba Island Snorkeling**: Swimming with dolphins
 - **The Rock Restaurant**: The world's most unique dining experience
 
-👉 [Discover Island Holidays]({{ site.baseurl }}{{ prefix }}/destinations/zanzibar)
+👉 [Discover Island Holidays](/destinations/zanzibar)
 
 ---
 
@@ -110,4 +110,4 @@ We don't just provide tours; we provide memories.
 📱 **WhatsApp**: +255653486509  
 📍 **Location**: Arusha, Tanzania
 
-[💬 Consult Now]({{ site.baseurl }}{{ prefix }}/contact/)
+[💬 Consult Now](/contact/)

@@ -266,6 +266,6 @@ This is Africa, this is life.
 
 ---
 
-📦 **Related Package**: [Classic Northern Circuit 5-Day]({{ site.baseurl }}/packages/classic-northern-5day)
+📦 **Related Package**: [Classic Northern Circuit 5-Day](../packages/classic-northern-5day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

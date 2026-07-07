@@ -304,6 +304,6 @@ Choose family-friendly camps, choose family dedicated vehicle, choose profession
 
 ---
 
-📦 **Related Package**: [Family Adventure 6-Day]({{ site.baseurl }}/packages/family-adventure-6day)
+📦 **Related Package**: [Family Adventure 6-Day](../packages/family-adventure-6day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

@@ -25,22 +25,22 @@ A lion's roar can travel 5 kilometers, a leopard can drag prey up a 6-meter tree
 
 ### Big Cats
 
-- [**African Lion**]({{ site.baseurl }}/en/wildlife/african-lion) ⭐ Detailed Complete
+- [**African Lion**](african-lion) ⭐ Detailed Complete
 
   - > King of Beasts | Social | Male Mane | Vulnerable
 
-- [African Leopard]({{ site.baseurl }}/en/wildlife/leopard)
+- [African Leopard](leopard)
 
   - > Most elusive big cat | Excellent climber | Nocturnal | Vulnerable
 
-- [Cheetah]({{ site.baseurl }}/en/wildlife/cheetah)
+- [Cheetah](cheetah)
   - > Fastest on land 120km/h | Black tear marks | Vulnerable
 
 ### Small to Medium Cats
 
-- [Caracal]({{ site.baseurl }}/en/wildlife/caracal) - Long ear tufts
-- [Serval]({{ site.baseurl }}/en/wildlife/serval) - Extremely long legs
-- [African Wildcat]({{ site.baseurl }}/en/wildlife/african-wildcat) - Ancestor of domestic cats
+- [Caracal](caracal) - Long ear tufts
+- [Serval](serval) - Extremely long legs
+- [African Wildcat](african-wildcat) - Ancestor of domestic cats
 
 ---
 
@@ -54,18 +54,18 @@ Elephant memory, rhino temper, hippo territoriality, giraffe elegance - each gia
 
 ### Elephant Family
 
-- [**African Bush Elephant**]({{ site.baseurl }}/en/wildlife/african-elephant)
+- [**African Bush Elephant**](african-elephant)
   - > Largest land animal | Matriarchal society | Endangered
 
 ### Rhinoceros Family
 
-- [Black Rhino]({{ site.baseurl }}/en/wildlife/black-rhino) - Critically Endangered | Only about 30 in Ngorongoro
-- [White Rhino]({{ site.baseurl }}/en/wildlife/white-rhino) - Square wide mouth | Extremely rare in Tanzania
+- [Black Rhino](black-rhino) - Critically Endangered | Only about 30 in Ngorongoro
+- [White Rhino](white-rhino) - Square wide mouth | Extremely rare in Tanzania
 
 ### Hippo and Giraffe
 
-- [Hippopotamus]({{ site.baseurl }}/en/wildlife/hippopotamus) - One of Africa's most dangerous animals
-- [Giraffe]({{ site.baseurl }}/en/wildlife/giraffe) - Tallest on land 5.7m
+- [Hippopotamus](hippopotamus) - One of Africa's most dangerous animals
+- [Giraffe](giraffe) - Tallest on land 5.7m
 
 ---
 
@@ -79,12 +79,12 @@ Most numerous, also easiest to see. But don't underestimate them.
 
 ### Great Migration Protagonists
 
-- [Blue Wildebeest]({{ site.baseurl }}/en/wildlife/wildebeest) - 1.5 million Great Migration
-- [Plains Zebra]({{ site.baseurl }}/en/wildlife/plains-zebra) - Unique stripes
+- [Blue Wildebeest](wildebeest) - 1.5 million Great Migration
+- [Plains Zebra](plains-zebra) - Unique stripes
 
 ### Buffalo
 
-- [African Buffalo]({{ site.baseurl }}/en/wildlife/african-buffalo) - Big 5 | Aggressive temperament
+- [African Buffalo](african-buffalo) - Big 5 | Aggressive temperament
 
 ### Antelopes - 20 Species
 
@@ -108,14 +108,14 @@ _Framework generated, detailed content to be completed_
 
 ### Apes
 
-- [Common Chimpanzee]({{ site.baseurl }}/en/wildlife/chimpanzee) - 98.8% genes shared with humans | Endangered
+- [Common Chimpanzee](chimpanzee) - 98.8% genes shared with humans | Endangered
 
 ### Monkeys
 
-- [Olive Baboon]({{ site.baseurl }}/en/wildlife/olive-baboon) - Large groups
-- [Vervet Monkey]({{ site.baseurl }}/en/wildlife/vervet-monkey) - Will steal food
-- [Black and White Colobus]({{ site.baseurl }}/en/wildlife/colobus-monkey) - Black and white long tail
-- [Blue Monkey]({{ site.baseurl }}/en/wildlife/blue-monkey) - Arboreal and shy
+- [Olive Baboon](olive-baboon) - Large groups
+- [Vervet Monkey](vervet-monkey) - Will steal food
+- [Black and White Colobus](colobus-monkey) - Black and white long tail
+- [Blue Monkey](blue-monkey) - Arboreal and shy
 
 ---
 
@@ -123,21 +123,21 @@ _Framework generated, detailed content to be completed_
 
 ### Hyenas and Wild Dogs
 
-- [Spotted Hyena]({{ site.baseurl }}/en/wildlife/spotted-hyena) - Matriarchal society | Powerful bite
-- [African Wild Dog]({{ site.baseurl }}/en/wildlife/african-wild-dog) - Endangered | 80% hunting success
+- [Spotted Hyena](spotted-hyena) - Matriarchal society | Powerful bite
+- [African Wild Dog](african-wild-dog) - Endangered | 80% hunting success
 
 ### Warthog Family
 
-- [Warthog]({{ site.baseurl }}/en/wildlife/warthog)
-- [Bushpig]({{ site.baseurl }}/en/wildlife/bushpig)
+- [Warthog](warthog)
+- [Bushpig](bushpig)
 
 ### Small Mammals
 
-- [Honey Badger]({{ site.baseurl }}/en/wildlife/honey-badger) - "World's most fearless animal"
-- [Mongoose]({{ site.baseurl }}/en/wildlife/mongoose)
-- [Rock Hyrax]({{ site.baseurl }}/en/wildlife/rock-hyrax) - Close relative of elephants
-- [Pangolin]({{ site.baseurl }}/en/wildlife/pangolin) - Extremely rare
-- [Aardvark]({{ site.baseurl }}/en/wildlife/aardvark) - Nocturnal
+- [Honey Badger](honey-badger) - "World's most fearless animal"
+- [Mongoose](mongoose)
+- [Rock Hyrax](rock-hyrax) - Close relative of elephants
+- [Pangolin](pangolin) - Extremely rare
+- [Aardvark](aardvark) - Nocturnal
 
 ---
 
@@ -145,25 +145,25 @@ _Framework generated, detailed content to be completed_
 
 ### Birds of Prey
 
-- [Secretary Bird]({{ site.baseurl }}/en/wildlife/secretary-bird)
-- [African Fish Eagle]({{ site.baseurl }}/en/wildlife/african-fish-eagle)
-- [Crowned Eagle]({{ site.baseurl }}/en/wildlife/crowned-eagle)
+- [Secretary Bird](secretary-bird)
+- [African Fish Eagle](african-fish-eagle)
+- [Crowned Eagle](crowned-eagle)
 
 ### Wading Birds
 
-- [Grey Crowned Crane]({{ site.baseurl }}/en/wildlife/crowned-crane)
-- [Saddle-billed Stork]({{ site.baseurl }}/en/wildlife/saddlebill-stork)
-- [Lesser Flamingo]({{ site.baseurl }}/en/wildlife/lesser-flamingo)
+- [Grey Crowned Crane](crowned-crane)
+- [Saddle-billed Stork](saddlebill-stork)
+- [Lesser Flamingo](lesser-flamingo)
 
 ### Colorful Birds
 
-- [Lilac-breasted Roller]({{ site.baseurl }}/en/wildlife/lilac-breasted-roller) - Most photogenic
-- [Superb Starling]({{ site.baseurl }}/en/wildlife/superb-starling)
+- [Lilac-breasted Roller](lilac-breasted-roller) - Most photogenic
+- [Superb Starling](superb-starling)
 
 ### Large Birds
 
-- [Ostrich]({{ site.baseurl }}/en/wildlife/ostrich) - World's largest bird
-- [Southern Ground Hornbill]({{ site.baseurl }}/en/wildlife/ground-hornbill)
+- [Ostrich](ostrich) - World's largest bird
+- [Southern Ground Hornbill](ground-hornbill)
 
 ### Vultures
 
@@ -173,24 +173,24 @@ _Framework generated, detailed content to be completed_
 
 ## 🐊 Reptiles - 10 Species
 
-- [Nile Crocodile]({{ site.baseurl }}/en/wildlife/nile-crocodile) - Can reach 6 meters
-- [Monitor Lizard]({{ site.baseurl }}/en/wildlife/monitor-lizard)
-- [Chameleon]({{ site.baseurl }}/en/wildlife/chameleon)
-- [African Rock Python]({{ site.baseurl }}/en/wildlife/african-python)
-- [Cobra]({{ site.baseurl }}/en/wildlife/cobra)
-- [Black Mamba]({{ site.baseurl }}/en/wildlife/black-mamba) - Highly venomous
-- [Leopard Tortoise]({{ site.baseurl }}/en/wildlife/leopard-tortoise)
-- [Terrapin]({{ site.baseurl }}/en/wildlife/terrapin)
+- [Nile Crocodile](nile-crocodile) - Can reach 6 meters
+- [Monitor Lizard](monitor-lizard)
+- [Chameleon](chameleon)
+- [African Rock Python](african-python)
+- [Cobra](cobra)
+- [Black Mamba](black-mamba) - Highly venomous
+- [Leopard Tortoise](leopard-tortoise)
+- [Terrapin](terrapin)
 
 ---
 
 ## 🐋 Marine Life - Zanzibar/Mafia Island
 
-- [Whale Shark]({{ site.baseurl }}/en/wildlife/whale-shark) - World's largest fish 12m+
-- [Bottlenose Dolphin]({{ site.baseurl }}/en/wildlife/bottlenose-dolphin)
-- [Green Sea Turtle]({{ site.baseurl }}/en/wildlife/green-sea-turtle)
-- [Hawksbill Turtle]({{ site.baseurl }}/en/wildlife/hawksbill-turtle)
-- [Manta Ray]({{ site.baseurl }}/en/wildlife/manta-ray)
+- [Whale Shark](whale-shark) - World's largest fish 12m+
+- [Bottlenose Dolphin](bottlenose-dolphin)
+- [Green Sea Turtle](green-sea-turtle)
+- [Hawksbill Turtle](hawksbill-turtle)
+- [Manta Ray](manta-ray)
 
 ---
 
@@ -264,4 +264,4 @@ Caracal, Serval, Honey Badger, Pangolin, Aardvark
 
 ---
 
-[🏠 Return to Home]({{ site.baseurl }}/) | [📦 View All Packages]({{ site.baseurl }}/en/packages/)
+[🏠 Return to Home](/) | [📦 View All Packages](/packages/)

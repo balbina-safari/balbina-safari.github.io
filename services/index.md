@@ -9,20 +9,20 @@ title: 服务项目
 
 ## [ 餐饮服务 ]
 
-- [**午餐盒服务 (Lunch Box)**]({{ site.baseurl }}/services/lunch-box)
+- [**午餐盒服务 (Lunch Box)**](services/lunch-box)
   *   > Safari途中的便携式午餐，新鲜打包，冷藏配送。$15/人起
 
-- [**Bush Lunch (丛林午餐)**]({{ site.baseurl }}/services/bush-lunch)
+- [**Bush Lunch (丛林午餐)**](services/bush-lunch)
   *   > 荒野中的浪漫用餐体验，现场烹制热菜。$50/人起（4人起订）
 
 ## [ 特色体验 ]
 
-- [**热气球 Safari**]({{ site.baseurl }}/services/hot-air-balloon)
+- [**热气球 Safari**](services/hot-air-balloon)
   *   > 日出时分漂浮在塞伦盖蒂上空，含香槟庆祝和丛林早餐。$550-650/人
 
 ## [ 语言服务 ]
 
-- [**中文翻译服务**]({{ site.baseurl }}/services/chinese-translation)
+- [**中文翻译服务**](services/chinese-translation)
   *   > 专业中文翻译陪同，全程无障碍沟通。$100-150/天
 
 ## 💡 预订建议
@@ -39,4 +39,4 @@ title: 服务项目
 
 ---
 
-[.. (返回根目录)]({{ site.baseurl }}/)
+[.. (返回根目录)](/)

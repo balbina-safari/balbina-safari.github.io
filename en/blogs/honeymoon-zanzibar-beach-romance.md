@@ -74,7 +74,7 @@ Afternoon, we reluctantly left Serengeti, drove back to Arusha, then flew to Zan
 
 **Day 5: Arrive in Zanzibar - Private Beach**
 
-We flew to Zanzibar, checked into [Baraza Resort]({{ site.baseurl }}/hotels/baraza-resort)—Zanzibar's most luxurious resort.
+We flew to Zanzibar, checked into [Baraza Resort](../hotels/baraza-resort)—Zanzibar's most luxurious resort.
 
 Our suite had private pool, facing Indian Ocean. Butler told us this was honeymoon suite, with special honeymoon treatment.
 
@@ -215,6 +215,6 @@ Choose Serengeti + Zanzibar, choose wilderness + romance, choose hot air balloon
 
 ---
 
-📦 **Related Package**: [Serengeti + Zanzibar 8-Day Honeymoon]({{ site.baseurl }}/packages/honeymoon-serengeti-zanzibar-8day)
+📦 **Related Package**: [Serengeti + Zanzibar 8-Day Honeymoon](../packages/honeymoon-serengeti-zanzibar-8day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

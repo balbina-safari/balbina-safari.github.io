@@ -47,7 +47,7 @@
         "," %} {% for locale in site.data.locales %} {% assign l_list = l_list |
         push: locale[0] %} {% endfor %} {% endif %} {% assign d_lang =
         site.default_lang | default: "zh" %} {% for lcode in l_list %} {% if
-        lcode == "" or lcode == nil %}{% continue %}{% endif %} {% assign
+        lcode == "" or lcode == nil %}{% continue %}{% endif %} {% if lcode == "fr" %}{% continue %}{% endif %} {% assign
         target_url = "" %} {% comment %} 1. Try finding by lang_ref first
         (Dynamic Mapping) {% endcomment %} {% if page.lang_ref %} {% for p in
         site.pages %} {% if p.lang_ref == page.lang_ref %} {% comment %} Extract

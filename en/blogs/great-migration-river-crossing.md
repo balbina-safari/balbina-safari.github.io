@@ -263,6 +263,6 @@ Wait few days, wait few hours, you'll see world's most spectacular natural wonde
 
 ---
 
-📦 **Related Package**: [Great Migration Special 10-Day Tracking]({{ site.baseurl }}/packages/migration-special-10day)
+📦 **Related Package**: [Great Migration Special 10-Day Tracking](../packages/migration-special-10day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

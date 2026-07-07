@@ -220,7 +220,7 @@ Beijing: 14:00-22:00 | Tanzania: 09:00-17:00
 
 **Response Time**: Guaranteed within 24 hours
 
-[📝 Fill Inquiry Form]({{ site.baseurl }}{{ prefix }}/contact/) | [📦 Browse Packages]({{ site.baseurl }}{{ prefix }}/packages/) | [🏠 Home]({{ site.baseurl }}{{ prefix }}/)
+[📝 Fill Inquiry Form](/contact/) | [📦 Browse Packages](/packages/) | [🏠 Home](/)
 
 ---
 
@@ -236,4 +236,4 @@ From the Heart of Tanzania, For the Love of Safari
 
 **Fast Navigation**
 
-[📦 All Packages]({{ site.baseurl }}{{ prefix }}/packages/) | [🦁 Wildlife]({{ site.baseurl }}{{ prefix }}/wildlife/) | [🏞️ Destinations]({{ site.baseurl }}{{ prefix }}/destinations/) | [🏨 Hotels]({{ site.baseurl }}{{ prefix }}/hotels/) | [📝 Blogs]({{ site.baseurl }}{{ prefix }}/blogs/) | [💬 Contact Us]({{ site.baseurl }}{{ prefix }}/contact/)
+[📦 All Packages](/packages/) | [🦁 Wildlife](/wildlife/) | [🏞️ Destinations](/destinations/) | [🏨 Hotels](/hotels/) | [📝 Blogs](/blogs/) | [💬 Contact Us](/contact/)

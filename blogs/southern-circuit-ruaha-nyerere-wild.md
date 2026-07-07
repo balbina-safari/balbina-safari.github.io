@@ -377,6 +377,6 @@ tags:
 
 ---
 
-📦 **相关套餐**: [南部荒野探险7日]({{ site.baseurl }}/packages/southern-wilderness-7day)
+📦 **相关套餐**: [南部荒野探险7日](/packages/southern-wilderness-7day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

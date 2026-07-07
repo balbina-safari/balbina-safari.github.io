@@ -239,6 +239,6 @@ Maasai culture is not something everyone can experience, but if you're ready, go
 
 ---
 
-📦 **Related Package**: [Cultural Immersion 6 Days]({{ site.baseurl }}/packages/cultural-immersion-6day)
+📦 **Related Package**: [Cultural Immersion 6 Days](../packages/cultural-immersion-6day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

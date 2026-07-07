@@ -25,22 +25,22 @@ title: 野生动物图鉴
 
 ### 大型猫科 (Big Cats)
 
-- [**非洲狮 (African Lion)**]({{ site.baseurl }}/wildlife/african-lion) ⭐ 详细完成
+- [**非洲狮 (African Lion)**](wildlife/african-lion) ⭐ 详细完成
 
   - > 万兽之王 | 群居性 | 雄狮鬃毛 | 易危
 
-- [非洲豹 (Leopard)]({{ site.baseurl }}/wildlife/leopard)
+- [非洲豹 (Leopard)](wildlife/leopard)
 
   - > 最隐秘的大猫 | 善爬树 | 夜行性 | 易危
 
-- [猎豹 (Cheetah)]({{ site.baseurl }}/wildlife/cheetah)
+- [猎豹 (Cheetah)](wildlife/cheetah)
   - > 陆地最快 120km/h | 黑色泪痕 | 易危
 
 ### 中小型猫科
 
-- [狞猫 (Caracal)]({{ site.baseurl }}/wildlife/caracal) - 长耳簇毛
-- [薮猫 (Serval)]({{ site.baseurl }}/wildlife/serval) - 超长腿
-- [非洲野猫 (African Wildcat)]({{ site.baseurl }}/wildlife/african-wildcat) - 家猫祖先
+- [狞猫 (Caracal)](wildlife/caracal) - 长耳簇毛
+- [薮猫 (Serval)](wildlife/serval) - 超长腿
+- [非洲野猫 (African Wildcat)](wildlife/african-wildcat) - 家猫祖先
 
 ---
 
@@ -54,18 +54,18 @@ title: 野生动物图鉴
 
 ### 象科
 
-- [**非洲草原象 (African Bush Elephant)**]({{ site.baseurl }}/wildlife/african-elephant)
+- [**非洲草原象 (African Bush Elephant)**](wildlife/african-elephant)
   - > 陆地最大动物 | 母系社会 | 濒危
 
 ### 犀牛科
 
-- [黑犀牛 (Black Rhino)]({{ site.baseurl }}/wildlife/black-rhino) - 极危 | 恩戈罗恩戈罗仅约 30 头
-- [白犀牛 (White Rhino)]({{ site.baseurl }}/wildlife/white-rhino) - 方形宽嘴 | 坦桑尼亚极罕见
+- [黑犀牛 (Black Rhino)](wildlife/black-rhino) - 极危 | 恩戈罗恩戈罗约 50-55 头
+- [白犀牛 (White Rhino)](wildlife/white-rhino) - 方形宽嘴 | 坦桑尼亚极罕见
 
 ### 河马与长颈鹿
 
-- [河马 (Hippopotamus)]({{ site.baseurl }}/wildlife/hippopotamus) - 非洲最危险动物
-- [长颈鹿 (Giraffe)]({{ site.baseurl }}/wildlife/giraffe) - 陆地最高 5.7m
+- [河马 (Hippopotamus)](wildlife/hippopotamus) - 非洲最危险动物
+- [长颈鹿 (Giraffe)](wildlife/giraffe) - 陆地最高 5.7m
 
 ---
 
@@ -73,18 +73,18 @@ title: 野生动物图鉴
 
 数量最多,也最容易看到。但不要小看它们。
 
-150 万角马、30 万斑马、无数瞪羚和羚羊——食草动物是草原生态系统的基础,也是大迁徙的主角。它们的生存策略是"数量优势":虽然个体弱小,但成千上万聚在一起,捕食者也无从下手。
+150 万角马、20-25 万斑马、无数瞪羚和羚羊——食草动物是草原生态系统的基础,也是大迁徙的主角。它们的生存策略是"数量优势":虽然个体弱小,但成千上万聚在一起,捕食者也无从下手。
 
 **观察亮点**: 大迁徙(7-10 月) | 产仔季(1-3 月) | 马拉河渡河(惊心动魄)
 
 ### 大迁徙主角
 
-- [角马 (Blue Wildebeest)]({{ site.baseurl }}/wildlife/wildebeest) - 150 万只大迁徙
-- [平原斑马 (Plains Zebra)]({{ site.baseurl }}/wildlife/plains-zebra) - 独特条纹
+- [角马 (Blue Wildebeest)](wildlife/wildebeest) - 150 万只大迁徙
+- [平原斑马 (Plains Zebra)](wildlife/plains-zebra) - 独特条纹
 
 ### 水牛
 
-- [非洲水牛 (African Buffalo)]({{ site.baseurl }}/wildlife/african-buffalo) - Big 5 | 脾气暴躁
+- [非洲水牛 (African Buffalo)](wildlife/african-buffalo) - Big 5 | 脾气暴躁
 
 ### 羚羊类 (Antelopes) - 20 种
 
@@ -108,14 +108,14 @@ _框架已生成,待完善详细内容_
 
 ### 类人猿
 
-- [黑猩猩 (Chimpanzee)]({{ site.baseurl }}/wildlife/chimpanzee) - 98.8%基因与人类相同 | 濒危
+- [黑猩猩 (Chimpanzee)](wildlife/chimpanzee) - 98.8%基因与人类相同 | 濒危
 
 ### 猴类
 
-- [东非狒狒 (Olive Baboon)]({{ site.baseurl }}/wildlife/olive-baboon) - 大型群居
-- [黑长尾猴 (Vervet Monkey)]({{ site.baseurl }}/wildlife/vervet-monkey) - 会偷食物
-- [黑白疣猴 (Colobus Monkey)]({{ site.baseurl }}/wildlife/colobus-monkey) - 黑白长尾
-- [蓝猴 (Blue Monkey)]({{ site.baseurl }}/wildlife/blue-monkey) - 树栖害羞
+- [东非狒狒 (Olive Baboon)](wildlife/olive-baboon) - 大型群居
+- [黑长尾猴 (Vervet Monkey)](wildlife/vervet-monkey) - 会偷食物
+- [黑白疣猴 (Colobus Monkey)](wildlife/colobus-monkey) - 黑白长尾
+- [蓝猴 (Blue Monkey)](wildlife/blue-monkey) - 树栖害羞
 
 ---
 
@@ -123,21 +123,21 @@ _框架已生成,待完善详细内容_
 
 ### 鬣狗与野犬
 
-- [斑鬣狗 (Spotted Hyena)]({{ site.baseurl }}/wildlife/spotted-hyena) - 母系社会 | 强大咬合力
-- [非洲野犬 (African Wild Dog)]({{ site.baseurl }}/wildlife/african-wild-dog) - 濒危 | 80%狩猎成功率
+- [斑鬣狗 (Spotted Hyena)](wildlife/spotted-hyena) - 母系社会 | 强大咬合力
+- [非洲野犬 (African Wild Dog)](wildlife/african-wild-dog) - 濒危 | 80%狩猎成功率
 
 ### 疣猪科
 
-- [疣猪 (Warthog)]({{ site.baseurl }}/wildlife/warthog)
-- [丛林猪 (Bushpig)]({{ site.baseurl }}/wildlife/bushpig)
+- [疣猪 (Warthog)](wildlife/warthog)
+- [丛林猪 (Bushpig)](wildlife/bushpig)
 
 ### 小型哺乳动物
 
-- [蜜獾 (Honey Badger)]({{ site.baseurl }}/wildlife/honey-badger) - "世界上最无畏的动物"
-- [獴科 (Mongoose)]({{ site.baseurl }}/wildlife/mongoose)
-- [岩蹄兔 (Rock Hyrax)]({{ site.baseurl }}/wildlife/rock-hyrax) - 大象的近亲
-- [穿山甲 (Pangolin)]({{ site.baseurl }}/wildlife/pangolin) - 极罕见
-- [土豚 (Aardvark)]({{ site.baseurl }}/wildlife/aardvark) - 夜行性
+- [蜜獾 (Honey Badger)](wildlife/honey-badger) - "世界上最无畏的动物"
+- [獴科 (Mongoose)](wildlife/mongoose)
+- [岩蹄兔 (Rock Hyrax)](wildlife/rock-hyrax) - 大象的近亲
+- [穿山甲 (Pangolin)](wildlife/pangolin) - 极罕见
+- [土豚 (Aardvark)](wildlife/aardvark) - 夜行性
 
 ---
 
@@ -145,25 +145,25 @@ _框架已生成,待完善详细内容_
 
 ### 猛禽
 
-- [秘书鸟 (Secretary Bird)]({{ site.baseurl }}/wildlife/secretary-bird)
-- [非洲鱼鹰 (African Fish Eagle)]({{ site.baseurl }}/wildlife/african-fish-eagle)
-- [冠鹰 (Crowned Eagle)]({{ site.baseurl }}/wildlife/crowned-eagle)
+- [秘书鸟 (Secretary Bird)](wildlife/secretary-bird)
+- [非洲鱼鹰 (African Fish Eagle)](wildlife/african-fish-eagle)
+- [冠鹰 (Crowned Eagle)](wildlife/crowned-eagle)
 
 ### 涉禽
 
-- [灰冠鹤 (Grey Crowned Crane)]({{ site.baseurl }}/wildlife/crowned-crane)
-- [鞍嘴鹳 (Saddle-billed Stork)]({{ site.baseurl }}/wildlife/saddlebill-stork)
-- [小火烈鸟 (Lesser Flamingo)]({{ site.baseurl }}/wildlife/lesser-flamingo)
+- [灰冠鹤 (Grey Crowned Crane)](wildlife/crowned-crane)
+- [鞍嘴鹳 (Saddle-billed Stork)](wildlife/saddlebill-stork)
+- [小火烈鸟 (Lesser Flamingo)](wildlife/lesser-flamingo)
 
 ### 彩色鸟类
 
-- [紫胸佛法僧 (Lilac-breasted Roller)]({{ site.baseurl }}/wildlife/lilac-breasted-roller) - 最上镜
-- [丽色奇鹛 (Superb Starling)]({{ site.baseurl }}/wildlife/superb-starling)
+- [紫胸佛法僧 (Lilac-breasted Roller)](wildlife/lilac-breasted-roller) - 最上镜
+- [丽色奇鹛 (Superb Starling)](wildlife/superb-starling)
 
 ### 大型鸟类
 
-- [鸵鸟 (Ostrich)]({{ site.baseurl }}/wildlife/ostrich) - 世界最大鸟
-- [地犀鸟 (Southern Ground Hornbill)]({{ site.baseurl }}/wildlife/ground-hornbill)
+- [鸵鸟 (Ostrich)](wildlife/ostrich) - 世界最大鸟
+- [地犀鸟 (Southern Ground Hornbill)](wildlife/ground-hornbill)
 
 ### 秃鹫
 
@@ -173,24 +173,24 @@ _框架已生成,待完善详细内容_
 
 ## 🐊 爬行动物 - Reptiles (10 种)
 
-- [尼罗鳄 (Nile Crocodile)]({{ site.baseurl }}/wildlife/nile-crocodile) - 可达 6 米
-- [巨蜥 (Monitor Lizard)]({{ site.baseurl }}/wildlife/monitor-lizard)
-- [变色龙 (Chameleon)]({{ site.baseurl }}/wildlife/chameleon)
-- [非洲岩蟒 (African Rock Python)]({{ site.baseurl }}/wildlife/african-python)
-- [眼镜蛇 (Cobra)]({{ site.baseurl }}/wildlife/cobra)
-- [黑曼巴蛇 (Black Mamba)]({{ site.baseurl }}/wildlife/black-mamba) - 剧毒
-- [豹龟 (Leopard Tortoise)]({{ site.baseurl }}/wildlife/leopard-tortoise)
-- [水龟 (Terrapin)]({{ site.baseurl }}/wildlife/terrapin)
+- [尼罗鳄 (Nile Crocodile)](wildlife/nile-crocodile) - 可达 6 米
+- [巨蜥 (Monitor Lizard)](wildlife/monitor-lizard)
+- [变色龙 (Chameleon)](wildlife/chameleon)
+- [非洲岩蟒 (African Rock Python)](wildlife/african-python)
+- [眼镜蛇 (Cobra)](wildlife/cobra)
+- [黑曼巴蛇 (Black Mamba)](wildlife/black-mamba) - 剧毒
+- [豹龟 (Leopard Tortoise)](wildlife/leopard-tortoise)
+- [水龟 (Terrapin)](wildlife/terrapin)
 
 ---
 
 ## 🐋 海洋生物 - Marine Life (桑给巴尔/马菲亚岛)
 
-- [鲸鲨 (Whale Shark)]({{ site.baseurl }}/wildlife/whale-shark) - 世界最大鱼类 12m+
-- [宽吻海豚 (Bottlenose Dolphin)]({{ site.baseurl }}/wildlife/bottlenose-dolphin)
-- [绿海龟 (Green Sea Turtle)]({{ site.baseurl }}/wildlife/green-sea-turtle)
-- [玳瑁 (Hawksbill Turtle)]({{ site.baseurl }}/wildlife/hawksbill-turtle)
-- [魔鬼鱼 (Manta Ray)]({{ site.baseurl }}/wildlife/manta-ray)
+- [鲸鲨 (Whale Shark)](wildlife/whale-shark) - 世界最大鱼类 12m+
+- [宽吻海豚 (Bottlenose Dolphin)](wildlife/bottlenose-dolphin)
+- [绿海龟 (Green Sea Turtle)](wildlife/green-sea-turtle)
+- [玳瑁 (Hawksbill Turtle)](wildlife/hawksbill-turtle)
+- [魔鬼鱼 (Manta Ray)](wildlife/manta-ray)
 
 ---
 
@@ -213,6 +213,11 @@ _框架已生成,待完善详细内容_
 - 猎豹
 - 河马
 - 长颈鹿
+
+### 近危 (Near Threatened)
+
+- 白犀牛（南部白犀牛约 1.8 万头；北部白犀牛功能性灭绝）
+- 非洲水牛
 
 ---
 
@@ -264,4 +269,4 @@ _框架已生成,待完善详细内容_
 
 ---
 
-[🏠 返回首页]({{ site.baseurl }}/) | [📦 查看全部套餐]({{ site.baseurl }}/packages/)
+[🏠 返回首页](/) | [📦 查看全部套餐](/packages/)

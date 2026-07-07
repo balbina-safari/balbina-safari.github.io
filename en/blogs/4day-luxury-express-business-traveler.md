@@ -39,7 +39,7 @@ David is Maasai, received 5 years of professional training in Kenya, speaks flue
 
 **2:00 PM - Singita Sasakwa Lodge**
 
-Arrived at [Singita Sasakwa Lodge]({{ site.baseurl }}/hotels/singita-sasakwa), one of the most luxurious camps in the Serengeti. The butler was waiting at the door with chilled champagne.
+Arrived at [Singita Sasakwa Lodge](../hotels/singita-sasakwa), one of the most luxurious camps in the Serengeti. The butler was waiting at the door with chilled champagne.
 
 Our suite has a private pool, and outside the floor-to-ceiling windows lies the endless savanna. The butler explained: "Every evening, elephants pass by here. You can watch elephants while soaking in the tub."
 
@@ -73,7 +73,7 @@ Looking down, I saw a cheetah chasing a gazelle at incredible speed. Although it
 
 **7:30 AM - Champagne Breakfast**
 
-The balloon landed on an open grassland, and staff had already set up white tablecloths, silverware, and champagne. This is the legendary [Bush Breakfast]({{ site.baseurl }}/services/bush-lunch).
+The balloon landed on an open grassland, and staff had already set up white tablecloths, silverware, and champagne. This is the legendary [Bush Breakfast](/services/bush-lunch).
 
 We ate freshly cooked eggs and bacon while watching giraffes leisurely strolling nearby. Mark said: "This is the most romantic breakfast in the world, bar none."
 
@@ -83,7 +83,7 @@ The private charter took off again, this time heading to Ngorongoro Crater. From
 
 **1:00 PM - Four Seasons Safari Lodge**
 
-Checked into [Four Seasons Safari Lodge]({{ site.baseurl }}/hotels/four-seasons), the most luxurious hotel on the crater rim. Our room faced the crater directly, and we could see the entire "African Eden" from bed.
+Checked into [Four Seasons Safari Lodge](../hotels/four-seasons), the most luxurious hotel on the crater rim. Our room faced the crater directly, and we could see the entire "African Eden" from bed.
 
 **3:00 PM - Crater Game Drive**
 
@@ -103,7 +103,7 @@ Private charter took off for the third time, heading to Tarangire National Park.
 
 **10:30 AM - Tarangire Sopa Lodge**
 
-Checked into [Tarangire Sopa Lodge]({{ site.baseurl }}/hotels/kuro-tarangire), the hotel is built on a cliff overlooking the entire park.
+Checked into [Tarangire Sopa Lodge](../hotels/kuro-tarangire), the hotel is built on a cliff overlooking the entire park.
 
 **2:00 PM - Elephant Family's Tender Moment**
 
@@ -217,6 +217,6 @@ Africa will always be in your heart. Once you've been, you'll understand why so 
 
 ---
 
-📦 **Related Package**: [Luxury Express 4-Day]({{ site.baseurl }}/packages/luxury-express-4day)
+📦 **Related Package**: [Luxury Express 4-Day](../packages/luxury-express-4day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

@@ -311,6 +311,6 @@ tags:
 
 ---
 
-📦 **相关套餐**: [北环5日+桑给巴尔4日]({{ site.baseurl }}/packages/northern-5day-zanzibar-4day)
+📦 **相关套餐**: [北环5日+桑给巴尔4日](/packages/northern-5day-zanzibar-4day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

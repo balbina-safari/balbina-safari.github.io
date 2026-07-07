@@ -278,6 +278,6 @@ One Nature Nyaruswiga是塞伦盖蒂中部的奢华营地,位于中央Seronea区
 
 ---
 
-📦 **相关套餐**: [豪华北环7日深度游]({{ site.baseurl }}/packages/luxury-northern-7day)
+📦 **相关套餐**: [豪华北环7日深度游](/packages/luxury-northern-7day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

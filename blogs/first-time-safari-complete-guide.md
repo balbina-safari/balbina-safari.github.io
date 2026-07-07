@@ -382,6 +382,6 @@ _愿你的第一次 Safari,成为一生难忘的回忆。_
 
 ---
 
-📦 **相关套餐**: [经典北环 5 日游]({{ site.baseurl }}/packages/classic-northern-5day)
+📦 **相关套餐**: [经典北环 5 日游](/packages/classic-northern-5day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

@@ -31,7 +31,7 @@ Nous sommes **Balbina Safari**, vos experts locaux en Tanzanie. Dix ans de dévo
 
 Imaginez-vous sur les plaines du Serengeti. Un panache de poussière s'élève à l'horizon. Quelques secondes plus tard, le sol tremble. 1,5 million de gnous et 300 000 zèbres déferlent devant vous comme un fleuve noir. C'est le plus grand spectacle animalier sur terre, un cycle de vie et de mort qui se produit chaque année, mais qui laisse chaque témoin en larmes.
 
-👉 [Explorer les Circuits Serengeti]({{ site.baseurl }}{{ prefix }}/packages/)
+👉 [Explorer les Circuits Serengeti](/fr/packages/)
 
 ---
 
@@ -41,7 +41,7 @@ Imaginez-vous sur les plaines du Serengeti. Un panache de poussière s'élève �
 
 2h00 du matin. Le faisceau de votre lampe frontale vacille dans l'obscurité. Votre souffle raccourcit, les pas ne s'arrêtent jamais. Lorsque la première lumière frappe les glaciers du Kilimandjaro et que vous vous tenez au Pic Uhuru, des larmes peuvent brouiller votre vision.
 
-👉 [Voir les Treks Kilimandjaro]({{ site.baseurl }}{{ prefix }}/destinations/kilimanjaro)
+👉 [Voir les Treks Kilimandjaro](/fr/destinations/kilimanjaro)
 
 ---
 
@@ -51,7 +51,7 @@ Imaginez-vous sur les plaines du Serengeti. Un panache de poussière s'élève �
 
 Après la poussière et l'excitation de la savane, laissez les eaux turquoise de Zanzibar laver votre fatigue. Déambulez dans Stone Town, vieille de 400 ans, respirez le parfum des épices ou allongez-vous simplement sur une plage de sable blanc privée avec un Mojito à la main.
 
-👉 [Découvrir les Vacances insulaires]({{ site.baseurl }}{{ prefix }}/destinations/zanzibar)
+👉 [Découvrir les Vacances insulaires](/fr/destinations/zanzibar)
 
 ---
 
@@ -64,4 +64,4 @@ Nous ne fournissons pas seulement des visites ; nous fournissons des souvenirs.
 📱 **WhatsApp**: +255653486509  
 📍 **Lieu**: Arusha, Tanzanie
 
-[💬 Consulter maintenant]({{ site.baseurl }}{{ prefix }}/contact/)
+[💬 Consulter maintenant](/fr/contact/)

@@ -78,4 +78,4 @@ A hot air balloon safari in the Serengeti is one of Africa's most classic experi
 
 ---
 
-[.. (Back to Services)]({{ site.baseurl }}/services/)
+[.. (Back to Services)](/en/services/)

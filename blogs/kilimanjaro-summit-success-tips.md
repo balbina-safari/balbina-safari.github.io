@@ -271,6 +271,6 @@ Day 1下午,我检查装备:
 
 ---
 
-📦 **相关套餐**: [乞力马扎罗7日+塞伦盖蒂3日]({{ site.baseurl }}/packages/kilimanjaro-7day-serengeti-3day)
+📦 **相关套餐**: [乞力马扎罗7日+塞伦盖蒂3日](/packages/kilimanjaro-7day-serengeti-3day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

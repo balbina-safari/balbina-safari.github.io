@@ -34,7 +34,7 @@ highlights:
 ### Day 1: [待完善]
 
 **住宿**: [待指定]  
-**交通**: [Safari 4x4]({{ site.baseurl }}/transportations/safari-4x4)  
+**交通**: [Safari 4x4](/transportations/safari-4x4)  
 **餐食**: 详见具体安排  
 
 **行程**: 待完善详细行程...
@@ -60,4 +60,4 @@ highlights:
 
 ---
 
-[立即咨询预订]({{ site.baseurl }}/contact) | [返回套餐目录]({{ site.baseurl }}/packages/)
+[立即咨询预订](/contact) | [返回套餐目录](../)

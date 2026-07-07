@@ -75,4 +75,4 @@ title: 城市观光车
 
 ---
 
-[.. (返回交通工具目录)]({{ site.baseurl }}/transportations/)
+[.. (返回交通工具目录)](../)

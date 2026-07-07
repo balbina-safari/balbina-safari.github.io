@@ -41,7 +41,7 @@ tags:
 
 **下午3:00 - 抵达Greystoke Mahale Camp**
 
-我们入住[Greystoke Mahale Camp]({{ site.baseurl }}/hotels/),这是马哈勒山最奢华的营地,建在湖边的沙滩上,所有房间都是茅草屋,正对着坦噶尼喀湖。
+我们入住[Greystoke Mahale Camp](/hotels/),这是马哈勒山最奢华的营地,建在湖边的沙滩上,所有房间都是茅草屋,正对着坦噶尼喀湖。
 
 营地经理是法国人,叫Sophie。她笑着说:"欢迎来到天堂。"
 
@@ -312,6 +312,6 @@ John给我们做了一个关于黑猩猩的讲座。他讲了黑猩猩的社会�
 
 ---
 
-📦 **相关套餐**: [黑猩猩追踪: 马哈勒+卡塔维8日]({{ site.baseurl }}/packages/chimp-trekking-mahale-katavi-8day)
+📦 **相关套餐**: [黑猩猩追踪: 马哈勒+卡塔维8日](/packages/chimp-trekking-mahale-katavi-8day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

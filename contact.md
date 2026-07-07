@@ -80,4 +80,4 @@ Arusha, Tanzania
 
 ---
 
-[🏠 返回首页]({{ site.baseurl }}/) | [📦 查看套餐]({{ site.baseurl }}/packages/)
+[🏠 返回首页](/) | [📦 查看套餐](/packages/)

@@ -263,6 +263,6 @@ Mafia Island is not somewhere everyone can reach, but if you're ready, go for it
 
 ---
 
-📦 **Related Package**: [Safari Adventure + Mafia Island Diving 10 Days]({{ site.baseurl }}/packages/safari-mafia-diving-10day)
+📦 **Related Package**: [Safari Adventure + Mafia Island Diving 10 Days](../packages/safari-mafia-diving-10day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

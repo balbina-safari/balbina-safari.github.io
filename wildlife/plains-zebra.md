@@ -3,7 +3,7 @@ layout: wildlife
 title: "平原斑马"
 scientific_name: "Equus quagga"
 category: "中型食草动物"
-conservation_status: "近危"
+conservation_status: "无危"
 weight: "175-385kg"
 length: "2-2.5m"
 lifespan: "25年"

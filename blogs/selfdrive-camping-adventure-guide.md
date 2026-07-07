@@ -357,6 +357,6 @@ tags:
 
 ---
 
-📦 **相关套餐**: [自驾露营冒险10日]({{ site.baseurl }}/packages/selfdrive-camping-10day)
+📦 **相关套餐**: [自驾露营冒险10日](/packages/selfdrive-camping-10day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

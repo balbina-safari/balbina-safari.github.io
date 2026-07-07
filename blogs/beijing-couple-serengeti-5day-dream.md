@@ -18,7 +18,7 @@ tags:
 
 作为在北京朝九晚五的上班族,我和老公李悦一直梦想着有一天能亲眼看到《动物世界》里的场景。结婚后,我们决定用蜜月实现这个梦想——去坦桑尼亚,去塞伦盖蒂,去看真正的非洲。
 
-我们选择了巴比旅行的[**经典北环5日游**]({{ site.baseurl }}/packages/classic-northern-5day),事实证明,这是我们做过最正确的决定之一。
+我们选择了巴比旅行的[**经典北环5日游**](/packages/classic-northern-5day),事实证明,这是我们做过最正确的决定之一。
 
 ---
 
@@ -32,7 +32,7 @@ tags:
 
 ### 🐘 第一次近距离接触大象
 
-从机场到[塔兰吉雷国家公园]({{ site.baseurl }}/destinations/tarangire)大约2.5小时车程。Moses一路给我们讲解坦桑尼亚的历史、文化,还教我们几句斯瓦希里语:
+从机场到[塔兰吉雷国家公园](/destinations/tarangire)大约2.5小时车程。Moses一路给我们讲解坦桑尼亚的历史、文化,还教我们几句斯瓦希里语:
 - *Jambo* (你好)
 - *Asante* (谢谢)
 - *Hakuna Matata* (没问题,真的就是《狮子王》里那句!)
@@ -77,7 +77,7 @@ Moses在路边停车,指着远处:"那里就是火山口边缘,明天我们会�
 
 ### 🦓 进入塞伦盖蒂的那一刻
 
-下午2点,我们通过了Naabi Hill Gate,正式进入[塞伦盖蒂国家公园]({{ site.baseurl }}/destinations/serengeti)。
+下午2点,我们通过了Naabi Hill Gate,正式进入[塞伦盖蒂国家公园](/destinations/serengeti)。
 
 公园大门旁的牌子上写着:"Serengeti - Endless Plains"(无尽的平原)。
 
@@ -95,7 +95,7 @@ Moses在路边停车,指着远处:"那里就是火山口边缘,明天我们会�
 
 ### 🏨 Four Seasons的"大象泳池"
 
-傍晚抵达[Four Seasons Safari Lodge]({{ site.baseurl }}/hotels/four-seasons)时,我们已经累得快虚脱了。但当走进房间,看到落地窗外的景色时,所有疲惫都消失了。
+傍晚抵达[Four Seasons Safari Lodge](/hotels/four-seasons)时,我们已经累得快虚脱了。但当走进房间,看到落地窗外的景色时,所有疲惫都消失了。
 
 窗外就是酒店著名的"大象泳池"——一个Water Hole(水塘),正有7-8头大象在那里慢悠悠地喝水。管家告诉我们,几乎每天傍晚都会有大象来,有时甚至还有狮子。
 
@@ -123,7 +123,7 @@ Moses建议我们参加清晨游猎(Morning Game Drive),虽然要5点起床,但�
 
 中午,Moses带我们来到一棵巨大的金合欢树下。两个工作人员已经在那里摆好了桌子——真的是白色桌布、银质餐具、鲜花!
 
-这就是所谓的[Bush Lunch丛林午餐]({{ site.baseurl }}/services/bush-lunch)。
+这就是所谓的[Bush Lunch丛林午餐](/services/bush-lunch)。
 
 在草原中央,四周是吃草的斑马,我们享用了现场烹制的烤鸡、意面沙拉和香槟。午餐后,工作人员甚至还端上了咖啡和甜点。
 
@@ -147,7 +147,7 @@ Moses建议我们参加清晨游猎(Morning Game Drive),虽然要5点起床,但�
 
 ### 🌋 下降到火山口底部
 
-今天是行程的高潮——[恩戈罗恩戈罗火山口]({{ site.baseurl }}/destinations/ngorongoro)。
+今天是行程的高潮——[恩戈罗恩戈罗火山口](/destinations/ngorongoro)。
 
 早上6点,我们从火山口边缘开始下降。道路非常陡峭,Z字形的盘山路,600米的垂直落差,开了大约30分钟。
 
@@ -167,7 +167,7 @@ Moses建议我们参加清晨游猎(Morning Game Drive),虽然要5点起床,但�
 
 ### 🦛 河马池的交响乐
 
-中午,我们在火山口底部的指定野餐点吃[午餐盒]({{ site.baseurl }}/services/lunch-box)。旁边就是著名的"河马池"。
+中午,我们在火山口底部的指定野餐点吃[午餐盒](/services/lunch-box)。旁边就是著名的"河马池"。
 
 数十头河马挤在一个泥浆池里,不停地打哈欠、吼叫、互相推挤。那声音……就像低沉的引擎轰鸣mixed with打嗝,充满喜剧效果。
 
@@ -259,9 +259,9 @@ Moses说:
 
 ---
 
-📦 **相关套餐**: [经典北环5日游]({{ site.baseurl }}/packages/classic-northern-5day)  
-💬 **有问题?** 欢迎在评论区留言或[联系巴比旅行]({{ site.baseurl }}/contact)
+📦 **相关套餐**: [经典北环5日游](/packages/classic-northern-5day)  
+💬 **有问题?** 欢迎在评论区留言或[联系巴比旅行](/contact)
 
 ---
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

@@ -307,6 +307,6 @@ Safari不是大人的专利,孩子们也可以享受。
 
 ---
 
-📦 **相关套餐**: [家庭欢乐6日游]({{ site.baseurl }}/packages/family-adventure-6day)
+📦 **相关套餐**: [家庭欢乐6日游](/packages/family-adventure-6day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

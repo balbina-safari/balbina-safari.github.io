@@ -352,6 +352,6 @@ Mount Meru gives you perfect altitude acclimatization, Kilimanjaro gives you mos
 
 ---
 
-📦 **Related Package**: [Double Peaks Challenge: Meru + Kilimanjaro 10-Day]({{ site.baseurl }}/packages/double-peaks-meru-kili-10day)
+📦 **Related Package**: [Double Peaks Challenge: Meru + Kilimanjaro 10-Day](../packages/double-peaks-meru-kili-10day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

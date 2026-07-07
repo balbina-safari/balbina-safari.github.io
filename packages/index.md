@@ -19,16 +19,16 @@ title: 旅游套餐
 
 ### 最受欢迎
 
-- [**经典北环 5 日游**]({{ site.baseurl }}/packages/classic-northern-5day) - $2,800 起
+- [**经典北环 5 日游**](packages/classic-northern-5day) - $2,800 起
 
   - > 首次来坦桑尼亚的最佳选择 | 塔兰吉雷+塞伦盖蒂+恩戈罗恩戈罗 | 5 天 4 晚
 
-- [**塞伦盖蒂+桑给巴尔 8 日蜜月**]({{ site.baseurl }}/packages/honeymoon-serengeti-zanzibar-8day) - $5,500 起
+- [**塞伦盖蒂+桑给巴尔 8 日蜜月**](packages/honeymoon-serengeti-zanzibar-8day) - $5,500 起
   - > 野性与浪漫的完美结合 | 热气球+私人沙滩 | 蜜月专属礼遇
 
 ### 超值之选
 
-- [**经济型北环 3 日快闪**]({{ site.baseurl }}/packages/budget-northern-3day) - $680 起
+- [**经济型北环 3 日快闪**](packages/budget-northern-3day) - $680 起
   - > 背包客福音 | 拼团降低成本 | 3 天 2 晚精华体验
 
 ---
@@ -41,11 +41,11 @@ title: 旅游套餐
 
 **适合**: 首次 Safari、时间有限、想看 Big 5、家庭出行
 
-- [经济型北环 3 日快闪]({{ site.baseurl }}/packages/budget-northern-3day) - $680 | 经济 | 3 天
-- [经典北环 5 日游]({{ site.baseurl }}/packages/classic-northern-5day) - $2,800 | 中档 | 5 天
-- [家庭欢乐 6 日游]({{ site.baseurl }}/packages/family-adventure-6day) - $2,400 | 中档 | 6 天
-- [豪华北环 7 日深度游]({{ site.baseurl }}/packages/luxury-northern-7day) - $4,500 | 奢华 | 7 天
-- [大迁徙专题 10 日追踪]({{ site.baseurl }}/packages/migration-special-10day) - $6,800 | 奢华 | 10 天 (7-10 月)
+- [经济型北环 3 日快闪](packages/budget-northern-3day) - $680 | 经济 | 3 天
+- [经典北环 5 日游](packages/classic-northern-5day) - $2,800 | 中档 | 5 天
+- [家庭欢乐 6 日游](packages/family-adventure-6day) - $2,400 | 中档 | 6 天
+- [豪华北环 7 日深度游](packages/luxury-northern-7day) - $4,500 | 奢华 | 7 天
+- [大迁徙专题 10 日追踪](packages/migration-special-10day) - $6,800 | 奢华 | 10 天 (7-10 月)
 
 ---
 
@@ -57,10 +57,10 @@ title: 旅游套餐
 
 **适合**: 蜜月、纪念日、想要劳逸结合的旅行者
 
-- [北环 5 日+桑给巴尔 4 日]({{ site.baseurl }}/packages/northern-5day-zanzibar-4day) - $3,800 | 中档 | 9 天
-- [塞伦盖蒂+桑给巴尔 8 日蜜月]({{ site.baseurl }}/packages/honeymoon-serengeti-zanzibar-8day) - $5,500 | 奢华 | 8 天
-- [Safari 冒险+马菲亚岛潜水 10 日]({{ site.baseurl }}/packages/safari-mafia-diving-10day) - $4,200 | 中档 | 10 天
-- [奢华双岛(桑给巴尔+马菲亚)12 日]({{ site.baseurl }}/packages/luxury-double-islands-12day) - $8,900 | 超奢 | 12 天
+- [北环 5 日+桑给巴尔 4 日](packages/northern-5day-zanzibar-4day) - $3,800 | 中档 | 9 天
+- [塞伦盖蒂+桑给巴尔 8 日蜜月](packages/honeymoon-serengeti-zanzibar-8day) - $5,500 | 奢华 | 8 天
+- [Safari 冒险+马菲亚岛潜水 10 日](packages/safari-mafia-diving-10day) - $4,200 | 中档 | 10 天
+- [奢华双岛(桑给巴尔+马菲亚)12 日](packages/luxury-double-islands-12day) - $8,900 | 超奢 | 12 天
 
 ---
 
@@ -72,8 +72,8 @@ title: 旅游套餐
 
 **适合**: 登山爱好者、想要挑战自我、体力充沛的旅行者
 
-- [乞力马扎罗 7 日+塞伦盖蒂 3 日]({{ site.baseurl }}/packages/kilimanjaro-7day-serengeti-3day) - $3,800 | 中档 | 10 天
-- [双峰挑战: 梅鲁+乞力 10 日]({{ site.baseurl }}/packages/double-peaks-meru-kili-10day) - $4,200 | 中档 | 10 天
+- [乞力马扎罗 7 日+塞伦盖蒂 3 日](packages/kilimanjaro-7day-serengeti-3day) - $3,800 | 中档 | 10 天
+- [双峰挑战: 梅鲁+乞力 10 日](packages/double-peaks-meru-kili-10day) - $4,200 | 中档 | 10 天
 
 ---
 
@@ -85,10 +85,10 @@ title: 旅游套餐
 
 **适合**: 二次 Safari、追求独特体验、不怕路途遥远的探险家
 
-- [南部荒野探险 7 日]({{ site.baseurl }}/packages/southern-wilderness-7day) - $3,200 | 中档 | 7 天
-- [黑猩猩追踪: 马哈勒+卡塔维 8 日]({{ site.baseurl }}/packages/chimp-trekking-mahale-katavi-8day) - $6,500 | 奢华 | 8 天
-- [终极坦桑尼亚 14 日全览]({{ site.baseurl }}/packages/ultimate-tanzania-14day) - $12,000 | 超奢 | 14 天
-- [自驾露营冒险 10 日]({{ site.baseurl }}/packages/selfdrive-camping-10day) - $1,800 | 经济 | 10 天
+- [南部荒野探险 7 日](packages/southern-wilderness-7day) - $3,200 | 中档 | 7 天
+- [黑猩猩追踪: 马哈勒+卡塔维 8 日](packages/chimp-trekking-mahale-katavi-8day) - $6,500 | 奢华 | 8 天
+- [终极坦桑尼亚 14 日全览](packages/ultimate-tanzania-14day) - $12,000 | 超奢 | 14 天
+- [自驾露营冒险 10 日](packages/selfdrive-camping-10day) - $1,800 | 经济 | 10 天
 
 ---
 
@@ -102,22 +102,22 @@ title: 旅游套餐
 
 ### 摄影 & 观鸟
 
-- [摄影大师班 7 日]({{ site.baseurl }}/packages/photography-masterclass-7day) - $5,200 | 奢华 | 7 天
-- [观鸟天堂 7 日]({{ site.baseurl }}/packages/birdwatching-paradise-7day) - $3,400 | 中档 | 7 天
+- [摄影大师班 7 日](packages/photography-masterclass-7day) - $5,200 | 奢华 | 7 天
+- [观鸟天堂 7 日](packages/birdwatching-paradise-7day) - $3,400 | 中档 | 7 天
 
 ### 文化 & 女性专属
 
-- [文化深度游 6 日]({{ site.baseurl }}/packages/cultural-immersion-6day) - $2,800 | 中档 | 6 天
-- [女性专属野奢 7 日]({{ site.baseurl }}/packages/womens-exclusive-7day) - $4,800 | 奢华 | 7 天
+- [文化深度游 6 日](packages/cultural-immersion-6day) - $2,800 | 中档 | 6 天
+- [女性专属野奢 7 日](packages/womens-exclusive-7day) - $4,800 | 奢华 | 7 天
 
 ### 特殊人群
 
-- [银发族舒适 6 日]({{ site.baseurl }}/packages/senior-friendly-6day) - $3,400 | 中档 | 6 天
-- [极限冒险 12 日]({{ site.baseurl }}/packages/extreme-adventure-12day) - $5,500 | 中档 | 12 天
+- [银发族舒适 6 日](packages/senior-friendly-6day) - $3,400 | 中档 | 6 天
+- [极限冒险 12 日](packages/extreme-adventure-12day) - $5,500 | 中档 | 12 天
 
 ### 短途精选
 
-- [奢华快闪 4 日]({{ site.baseurl }}/packages/luxury-express-4day) - $3,200 | 奢华 | 4 天
+- [奢华快闪 4 日](packages/luxury-express-4day) - $3,200 | 奢华 | 4 天
 
 ---
 
@@ -163,8 +163,8 @@ title: 旅游套餐
 
 **定制服务**: 所有套餐均可调整天数、升降级住宿、增加特殊活动、修改交通方式
 
-[💬 立即咨询]({{ site.baseurl }}/contact) | 📱 微信: baba-leo | 📞 WhatsApp: +255653486509
+[💬 立即咨询](/contact) | 📱 微信: baba-leo | 📞 WhatsApp: +255653486509
 
 ---
 
-[.. (返回根目录)]({{ site.baseurl }}/)
+[.. (返回根目录)](/)

@@ -183,7 +183,7 @@ To make our consultation more efficient, we suggest preparing the following info
 
 ---
 
-[🏠 Home]({{ site.baseurl }}{{ prefix }}/) | [📦 Browse Packages]({{ site.baseurl }}{{ prefix }}/packages/)
+[🏠 Home](/) | [📦 Browse Packages](/packages/)
 
 <style>
   .contact-quick {

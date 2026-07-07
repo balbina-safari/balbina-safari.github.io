@@ -18,7 +18,7 @@ tags:
 
 As office workers in Beijing working 9-to-5, my husband Li Yue and I always dreamed of one day seeing the scenes from "Animal World" with our own eyes. After getting married, we decided to make this dream come true on our honeymoon—go to Tanzania, go to the Serengeti, see real Africa.
 
-We chose Balbina Safari's [**Classic Northern Circuit 5-Day**]({{ site.baseurl }}/packages/classic-northern-5day), and it proved to be one of the best decisions we've ever made.
+We chose Balbina Safari's [**Classic Northern Circuit 5-Day**](../packages/classic-northern-5day), and it proved to be one of the best decisions we've ever made.
 
 ---
 
@@ -32,7 +32,7 @@ Balbina Safari's driver and guide **Moses** was already waiting at the exit hold
 
 ### 🐘 First Close Encounter with Elephants
 
-From the airport to [Tarangire National Park]({{ site.baseurl }}/destinations/tarangire) was about 2.5 hours drive. Moses explained Tanzanian history and culture along the way, and even taught us some Swahili:
+From the airport to [Tarangire National Park](../destinations/tarangire) was about 2.5 hours drive. Moses explained Tanzanian history and culture along the way, and even taught us some Swahili:
 - *Jambo* (Hello)
 - *Asante* (Thank you)
 - *Hakuna Matata* (No problem, really just like in "The Lion King!")
@@ -77,7 +77,7 @@ I saw through the clouds and mist, the crater's outline faintly visible, like a 
 
 ### 🦓 The Moment Entering Serengeti
 
-At 2 PM, we passed through Naabi Hill Gate, officially entering [Serengeti National Park]({{ site.baseurl }}/destinations/serengeti).
+At 2 PM, we passed through Naabi Hill Gate, officially entering [Serengeti National Park](../destinations/serengeti).
 
 A sign by the park entrance read: "Serengeti - Endless Plains."
 
@@ -95,7 +95,7 @@ We held our breath for about 20 minutes. Although it didn't attack (probably too
 
 ### 🏨 Four Seasons' "Elephant Pool"
 
-When we arrived at [Four Seasons Safari Lodge]({{ site.baseurl }}/hotels/four-seasons) in the evening, we were exhausted. But walking into the room and seeing the view outside the floor-to-ceiling windows, all fatigue disappeared.
+When we arrived at [Four Seasons Safari Lodge](../hotels/four-seasons) in the evening, we were exhausted. But walking into the room and seeing the view outside the floor-to-ceiling windows, all fatigue disappeared.
 
 Outside was the hotel's famous "elephant pool"—a Water Hole with 7-8 elephants slowly drinking. The butler told us elephants come almost every evening, sometimes even lions.
 
@@ -123,7 +123,7 @@ Just before sunrise (photographers call this the "blue hour"), we encountered a 
 
 At noon, Moses took us to a giant acacia tree. Two staff had already set up a table there—really white tablecloth, silverware, flowers!
 
-This is the so-called [Bush Lunch]({{ site.baseurl }}/services/bush-lunch).
+This is the so-called [Bush Lunch](/services/bush-lunch).
 
 In the middle of the savanna, surrounded by grazing zebras, we enjoyed freshly grilled chicken, pasta salad, and champagne. After lunch, staff even brought out coffee and dessert.
 
@@ -147,7 +147,7 @@ Leopards are the hardest of the "Big 5" (African Big Five) to see because they'r
 
 ### 🌋 Descending to Crater Floor
 
-Today was the trip's climax—[Ngorongoro Crater]({{ site.baseurl }}/destinations/ngorongoro).
+Today was the trip's climax—[Ngorongoro Crater](../destinations/ngorongoro).
 
 At 6 AM, we started descending from the crater rim. The road was very steep, zigzagging, 600-meter vertical drop, about 30 minutes of winding road.
 
@@ -167,7 +167,7 @@ Looking at this creature that has survived on Earth for millions of years, now o
 
 ### 🦛 Hippo Pool Symphony
 
-At noon, we ate our [lunch box]({{ site.baseurl }}/services/lunch-box) at a designated picnic spot. Nearby was the famous "hippo pool."
+At noon, we ate our [lunch box](/services/lunch-box) at a designated picnic spot. Nearby was the famous "hippo pool."
 
 Dozens of hippos squeezed into a mud pool, constantly yawning, roaring, pushing each other. The sound... like low engine rumbling mixed with burping, full of comedy effect.
 
@@ -259,9 +259,9 @@ If you also dream of going to Africa, don't wait anymore. While your body is sti
 
 ---
 
-📦 **Related Package**: [Classic Northern Circuit 5-Day]({{ site.baseurl }}/packages/classic-northern-5day)
-💬 **Questions?** Feel free to leave comments or [contact Balbina Safari]({{ site.baseurl }}/contact)
+📦 **Related Package**: [Classic Northern Circuit 5-Day](../packages/classic-northern-5day)
+💬 **Questions?** Feel free to leave comments or [contact Balbina Safari](/contact)
 
 ---
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

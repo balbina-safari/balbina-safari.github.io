@@ -334,6 +334,6 @@ tags:
 
 ---
 
-📦 **相关套餐**: [终极坦桑尼亚14日全览]({{ site.baseurl }}/packages/ultimate-tanzania-14day)
+📦 **相关套餐**: [终极坦桑尼亚14日全览](/packages/ultimate-tanzania-14day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

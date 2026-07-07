@@ -240,6 +240,6 @@ Joseph教我们学习射箭——马赛人的传统技能,用于狩猎和保护�
 
 ---
 
-📦 **相关套餐**: [文化深度游6日]({{ site.baseurl }}/packages/cultural-immersion-6day)
+📦 **相关套餐**: [文化深度游6日](/packages/cultural-immersion-6day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

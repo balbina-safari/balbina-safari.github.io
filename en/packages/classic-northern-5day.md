@@ -81,15 +81,15 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
 
 ### Day 1: Arusha → Tarangire National Park
 
-**Accommodation**: [Elewana Tarangire Treetops]({{ site.baseurl }}/hotels/treetops) or similar
-**Transport**: [Safari 4x4]({{ site.baseurl }}/transportations/safari-4x4) (approximately 2.5 hours)
-**Meals**: [Lunch Box]({{ site.baseurl }}/services/lunch-box) + Hotel dinner
+**Accommodation**: [Elewana Tarangire Treetops](../hotels/treetops) or similar
+**Transport**: [Safari 4x4](/transportations/safari-4x4) (approximately 2.5 hours)
+**Meals**: [Lunch Box](/services/lunch-box) + Hotel dinner
 
 **Itinerary**:
 
 - **10:00** Pickup from Kilimanjaro International Airport (JRO) or Arusha city hotel
-- **12:00** Enjoy [lunch box]({{ site.baseurl }}/services/lunch-box) en route, admiring the East African Rift Valley scenery
-- **14:00** Arrive at [Tarangire National Park]({{ site.baseurl }}/destinations/tarangire), start afternoon game drive
+- **12:00** Enjoy [lunch box](/services/lunch-box) en route, admiring the East African Rift Valley scenery
+- **14:00** Arrive at [Tarangire National Park](../destinations/tarangire), start afternoon game drive
   - Look for iconic giant baobab trees
   - Observe elephant families drinking and digging at riverbeds
   - Possibly spot lions and leopards resting on rocks
@@ -98,7 +98,7 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
 
 ### Day 2: Tarangire → Serengeti National Park
 
-**Accommodation**: [Four Seasons Safari Lodge Serengeti]({{ site.baseurl }}/hotels/four-seasons) or similar
+**Accommodation**: [Four Seasons Safari Lodge Serengeti](../hotels/four-seasons) or similar
 **Transport**: Safari 4x4 (approximately 4 hours, via Ngorongoro Conservation Area highlands)
 **Meals**: Hotel breakfast + lunch box + hotel dinner
 
@@ -106,7 +106,7 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
 
 - **06:30** Morning game drive (optional), capture wildlife in early morning light
 - **08:00** Breakfast and checkout
-- **09:00** Depart for [Serengeti]({{ site.baseurl }}/destinations/serengeti), via Ngorongoro Conservation Area highlands
+- **09:00** Depart for [Serengeti](../destinations/serengeti), via Ngorongoro Conservation Area highlands
 - **12:00** Enjoy lunch box at a scenic location
 - **14:00** Enter southern Serengeti, start game drive
   - Traverse Ndutu area (core calving season area, January-March)
@@ -118,7 +118,7 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
 
 **Accommodation**: Four Seasons Safari Lodge Serengeti
 **Transport**: Safari 4x4
-**Meals**: Hotel breakfast + [Bush Lunch]({{ site.baseurl }}/services/bush-lunch) + hotel dinner
+**Meals**: Hotel breakfast + [Bush Lunch](/services/bush-lunch) + hotel dinner
 
 **Itinerary**:
 
@@ -126,25 +126,25 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
   - Track Great Migration location based on season
   - Look for cheetahs and leopards on kopjes (rock outcrops)
   - Observe lion prides hunting (if lucky)
-- **12:00** Enjoy specially arranged [Bush Lunch]({{ site.baseurl }}/services/bush-lunch) in the savanna
+- **12:00** Enjoy specially arranged [Bush Lunch](/services/bush-lunch) in the savanna
   - White tablecloth dining under acacia trees
   - Hot dishes prepared on-site and champagne
 - **14:00** Continue afternoon game drive
   - Visit hippo pools
   - Look for rarely seen African wild dogs
 - **18:00** Return to lodge
-- **Optional upgrade**: [Hot Air Balloon Safari]({{ site.baseurl }}/services/hot-air-balloon) (additional $599/person, advance booking required)
+- **Optional upgrade**: [Hot Air Balloon Safari](/services/hot-air-balloon) (additional $599/person, advance booking required)
 
 ### Day 4: Serengeti → Ngorongoro
 
-**Accommodation**: [&Beyond Ngorongoro Crater Lodge]({{ site.baseurl }}/hotels/crater-lodge) or similar
+**Accommodation**: [&Beyond Ngorongoro Crater Lodge](../hotels/crater-lodge) or similar
 **Transport**: Safari 4x4 (approximately 3 hours)
 **Meals**: Hotel breakfast + lunch box + hotel dinner
 
 **Itinerary**:
 
 - **06:30** Final Serengeti morning game drive
-- **09:00** Breakfast and checkout, depart for [Ngorongoro]({{ site.baseurl }}/destinations/ngorongoro)
+- **09:00** Breakfast and checkout, depart for [Ngorongoro](../destinations/ngorongoro)
 - **12:00** Picnic lunch en route
 - **14:00** Arrive at Crater Lodge on crater rim
   - Check into "Maasai Versailles" style luxury suite
@@ -181,7 +181,7 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
 
 - ✅ All park entrance fees and conservation area fees
 - ✅ Professional English-speaking guide/driver
-- ✅ [Safari 4x4]({{ site.baseurl }}/transportations/safari-4x4) (open-roof, window seat for each person)
+- ✅ [Safari 4x4](/transportations/safari-4x4) (open-roof, window seat for each person)
 - ✅ 4 nights mid-range luxury accommodation (Treetops/Four Seasons/Crater Lodge level)
 - ✅ All meals (breakfast/lunch/dinner)
 - ✅ Bottled drinking water (unlimited in vehicle)
@@ -195,7 +195,7 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
 - ❌ Tips (recommended $20-30/day for guide)
 - ❌ Personal expenses and alcoholic beverages
 - ❌ Hot Air Balloon Safari (optional, $599/person)
-- ❌ [Chinese Translation]({{ site.baseurl }}/services/chinese-translation) (optional, $120/day)
+- ❌ [Chinese Translation](/services/chinese-translation) (optional, $120/day)
 
 ### Upgrade Options
 
@@ -218,4 +218,4 @@ This is Tanzania's most classic northern circuit safari, concentrating the essen
 
 ---
 
-[📞 Book Now]({{ site.baseurl }}/contact) | [🏠 Back to Packages]({{ site.baseurl }}/packages/)
+[Back to package]](../)

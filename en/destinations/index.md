@@ -3,12 +3,6 @@ layout: default
 title: Destinations Database
 ---
 
-{% if lang == 'en' %}
-{% assign prefix = '/en' %}
-{% else %}
-{% assign prefix = '' %}
-{% endif %}
-
 # 14 Destinations, 14 Faces of Africa
 
 From the endless plains of the Serengeti to the glacier-capped peaks of Kilimanjaro; from the white sands of Lake Tanganyika to the spice markets of Zanzibar—the diversity of Tanzania is beyond imagination.
@@ -27,22 +21,22 @@ With the most mature infrastructure, highest wildlife density, and widest range 
 
 **Recommended Duration**: 5–7 Days | **Best Season**: Year-round (Peak migration July–October)
 
-- [**Serengeti National Park**]({{ site.baseurl }}{{ prefix }}/destinations/serengeti)
+- [**Serengeti National Park**](serengeti)
   - > The largest wildlife migration on Earth and the inspiration for "The Lion King"
-- [**Ngorongoro Conservation Area**]({{ site.baseurl }}{{ prefix }}/destinations/ngorongoro)
+- [**Ngorongoro Conservation Area**](ngorongoro)
   - > The world's largest intact volcanic caldera, known as the "African Eden"
-- [**Tarangire National Park**]({{ site.baseurl }}{{ prefix }}/destinations/tarangire)
+- [**Tarangire National Park**](tarangire)
   - > The empire of giant baobabs and elephants
-- [**Lake Manyara National Park**]({{ site.baseurl }}{{ prefix }}/destinations/lake-manyara)
+- [**Lake Manyara National Park**](lake-manyara)
   - > Described by Hemingway as "the loveliest place in Africa"; home to tree-climbing lions
-- [**Arusha National Park**]({{ site.baseurl }}{{ prefix }}/destinations/arusha-park)
+- [**Arusha National Park**](arusha-park)
   - > The park closest to the city; the starting point for trekking Mount Meru
 
 ---
 
 ## Trekking Challenges - Standing on the Roof of Africa
 
-- [**Mount Kilimanjaro**]({{ site.baseurl }}{{ prefix }}/destinations/kilimanjaro)
+- [**Mount Kilimanjaro**](kilimanjaro)
   - > The peak of Africa (5,895m); a snow mountain challenge even for ordinary travelers
 
 ---
@@ -55,11 +49,11 @@ Fewer people, longer distances, and intense wildness—the Southern Circuit pres
 
 **Recommended Duration**: 7–10 Days | **Suitable for**: Second-time Safari, unique experience seekers
 
-- [**Ruaha National Park**]({{ site.baseurl }}{{ prefix }}/destinations/ruaha)
+- [**Ruaha National Park**](ruaha)
   - > Tanzania's largest park; a paradise for elephants and wild dogs
-- [**Nyerere National Park (Selous)**]({{ site.baseurl }}{{ prefix }}/destinations/nyerere)
+- [**Nyerere National Park (Selous)**](nyerere)
   - > Africa's largest national park; unique boat safari experiences
-- [**Mikumi National Park**]({{ site.baseurl }}{{ prefix }}/destinations/mikumi)
+- [**Mikumi National Park**](mikumi)
   - > Most accessible from Dar es Salaam; often called "Mini-Serengeti"
 
 ---
@@ -72,9 +66,9 @@ Accessible only by small aircraft and hosting less than 1% of the visitors that 
 
 **Recommended Duration**: 8–12 Days | **Suitable for**: Deep explorers, primate lovers
 
-- [**Katavi National Park**]({{ site.baseurl }}{{ prefix }}/destinations/katavi)
+- [**Katavi National Park**](katavi)
   - > World's largest hippo gatherings and spectacular buffalo herds
-- [**Mahale Mountains National Park**]({{ site.baseurl }}{{ prefix }}/destinations/mahale)
+- [**Mahale Mountains National Park**](mahale)
   - > Wild chimpanzee tracking + white beach relaxation on Lake Tanganyika
 
 ---
@@ -87,13 +81,13 @@ Stone Town in Zanzibar, Whale Sharks in Mafia, and Beach Safaris in Saadani—Ta
 
 **Recommended Duration**: 3–5 Days (as a Safari extension) | **Best Season**: Year-round
 
-- [**Zanzibar Island**]({{ site.baseurl }}{{ prefix }}/destinations/zanzibar)
+- [**Zanzibar Island**](zanzibar)
   - > The Spice Island; a perfect blend of Stone Town history and stunning beaches
-- [**Saadani National Park**]({{ site.baseurl }}{{ prefix }}/destinations/saadani)
+- [**Saadani National Park**](saadani)
   - > The only park in East Africa where beach and wildlife meet
-- [**Mafia Island**]({{ site.baseurl }}{{ prefix }}/destinations/mafia)
+- [**Mafia Island**](mafia)
   - > Swim with Whale Sharks; a world-class diving paradise
 
 ---
 
-[🏠 Home]({{ site.baseurl }}{{ prefix }}/) | [📦 Browse Packages]({{ site.baseurl }}{{ prefix }}/packages/)
+[🏠 Home](/) | [📦 Browse Packages](/packages/)

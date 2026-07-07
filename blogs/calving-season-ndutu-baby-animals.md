@@ -266,6 +266,6 @@ Juma建议我们6点出发:"清晨是捕食者最活跃的时候。"
 
 ---
 
-📦 **相关套餐**: [经典北环5日游]({{ site.baseurl }}/packages/classic-northern-5day)
+📦 **相关套餐**: [经典北环5日游](/packages/classic-northern-5day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

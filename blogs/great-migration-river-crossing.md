@@ -263,6 +263,6 @@ Moses建议我们5点半起床:"清晨是过河的最佳时间。"
 
 ---
 
-📦 **相关套餐**: [大迁徙专题10日追踪]({{ site.baseurl }}/packages/migration-special-10day)
+📦 **相关套餐**: [大迁徙专题10日追踪](/packages/migration-special-10day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

@@ -60,12 +60,12 @@ related_blogs:
 ### Day 1: 阿鲁沙 → 塔兰吉雷
 
 **住宿**: Fanaka Campsite 或同级(公共卫浴帐篷营地)  
-**交通**: [Safari 4x4]({{ site.baseurl }}/transportations/safari-4x4)(拼团,最多7人)  
-**餐食**: [午餐盒]({{ site.baseurl }}/services/lunch-box) + 营地晚餐  
+**交通**: [Safari 4x4](/transportations/safari-4x4)(拼团,最多7人)  
+**餐食**: [午餐盒](/services/lunch-box) + 营地晚餐  
 
 **行程**:
 - 08:00 阿鲁沙酒店/背包客栈接送
-- 10:00 抵达[塔兰吉雷]({{ site.baseurl }}/destinations/tarangire)
+- 10:00 抵达[塔兰吉雷](/destinations/tarangire)
 - 全天游猎:大象、猴面包树、Kopjes
 - 18:00 返回营地
 - 19:00 营地晚餐(当地特色食物)
@@ -78,7 +78,7 @@ related_blogs:
 
 **行程**:
 - 06:30 早餐后出发
-- 途经[曼雅拉湖]({{ site.baseurl }}/destinations/lake-manyara)短暂游猎
+- 途经[曼雅拉湖](/destinations/lake-manyara)短暂游猎
   - 寻找爬树狮子
   - 观赏火烈鸟
 - 下午抵达恩戈罗恩戈罗保护区
@@ -91,7 +91,7 @@ related_blogs:
 
 **行程**:
 - 06:00 早餐(打包)
-- 06:30 下降到[恩戈罗恩戈罗火山口]({{ site.baseurl }}/destinations/ngorongoro)
+- 06:30 下降到[恩戈罗恩戈罗火山口](/destinations/ngorongoro)
   - 5-6小时火山口游猎
   - 寻找黑犀牛、狮群、河马
   - 火烈鸟湖泊
@@ -134,4 +134,4 @@ related_blogs:
 
 ---
 
-[💰 超值预订]({{ site.baseurl }}/contact) | [返回套餐]({{ site.baseurl }}/packages/)
+[💰 超值预订](/contact) | [返回套餐](../)

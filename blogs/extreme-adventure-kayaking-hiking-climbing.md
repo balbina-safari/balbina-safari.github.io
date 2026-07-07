@@ -235,6 +235,6 @@ Empakaai火山口是恩戈罗恩戈罗保护区内一个鲜为人知的火山口
 
 ---
 
-📦 **相关套餐**: [极限冒险12日]({{ site.baseurl }}/packages/extreme-adventure-12day)
+📦 **相关套餐**: [极限冒险12日](/packages/extreme-adventure-12day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

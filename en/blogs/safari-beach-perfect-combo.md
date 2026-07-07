@@ -330,6 +330,6 @@ Safari + Beach is not something everyone can experience, but if you're ready, go
 
 ---
 
-📦 **Related Package**: [Northern Circuit 5 Days + Zanzibar 4 Days]({{ site.baseurl }}/packages/northern-5day-zanzibar-4day)
+📦 **Related Package**: [Northern Circuit 5 Days + Zanzibar 4 Days](../packages/northern-5day-zanzibar-4day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

@@ -262,6 +262,6 @@ Dr. James今天教我鸟类摄影技巧。
 
 ---
 
-📦 **相关套餐**: [观鸟天堂7日]({{ site.baseurl }}/packages/birdwatching-paradise-7day)
+📦 **相关套餐**: [观鸟天堂7日](/packages/birdwatching-paradise-7day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

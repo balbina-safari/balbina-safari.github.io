@@ -352,6 +352,6 @@ Machame路线被称为"威士忌路线",因为它比Marangu路线("可口可乐�
 
 ---
 
-📦 **相关套餐**: [双峰挑战: 梅鲁+乞力10日]({{ site.baseurl }}/packages/double-peaks-meru-kili-10day)
+📦 **相关套餐**: [双峰挑战: 梅鲁+乞力10日](/packages/double-peaks-meru-kili-10day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

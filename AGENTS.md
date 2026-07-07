@@ -1,150 +1,158 @@
-# AGENTS.md - Developer Guidelines
+# AGENTS.md - 开发者指南
 
-This is a Jekyll static site generator project for Balbina Safari (Tanzania travel agency).
+Balbina Safari 是基于 Jekyll 的坦桑尼亚 Safari 旅游网站,支持中文/英文/法文多语言。
 
-## Build/Test Commands
+## 构建命令
 
 ```bash
-# Build site
+# 安装依赖(仅首次)
+bundle install
+
+# 构建站点
 bundle exec jekyll build
 
-# Serve locally with live reload
+# 本地预览 (http://localhost:4000)
 bundle exec jekyll serve
 
-# Serve with specific host and port
-bundle exec jekyll serve --host 0.0.0.0 --port 4000
+# 指定端口
+bundle exec jekyll serve --port 4000
 
-# Clean build output
+# 清理构建缓存
 bundle exec jekyll clean
 
-# Run content generation scripts (from root)
+# 运行内容生成脚本
 ruby _scripts/generate_packages.rb
 ruby _scripts/generate_wildlife.rb
 ruby _scripts/generate_blogs.rb
 ruby _scripts/generate_hotels.rb
 ```
 
-**No test framework configured** - Manual testing required by serving locally and verifying pages.
+**无测试框架** - 需手动验证页面。
 
-## Project Structure
-
-- `_layouts/` - HTML templates (Liquid)
-- `_includes/` - Reusable partials (navigation, footer, breadcrumbs)
-- `_data/` - YAML data files (locales.yml for i18n, common.yml)
-- `_scripts/` - Ruby generators for content
-- `packages/`, `wildlife/`, `destinations/`, `hotels/`, `blogs/` - Content collections
-- `assets/css/`, `assets/js/` - Stylesheets and scripts
-- `en/`, `fr/` - Localized content (default: `zh` root)
-
-## Code Style
+## 代码风格
 
 ### Ruby (_scripts/)
-- **Indentation**: 2 spaces
-- **Comments**: `#` at line start
-- **Data structures**: Arrays of hashes with symbol keys
+- 缩进: 2空格
+- 注释: `#` 开头
+- 数据结构: 数组+哈希,符号键
   ```ruby
-  items = [
-    { key1: "value1", key2: "value2" }
-  ]
+  items = [{ key1: "value1", key2: "value2" }]
   ```
-- **String literals**: Double quotes preferred
-- **Interpolation**: `"Text #{expression}"`
-- **Heredocs**: Use `<<~HEREDOC` for multi-line (strips leading whitespace)
-- **Iteration**: `.each { |item| ... }`
-- **Array transformations**: `.map { |x| ... }.join("\n")`
-- **File operations**: `File.write(filepath, content)`
-- **Pattern**: Hash objects passed to HEREDOC templates with `#{item[:key]}`
+- 字符串: 双引号,插值 `"#{expression}"`
+- 多行文本: `<<~HEREDOC` (去除缩进)
+- 文件操作: `File.write(filepath, content)`
 
-### Liquid/Jekyll Templates
-- **Output**: `{% raw %}{{ variable }}{% endraw %}`
-- **Logic**: `{% raw %}{% if %}{% endraw %}`, `{% raw %}{% for item in items %}{% endraw %}`, `{% raw %}{% assign var = value %}{% endraw %}`
-- **Includes**: `{% raw %}{% include filename.html %}{% endraw %}`
-- **Comments**: `{% raw %}{% comment %}{% endraw %} text {% raw %}{% endcomment %}{% endraw %}`
-- **Filters**: `| split:`, `| replace:`, `| append:`, `| strip_html`
-- **i18n**: Use `strings.nav.item` or `t.site.title` (defined in _data/locales.yml)
-- **Language detection**: Handled by `_includes/lang_init.html` (sets `current_lang`, `prefix`, `t`)
+### Liquid/Jekyll 模板
+- 输出: `{{ variable }}`
+- 逻辑: `{% if %}`, `{% for item in items %}`, `{% assign var = value %}`
+- 包含: `{% include filename.html %}`
+- 注释: `{% comment %} text {% endcomment %}`
+- 国际化: `{{ t.nav.home }}` (定义在 _data/locales.yml)
+- SEO标签: `{% seo %}`
 
 ### Markdown Frontmatter
-- YAML format enclosed in `---`
-- Language keys: `title`, `title_cn`, `title_en`, `english_title`
-- Use lists: `keywords: [item1, item2]` or `keywords:\n  - item1`
-- Boolean: `published: true`
-- Arrays for lists: `amenities:`, `highlights:`, `tags:`
+- 使用 `---` 包裹 YAML
+- 语言键: `title`, `title_cn`, `title_en`, `english_title`
+- 布尔值: `published: true`
+- 数组: `highlights:`, `tags:`, `destinations:`
 
 ### CSS (assets/css/style.css)
-- **Theme**: GitHub Dark-inspired, terminal/monospace aesthetic
-- **Font**: `"SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace`
-- **Colors**:
-  - Background: `#0d1117`
-  - Text: `#b4bdba`
-  - H1: `#f57e38` (vibrant red/salmon)
-  - H2: `#e0c40b` (yellow)
-  - H3: `#82e333` (green) with `> ` prefix
-  - H4: `#ffa657` (orange)
-  - Links: `#46b57d` with hover `#59e8b3`
-  - Code: `#ffa657`
-- **Base font size**: 13px
-- **Pattern**: BEM-like naming (`.testimonial-card`, `.search-modal`)
-- **Responsive**: `@media (max-width: 768px)`
+- 主题: GitHub Dark 风格,终端/等宽字体美学
+- 字体: `"SFMono-Regular", Consolas, monospace`
+- 字号: 13px
+- 命名: BEM风格 (`.search-modal`, `.result-title`)
+- 响应式: `@media (max-width: 768px)`
+- 颜色: 背景#0d1117, 文本#b4bdba, 链接#46b57d
 
 ### JavaScript (assets/js/)
-- **Style**: Vanilla ES5+, no frameworks
-- **Event listeners**: `document.addEventListener('DOMContentLoaded', ...)`
-- **Functions**: camelCase names
-- **Constants**: Upper snake case (`const SEARCH_DATA = ...`)
-- **CSS injection**: `document.createElement('style')`, `style.textContent = ...`
-- **Modals**: Create/append to DOM, remove on close
-- **Comments**: `//` single line, `/* */` multi-line
+- 风格: Vanilla ES5+,无框架
+- 函数: camelCase (`performSearch`, `showSearchResults`)
+- 常量: UPPER_SNAKE_CASE
+- DOM操作: `document.createElement`, `appendChild`
+- 事件: `addEventListener('DOMContentLoaded', ...)`
 
-### Naming Conventions
-- **Files**: kebab-case (`package-name.md`, `filename.html`)
-- **Ruby variables**: snake_case (`page_title`, `file_path`)
-- **Liquid variables**: snake_case (`current_lang`, `page.title`)
-- **JavaScript**: camelCase (`searchInput`, `showResults`)
-- **CSS classes**: kebab-case (`.search-modal`, `.result-title`)
-- **YAML keys**: snake_case (`english_title`, `best_time`)
+## 命名规范
 
-### Internationalization
-- **Default language**: `zh` (no URL prefix)
-- **Supported**: `zh`, `en`, `fr`
-- **URL structure**: `/` (default), `/en/`, `/fr/`
-- **Locale data**: `_data/locales.yml` with structure:
-  ```yaml
-  zh:
-    nav:
-      home: "首页"
-    ui:
-      contact_now: "立即咨询"
-  ```
-- **Access**: `{{ strings.nav.home }}` or `{{ t.nav.home }}`
-- **Language detection**: Based on first URL segment
+| 类型 | 规范 | 示例 |
+|------|------|------|
+| 文件 | kebab-case | `package-name.md` |
+| Ruby变量 | snake_case | `page_title` |
+| Liquid变量 | snake_case | `current_lang` |
+| JavaScript | camelCase | `searchInput` |
+| CSS类 | kebab-case | `.search-modal` |
+| YAML键 | snake_case | `english_title` |
 
-### Frontmatter Keys (Collections)
-**Packages**: `title`, `english_title`, `duration`, `category`, `difficulty`, `best_time`, `group_size`, `destinations: []`, `price_from`, `price_level`, `highlights: []`, `target_audience: []`
+## 国际化
 
-**Wildlife**: `title_cn`, `title_en`, `scientific_name`, `category`, `conservation_status`, `weight`, `length`, `lifespan`, `habitat`, `key_features: []`, `best_spots: []`
+- 默认语言: `zh` (无URL前缀)
+- 支持: `zh`, `en`, `fr`
+- URL结构: `/`, `/en/`, `/fr/`
+- 本地化数据: `_data/locales.yml`
 
-**Hotels**: `title`, `english_title`, `category`, `location`, `price_level`, `amenities: []`
+## 错误处理
 
-**Destinations**: Similar pattern to packages/wildlife
+- Ruby: `begin/rescue` 包裹外部操作
+- Liquid: 使用 `{% if variable %}` 检查后再输出
+- JavaScript: 使用 `if (element && element.value)` 检查空值
 
-**Blogs**: `title`, `author`, `date`, `trip_type`, `related_package`, `package_name`, `tags: []`
+## 常用模式
 
-## Error Handling
-- Ruby: Wrap in `begin/rescue` if external operations may fail
-- Liquid: Use `{% raw %}{% if variable %}{% endraw %}` checks before outputting
-- JavaScript: Check for null/undefined before accessing properties (`if (element && element.value)`)
+```liquid
+{# 内部链接 #}
+{{ site.baseurl }}/path/
 
-## Common Patterns
-- **Internal links**: `{{ site.baseurl }}/path/` (adds baseurl prefix)
-- **Back links**: `[← Back]({{ site.baseurl }}/section/)`
-- **Cross-references**: Link with `[Text]({{ site.baseurl }}/collection/slug)`
-- **Search data**: Update both Ruby generators AND `assets/js/search.js`
-- **Layout inheritance**: All content pages extend `default.html` via `layout: collection_name`
+{# 跨引用 #}
+[文本]({{ site.baseurl }}/collection/slug)
+```
 
-## When Adding Content
-1. Add entry to relevant Ruby generator in `_scripts/`
-2. Run generator: `ruby _scripts/generate_xxx.rb`
-3. If needed, update `assets/js/search.js` with new keywords
-4. Add localized versions to `en/` or `fr/` directories
-5. Test with `bundle exec jekyll serve`
+- 搜索数据: 需同步更新 Ruby生成器 和 `assets/js/search.js`
+- 布局继承: 内容页面使用 `layout: collection_name`
+- 语言前缀: 使用 `{{ prefix }}` 构建语言感知链接
+
+## 添加内容流程
+
+1. 在 `_scripts/` 对应生成器中添加条目
+2. 运行: `ruby _scripts/generate_xxx.rb`
+3. 如需搜索支持,更新 `assets/js/search.js`
+4. 添加本地化版本到 `en/` 或 `fr/` 目录
+5. 本地测试: `bundle exec jekyll serve`
+
+## 集合 Frontmatter 键
+
+**Packages**: title, english_title, duration, category, difficulty, best_time, group_size, destinations[], price_from, price_level, highlights[], target_audience[]
+
+**Wildlife**: title_cn, title_en, scientific_name, category, conservation_status, weight, length, lifespan, habitat, key_features[], best_spots[]
+
+**Hotels**: title, english_title, category, location, price_level, amenities[]
+
+**Destinations**: location, best_season, recommended_days, entry_fee, key_highlights[], seasonal_info
+
+**Blogs**: title, author, date, trip_type, related_package, tags[]
+
+## 项目结构
+
+```
+├── _config.yml          # Jekyll配置
+├── Gemfile              # Ruby依赖
+├── _layouts/            # HTML模板(Liquid)
+├── _includes/           # 可复用组件
+├── _sass/               # SCSS源文件
+├── _scripts/            # Ruby内容生成器
+├── _data/               # YAML数据(locales.yml, common.yml)
+├── assets/              # 静态资源(css, js, images)
+├── packages/            # 24个套餐页面
+├── wildlife/            # 20+野生动物页面
+├── destinations/       # 15个目的地页面
+├── hotels/              # 51个酒店页面
+├── blogs/               # 30篇游记
+├── services/           # 5个服务页面
+├── transportations/    # 5个交通页面
+├── en/                  # 英文本地化
+└── fr/                  # 法文本地化
+```
+
+## 联系方式
+
+- Email: info@balbinasafari.com
+- WeChat: baba-leo
+- WhatsApp: +255653486509

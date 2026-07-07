@@ -61,7 +61,7 @@ Perfectly combining wild African safari with romantic Indian Ocean beaches, this
 
 ### Day 1-2: Arusha → Serengeti (Private Safari)
 
-**Accommodation**: [Four Seasons Serengeti]({{ site.baseurl }}/hotels/four-seasons) - Terrace Suite (with private pool)
+**Accommodation**: [Four Seasons Serengeti](../hotels/four-seasons) - Terrace Suite (with private pool)
 **Special Arrangement**: Room rose petal decoration, champagne welcome
 
 **Day 1**:
@@ -71,7 +71,7 @@ Perfectly combining wild African safari with romantic Indian Ocean beaches, this
 - Romantic candlelight dinner
 
 **Day 2**:
-- **05:00** [Hot Air Balloon Safari]({{ site.baseurl }}/services/hot-air-balloon) experience (included)
+- **05:00** [Hot Air Balloon Safari](/services/hot-air-balloon) experience (included)
   - Float over Serengeti at sunrise
   - Champagne celebration and bush breakfast
 - Afternoon continue private game drive
@@ -79,11 +79,11 @@ Perfectly combining wild African safari with romantic Indian Ocean beaches, this
 
 ### Day 3: Serengeti → Ngorongoro
 
-**Accommodation**: [&Beyond Crater Lodge]({{ site.baseurl }}/hotels/crater-lodge) - Crater Suite
+**Accommodation**: [&Beyond Crater Lodge](../hotels/crater-lodge) - Crater Suite
 
 **Itinerary**:
 - Final morning Serengeti game drive
-- Drive to Ngorongoro (including [Bush Lunch]({{ site.baseurl }}/services/bush-lunch))
+- Drive to Ngorongoro (including [Bush Lunch](/services/bush-lunch))
 - Afternoon arrive at "Maasai Versailles"
 - **Honeymoon Special**: Private romantic dinner at crater rim (candlelight + live music)
 
@@ -95,7 +95,7 @@ Perfectly combining wild African safari with romantic Indian Ocean beaches, this
 - Morning descend to crater bottom
 - Search for rare black rhinos
 - Midday fly to Zanzibar
-- Afternoon arrive at [Zuri Zanzibar]({{ site.baseurl }}/hotels/zuri-zanzibar)
+- Afternoon arrive at [Zuri Zanzibar](../hotels/zuri-zanzibar)
 - Beach sunset + welcome dinner
 
 ### Day 5-7: Zanzibar Vacation (Free Time)
@@ -130,7 +130,7 @@ Perfectly combining wild African safari with romantic Indian Ocean beaches, this
 - ✅ Arusha-Serengeti-Ngorongoro-Zanzibar domestic flights
 - ✅ 7 nights luxury accommodation (including private pool suites)
 - ✅ All meals (breakfast/lunch/dinner)
-- ✅ [Hot Air Balloon Safari]({{ site.baseurl }}/services/hot-air-balloon)
+- ✅ [Hot Air Balloon Safari](/services/hot-air-balloon)
 - ✅ Bush Lunch
 - ✅ Romantic dinner at crater rim
 - ✅ 2-hour couple Spa
@@ -160,4 +160,4 @@ Perfectly combining wild African safari with romantic Indian Ocean beaches, this
 
 ---
 
-[💑 Book Honeymoon Now]({{ site.baseurl }}/contact) | [Back to Packages]({{ site.baseurl }}/packages/)
+[Back to package]](../)

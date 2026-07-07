@@ -32,4 +32,4 @@ title: Serengeti Highlights Safari - Mission Details
 
 ---
 
-[<< Back to Route List]({{ site.baseurl }}/packages/)
+[Back to package]](../)

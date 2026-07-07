@@ -235,6 +235,6 @@ Kilimanjaro gives you highest peak, Empakaai gives you deepest crater, Rufiji Ri
 
 ---
 
-📦 **Related Package**: [Extreme Adventure 12-Day]({{ site.baseurl }}/packages/extreme-adventure-12day)
+📦 **Related Package**: [Extreme Adventure 12-Day](../packages/extreme-adventure-12day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

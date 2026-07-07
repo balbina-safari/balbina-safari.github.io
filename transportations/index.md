@@ -9,18 +9,18 @@ title: 交通工具
 
 ## [ Safari 专用车辆 ]
 
-- [**Safari 游猎越野车 (4x4 Land Cruiser)**]({{ site.baseurl }}/transportations/safari-4x4)
+- [**Safari 游猎越野车 (4x4 Land Cruiser)**](transportations/safari-4x4)
   *   > 专业改装，开顶式设计，7座布局，配备冰箱及充电设备。
 
-- [**自驾露营越野车 (Self-Drive Camping 4x4)**]({{ site.baseurl }}/transportations/self-drive-camping)
+- [**自驾露营越野车 (Self-Drive Camping 4x4)**](transportations/self-drive-camping)
   *   > 完整露营装备，车顶帐篷，适合有经验的冒险者。
 
 ## [ 城市交通 ]
 
-- [**机场接送服务 (Airport Transfer)**]({{ site.baseurl }}/transportations/airport-transfer)
+- [**机场接送服务 (Airport Transfer)**](transportations/airport-transfer)
   *   > 覆盖JRO、DAR、ZNZ等主要机场，多种车型可选。
 
-- [**城市观光车 (City Tour Vehicle)**]({{ site.baseurl }}/transportations/city-tour)
+- [**城市观光车 (City Tour Vehicle)**](transportations/city-tour)
   *   > 商务MPV配专业导游，深度探索城市文化。
 
 ## 💡 预订建议
@@ -31,4 +31,4 @@ title: 交通工具
 
 ---
 
-[.. (返回根目录)]({{ site.baseurl }}/)
+[.. (返回根目录)](/)

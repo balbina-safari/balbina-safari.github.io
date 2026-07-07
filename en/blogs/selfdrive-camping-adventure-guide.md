@@ -357,6 +357,6 @@ Self-drive camping is not something everyone can experience, but if you're ready
 
 ---
 
-📦 **Related Package**: [Self-Drive Camping Adventure 10 Days]({{ site.baseurl }}/packages/selfdrive-camping-10day)
+📦 **Related Package**: [Self-Drive Camping Adventure 10 Days](../packages/selfdrive-camping-10day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

@@ -264,6 +264,6 @@ If you also love birds, Tanzania is absolutely your paradise. 428 bird species w
 
 ---
 
-📦 **Related Package**: [Birdwatching Paradise 7-Day]({{ site.baseurl }}/packages/birdwatching-paradise-7day)
+📦 **Related Package**: [Birdwatching Paradise 7-Day](../packages/birdwatching-paradise-7day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

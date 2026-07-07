@@ -260,6 +260,6 @@ Prices 50% cheaper, 90% fewer tourists, emerald savanna, many migratory birds, s
 
 ---
 
-📦 **Related Package**: [Classic Northern Circuit 5-Day]({{ site.baseurl }}/packages/classic-northern-5day)
+📦 **Related Package**: [Classic Northern Circuit 5-Day](../packages/classic-northern-5day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

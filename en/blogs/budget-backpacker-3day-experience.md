@@ -265,6 +265,6 @@ What are you waiting for?
 
 ---
 
-📦 **Related Package**: [Budget Northern Circuit 3-Day Express]({{ site.baseurl }}/packages/budget-northern-3day)
+📦 **Related Package**: [Budget Northern Circuit 3-Day Express](../packages/budget-northern-3day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

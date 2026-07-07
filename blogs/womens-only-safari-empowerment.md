@@ -359,6 +359,6 @@ Amina告诉我们她的故事——她从小就想开Safari车,但坦桑尼亚�
 
 ---
 
-📦 **相关套餐**: [女性专属野奢7日]({{ site.baseurl }}/packages/womens-exclusive-7day)
+📦 **相关套餐**: [女性专属野奢7日](/packages/womens-exclusive-7day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

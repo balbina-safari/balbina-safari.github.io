@@ -345,6 +345,6 @@ tags:
 
 ---
 
-📦 **相关套餐**: [摄影大师班7日]({{ site.baseurl }}/packages/photography-masterclass-7day)
+📦 **相关套餐**: [摄影大师班7日](/packages/photography-masterclass-7day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

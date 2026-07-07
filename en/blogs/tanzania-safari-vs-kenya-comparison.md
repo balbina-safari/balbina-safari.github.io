@@ -307,6 +307,6 @@ Finally, whichever country you choose, East African Safari will be a once-in-a-l
 
 ---
 
-📦 **Related Package**: [Classic Northern Circuit 5 Days]({{ site.baseurl }}/packages/classic-northern-5day)
+📦 **Related Package**: [Classic Northern Circuit 5 Days](../packages/classic-northern-5day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

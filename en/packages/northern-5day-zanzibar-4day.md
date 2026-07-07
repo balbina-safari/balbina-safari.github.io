@@ -34,7 +34,7 @@ The most classic combination: 5 days northern circuit safari to experience the c
 ### Day 1: [To be completed]
 
 **Accommodation**: [To be specified]
-**Transport**: [Safari 4x4]({{ site.baseurl }}/transportations/safari-4x4)
+**Transport**: [Safari 4x4](/transportations/safari-4x4)
 **Meals**: See detailed arrangements
 
 **Itinerary**: Detailed itinerary to be completed...
@@ -60,4 +60,4 @@ The most classic combination: 5 days northern circuit safari to experience the c
 
 ---
 
-[Book Now]({{ site.baseurl }}/contact) | [Back to Packages]({{ site.baseurl }}/packages/)
+[Back to package]](../)

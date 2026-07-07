@@ -377,6 +377,6 @@ The Southern Circuit is not somewhere everyone can reach, but if you're ready, g
 
 ---
 
-📦 **Related Package**: [Southern Wilderness Adventure 7 Days]({{ site.baseurl }}/packages/southern-wilderness-7day)
+📦 **Related Package**: [Southern Wilderness Adventure 7 Days](../packages/southern-wilderness-7day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

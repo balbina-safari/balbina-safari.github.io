@@ -56,4 +56,4 @@ Dar es Salaam → Mikumi → Ruaha → Nyerere → Return to Dar es Salaam
 
 ---
 
-[.. (Back to Transportation)]({{ site.baseurl }}/transportations/)
+[.. (Back to Transportation)](/en/transportations/)

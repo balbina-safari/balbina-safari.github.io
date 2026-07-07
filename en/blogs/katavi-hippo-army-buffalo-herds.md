@@ -224,6 +224,6 @@ Dry season (June-October), Katuma River, thousands of hippos, 1000+ buffalo.
 
 ---
 
-📦 **Related Package**: [Chimpanzee Trekking: Mahale + Katavi 8-Day]({{ site.baseurl }}/packages/chimp-trekking-mahale-katavi-8day)
+📦 **Related Package**: [Chimpanzee Trekking: Mahale + Katavi 8-Day](../packages/chimp-trekking-mahale-katavi-8day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

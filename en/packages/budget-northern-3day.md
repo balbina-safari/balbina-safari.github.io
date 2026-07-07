@@ -60,12 +60,12 @@ Designed for travelers with limited budgets who are eager to experience Tanzania
 ### Day 1: Arusha → Tarangire
 
 **Accommodation**: Fanaka Campsite or similar (public bathroom tented camp)
-**Transport**: [Safari 4x4]({{ site.baseurl }}/transportations/safari-4x4) (shared group, max 7 people)
-**Meals**: [Lunch Box]({{ site.baseurl }}/services/lunch-box) + Camp dinner
+**Transport**: [Safari 4x4](/transportations/safari-4x4) (shared group, max 7 people)
+**Meals**: [Lunch Box](/services/lunch-box) + Camp dinner
 
 **Itinerary**:
 - 08:00 Pickup from Arusha hotel/backpacker hostel
-- 10:00 Arrive at [Tarangire]({{ site.baseurl }}/destinations/tarangire)
+- 10:00 Arrive at [Tarangire](../destinations/tarangire)
 - Full-day game drive: elephants, baobab trees, kopjes
 - 18:00 Return to camp
 - 19:00 Camp dinner (local specialties)
@@ -78,7 +78,7 @@ Designed for travelers with limited budgets who are eager to experience Tanzania
 
 **Itinerary**:
 - 06:30 Depart after breakfast
-- Brief game drive through [Lake Manyara]({{ site.baseurl }}/destinations/lake-manyara)
+- Brief game drive through [Lake Manyara](../destinations/lake-manyara)
   - Look for tree-climbing lions
   - Watch flamingos
 - Afternoon arrive at Ngorongoro Conservation Area
@@ -91,7 +91,7 @@ Designed for travelers with limited budgets who are eager to experience Tanzania
 
 **Itinerary**:
 - 06:00 Breakfast (packed)
-- 06:30 Descend into [Ngorongoro Crater]({{ site.baseurl }}/destinations/ngorongoro)
+- 06:30 Descend into [Ngorongoro Crater](../destinations/ngorongoro)
   - 5-6 hours crater game drive
   - Search for black rhinos, lion prides, hippos
   - Flamingo lakes
@@ -134,4 +134,4 @@ Designed for travelers with limited budgets who are eager to experience Tanzania
 
 ---
 
-[💰 Book Now]({{ site.baseurl }}/contact) | [Back to Packages]({{ site.baseurl }}/packages/)
+[Back to package]](../)

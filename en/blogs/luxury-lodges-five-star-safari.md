@@ -278,6 +278,6 @@ Luxury camping is not something everyone can experience, but if you're ready, go
 
 ---
 
-📦 **Related Package**: [Luxury Northern Circuit 7-Day Deep Dive]({{ site.baseurl }}/packages/luxury-northern-7day)
+📦 **Related Package**: [Luxury Northern Circuit 7-Day Deep Dive](../packages/luxury-northern-7day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

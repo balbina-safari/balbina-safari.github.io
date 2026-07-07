@@ -32,7 +32,7 @@ Designed for extreme climbers. First climb Mount Meru in 3 days to acclimatize t
 ### Day 1: [To be completed]
 
 **Accommodation**: [To be specified]
-**Transport**: [Safari 4x4]({{ site.baseurl }}/transportations/safari-4x4)
+**Transport**: [Safari 4x4](/transportations/safari-4x4)
 **Meals**: See detailed arrangements
 
 **Itinerary**: Detailed itinerary to be completed...
@@ -58,4 +58,4 @@ Designed for extreme climbers. First climb Mount Meru in 3 days to acclimatize t
 
 ---
 
-[Book Now]({{ site.baseurl }}/contact) | [Back to Packages]({{ site.baseurl }}/packages/)
+[Back to package]](../)

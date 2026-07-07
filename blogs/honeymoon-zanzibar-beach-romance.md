@@ -74,7 +74,7 @@ David帮我们摆好了桌子——白色桌布、银质餐具、蜡烛、鲜花
 
 **Day 5: 抵达桑给巴尔 - 私人沙滩**
 
-我们飞往桑给巴尔,入住[Baraza Resort]({{ site.baseurl }}/hotels/baraza-resort)——桑给巴尔最奢华的度假村。
+我们飞往桑给巴尔,入住[Baraza Resort](/hotels/baraza-resort)——桑给巴尔最奢华的度假村。
 
 我们的套房有私人泳池,正对着印度洋。管家告诉我们,这是蜜月套房,有特别的蜜月礼遇。
 
@@ -215,6 +215,6 @@ David帮我们摆好了桌子——白色桌布、银质餐具、蜡烛、鲜花
 
 ---
 
-📦 **相关套餐**: [塞伦盖蒂+桑给巴尔8日蜜月]({{ site.baseurl }}/packages/honeymoon-serengeti-zanzibar-8day)
+📦 **相关套餐**: [塞伦盖蒂+桑给巴尔8日蜜月](/packages/honeymoon-serengeti-zanzibar-8day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

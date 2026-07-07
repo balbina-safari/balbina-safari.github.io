@@ -41,7 +41,7 @@ Lake Tanganyika is world's second-deepest freshwater lake, deepest point 1470 me
 
 **3:00 PM - Arrive at Greystoke Mahale Camp**
 
-We checked into [Greystoke Mahale Camp]({{ site.baseurl }}/hotels/), Mahale's most luxurious camp, built on lakeside beach, all rooms thatched cottages facing Lake Tanganyika.
+We checked into [Greystoke Mahale Camp](../hotels/), Mahale's most luxurious camp, built on lakeside beach, all rooms thatched cottages facing Lake Tanganyika.
 
 Camp manager is French, named Sophie. She smiled: "Welcome to paradise."
 
@@ -312,6 +312,6 @@ This is primate charm.
 
 ---
 
-📦 **Related Package**: [Chimpanzee Trekking: Mahale + Katavi 8-Day]({{ site.baseurl }}/packages/chimp-trekking-mahale-katavi-8day)
+📦 **Related Package**: [Chimpanzee Trekking: Mahale + Katavi 8-Day](../packages/chimp-trekking-mahale-katavi-8day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

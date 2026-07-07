@@ -21,22 +21,22 @@ title: 目的地数据库
 
 **推荐天数**: 5-7 天 | **最佳季节**: 全年(6-10 月大迁徙高峰)
 
-- [**塞伦盖蒂国家公园 (Serengeti)**]({{ site.baseurl }}/destinations/serengeti)
+- [**塞伦盖蒂国家公园 (Serengeti)**](destinations/serengeti)
   - > 地球上最大的动物大迁徙,《狮子王》的原型地
-- [**恩戈罗恩戈罗保护区 (Ngorongoro)**]({{ site.baseurl }}/destinations/ngorongoro)
+- [**恩戈罗恩戈罗保护区 (Ngorongoro)**](destinations/ngorongoro)
   - > 世界上最大的完整火山口,"非洲伊甸园"
-- [**塔兰吉雷国家公园 (Tarangire)**]({{ site.baseurl }}/destinations/tarangire)
+- [**塔兰吉雷国家公园 (Tarangire)**](destinations/tarangire)
   - > 巨型猴面包树与大象帝国
-- [**曼雅拉湖国家公园 (Lake Manyara)**]({{ site.baseurl }}/destinations/lake-manyara)
+- [**曼雅拉湖国家公园 (Lake Manyara)**](destinations/lake-manyara)
   - > 海明威笔下"非洲最可爱的地方",爬树狮子的家园
-- [**阿鲁沙国家公园 (Arusha National Park)**]({{ site.baseurl }}/destinations/arusha-park)
+- [**阿鲁沙国家公园 (Arusha National Park)**](destinations/arusha-park)
   - > 距离市区最近的公园,梅鲁火山徒步起点
 
 ---
 
 ## 登山挑战 - 站在非洲之巅
 
-- [**乞力马扎罗山 (Mount Kilimanjaro)**]({{ site.baseurl }}/destinations/kilimanjaro)
+- [**乞力马扎罗山 (Mount Kilimanjaro)**](destinations/kilimanjaro)
   - > 非洲之巅(5,895 米),普通人也能挑战的雪山
 
 ---
@@ -49,11 +49,11 @@ title: 目的地数据库
 
 **推荐天数**: 7-10 天 | **适合**: 二次 Safari、追求独特体验
 
-- [**鲁阿哈国家公园 (Ruaha)**]({{ site.baseurl }}/destinations/ruaha)
+- [**鲁阿哈国家公园 (Ruaha)**](destinations/ruaha)
   - > 坦桑尼亚最大的公园,大象与野犬的天堂
-- [**尼雷尔国家公园 (Nyerere / Selous)**]({{ site.baseurl }}/destinations/nyerere)
+- [**尼雷尔国家公园 (Nyerere / Selous)**](destinations/nyerere)
   - > 非洲最大的国家公园,独特的乘船游猎体验
-- [**米库米国家公园 (Mikumi)**]({{ site.baseurl }}/destinations/mikumi)
+- [**米库米国家公园 (Mikumi)**](destinations/mikumi)
   - > 从达累斯萨拉姆最容易抵达,"迷你塞伦盖蒂"
 
 ---
@@ -66,9 +66,9 @@ title: 目的地数据库
 
 **推荐天数**: 8-12 天 | **适合**: 深度探险家、灵长类爱好者
 
-- [**卡塔维国家公园 (Katavi)**]({{ site.baseurl }}/destinations/katavi)
+- [**卡塔维国家公园 (Katavi)**](destinations/katavi)
   - > 世界上最大的河马聚集地,壮观的水牛大群
-- [**马哈勒山国家公园 (Mahale Mountains)**]({{ site.baseurl }}/destinations/mahale)
+- [**马哈勒山国家公园 (Mahale Mountains)**](destinations/mahale)
   - > 野生黑猩猩追踪 + 坦噶尼喀湖的白沙滩
 
 ---
@@ -81,13 +81,13 @@ title: 目的地数据库
 
 **推荐天数**: 3-5 天(作为 Safari 的补充) | **最佳季节**: 全年
 
-- [**桑给巴尔岛 (Zanzibar)**]({{ site.baseurl }}/destinations/zanzibar)
+- [**桑给巴尔岛 (Zanzibar)**](destinations/zanzibar)
   - > 香料之岛,石头城与绝美海滩的完美结合
-- [**萨阿达尼国家公园 (Saadani)**]({{ site.baseurl }}/destinations/saadani)
+- [**萨阿达尼国家公园 (Saadani)**](destinations/saadani)
   - > 东非唯一将海滩与野生动物结合的公园
-- [**马菲亚岛 (Mafia Island)**]({{ site.baseurl }}/destinations/mafia)
+- [**马菲亚岛 (Mafia Island)**](destinations/mafia)
   - > 与鲸鲨共游,世界级的潜水天堂
 
 ---
 
-[🏠 返回首页]({{ site.baseurl }}/) | [📦 查看套餐]({{ site.baseurl }}/packages/)
+[🏠 返回首页](/) | [📦 查看套餐](/packages/)

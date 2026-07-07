@@ -214,6 +214,6 @@ If you come to Serengeti, must experience hot air balloon flight. This is life's
 
 ---
 
-📦 **Related Package**: [Classic Northern Circuit 5-Day]({{ site.baseurl }}/packages/classic-northern-5day)
+📦 **Related Package**: [Classic Northern Circuit 5-Day](../packages/classic-northern-5day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

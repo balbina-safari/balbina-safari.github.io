@@ -334,6 +334,6 @@ Ultimate Tanzania is not something everyone can complete, but if you're ready, g
 
 ---
 
-📦 **Related Package**: [Ultimate Tanzania 14-Day Grand Tour]({{ site.baseurl }}/packages/ultimate-tanzania-14day)
+📦 **Related Package**: [Ultimate Tanzania 14-Day Grand Tour](../packages/ultimate-tanzania-14day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

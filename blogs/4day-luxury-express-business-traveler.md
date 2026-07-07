@@ -39,7 +39,7 @@ David是马赛人,曾在肯尼亚接受过5年专业培训,英语流利,对塞�
 
 **下午2:00 - Singita Sasakwa Lodge**
 
-抵达[Singita Sasakwa Lodge]({{ site.baseurl }}/hotels/singita-sasakwa),这是塞伦盖蒂最奢华的营地之一。管家已经在门口等候,端着冰镇的香槟。
+抵达[Singita Sasakwa Lodge](/hotels/singita-sasakwa),这是塞伦盖蒂最奢华的营地之一。管家已经在门口等候,端着冰镇的香槟。
 
 我们的套房有独立的私人泳池,落地窗外就是一望无际的草原。管家介绍说:"每天傍晚都会有大象从这里经过,您可以一边泡澡一边看大象。"
 
@@ -73,7 +73,7 @@ David带我们出发了。不到30分钟,我们就遇到了一个狮群——7�
 
 **上午7:30 - 香槟早餐**
 
-热气球降落在一片开阔的草原上,工作人员已经摆好了白色桌布、银质餐具和香槟。这是传说中的[Bush Breakfast]({{ site.baseurl }}/services/bush-lunch)。
+热气球降落在一片开阔的草原上,工作人员已经摆好了白色桌布、银质餐具和香槟。这是传说中的[Bush Breakfast](/services/bush-lunch)。
 
 我们一边吃着现做的煎蛋和培根,一边看着不远处的长颈鹿悠闲地走过。Mark说:"这是世界上最浪漫的早餐,没有之一。"
 
@@ -83,7 +83,7 @@ David带我们出发了。不到30分钟,我们就遇到了一个狮群——7�
 
 **下午1:00 - Four Seasons Safari Lodge**
 
-入住[Four Seasons Safari Lodge]({{ site.baseurl }}/hotels/four-seasons),这是火山口边缘最奢华的酒店。我们的房间正对着火山口,躺在床上就能看到整个"非洲伊甸园"。
+入住[Four Seasons Safari Lodge](/hotels/four-seasons),这是火山口边缘最奢华的酒店。我们的房间正对着火山口,躺在床上就能看到整个"非洲伊甸园"。
 
 **下午3:00 - 火山口游猎**
 
@@ -103,7 +103,7 @@ David带我们出发了。不到30分钟,我们就遇到了一个狮群——7�
 
 **上午10:30 - Tarangire Sopa Lodge**
 
-入住[Tarangire Sopa Lodge]({{ site.baseurl }}/hotels/kuro-tarangire),酒店建在悬崖上,俯瞰着整个公园。
+入住[Tarangire Sopa Lodge](/hotels/kuro-tarangire),酒店建在悬崖上,俯瞰着整个公园。
 
 **下午2:00 - 大象家族的温情时刻**
 
@@ -217,6 +217,6 @@ David带我们来到一棵巨大的猴面包树下。他说:"这棵树已经有8
 
 ---
 
-📦 **相关套餐**: [奢华快闪4日]({{ site.baseurl }}/packages/luxury-express-4day)
+📦 **相关套餐**: [奢华快闪4日](/packages/luxury-express-4day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

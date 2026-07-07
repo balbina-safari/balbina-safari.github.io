@@ -331,6 +331,6 @@ tags:
 
 ---
 
-📦 **相关套餐**: [银发族舒适6日]({{ site.baseurl }}/packages/senior-friendly-6day)
+📦 **相关套餐**: [银发族舒适6日](/packages/senior-friendly-6day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

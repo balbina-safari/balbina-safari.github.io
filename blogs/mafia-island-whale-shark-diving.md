@@ -263,6 +263,6 @@ Chole Bay是一个受保护的珊瑚礁,有超过50种珊瑚和300种鱼类。
 
 ---
 
-📦 **相关套餐**: [Safari冒险+马菲亚岛潜水10日]({{ site.baseurl }}/packages/safari-mafia-diving-10day)
+📦 **相关套餐**: [Safari冒险+马菲亚岛潜水10日](/packages/safari-mafia-diving-10day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

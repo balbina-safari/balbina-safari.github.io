@@ -331,6 +331,6 @@ Taking parents on Safari is not something everyone can do, but if you're ready, 
 
 ---
 
-📦 **Related Package**: [Senior-Friendly Comfort 6 Days]({{ site.baseurl }}/packages/senior-friendly-6day)
+📦 **Related Package**: [Senior-Friendly Comfort 6 Days](../packages/senior-friendly-6day)
 
-[← Return to Blog List]({{ site.baseurl }}/blogs/)
+[← Return to Blog List](../)

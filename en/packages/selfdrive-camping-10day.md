@@ -34,7 +34,7 @@ For adventurous travelers with off-road experience. Rent a Land Cruiser equipped
 ### Day 1: [To be completed]
 
 **Accommodation**: [To be specified]
-**Transport**: [Safari 4x4]({{ site.baseurl }}/transportations/safari-4x4)
+**Transport**: [Safari 4x4](/transportations/safari-4x4)
 **Meals**: See detailed arrangements
 
 **Itinerary**: Detailed itinerary to be completed...
@@ -60,4 +60,4 @@ For adventurous travelers with off-road experience. Rent a Land Cruiser equipped
 
 ---
 
-[Book Now]({{ site.baseurl }}/contact) | [Back to Packages]({{ site.baseurl }}/packages/)
+[Back to package]](../)

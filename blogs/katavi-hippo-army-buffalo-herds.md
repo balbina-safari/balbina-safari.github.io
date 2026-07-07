@@ -224,6 +224,6 @@ tags:
 
 ---
 
-📦 **相关套餐**: [黑猩猩追踪: 马哈勒+卡塔维8日]({{ site.baseurl }}/packages/chimp-trekking-mahale-katavi-8day)
+📦 **相关套餐**: [黑猩猩追踪: 马哈勒+卡塔维8日](/packages/chimp-trekking-mahale-katavi-8day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

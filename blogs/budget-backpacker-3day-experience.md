@@ -265,6 +265,6 @@ $680,3天,改变我一生的经历。
 
 ---
 
-📦 **相关套餐**: [经济型北环3日快闪]({{ site.baseurl }}/packages/budget-northern-3day)
+📦 **相关套餐**: [经济型北环3日快闪](/packages/budget-northern-3day)
 
-[← 返回游记列表]({{ site.baseurl }}/blogs/)
+[← 返回游记列表](../)

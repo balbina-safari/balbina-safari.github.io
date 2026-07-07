@@ -41,4 +41,4 @@ We use professionally modified **Toyota Land Cruiser** safari vehicles, the gold
 
 ---
 
-[.. (Back to Transportation)]({{ site.baseurl }}/transportations/)
+[.. (Back to Transportation)](/en/transportations/)
